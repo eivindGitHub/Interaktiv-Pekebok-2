@@ -40,6 +40,11 @@
 		C980A8B4220F57DF0014392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C980A852220F57DE0014392F /* Assets.xcassets */; };
 		C980A8B5220F57DF0014392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C980A852220F57DE0014392F /* Assets.xcassets */; };
 		C980A8B6220F57DF0014392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C980A852220F57DE0014392F /* Assets.xcassets */; };
+		C980A8CB220F5E3E0014392F /* CastleBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C980A8CA220F5E3E0014392F /* CastleBG.png */; };
+		C980A8CC220F5E3E0014392F /* CastleBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C980A8CA220F5E3E0014392F /* CastleBG.png */; };
+		C980A8CD220F5E3E0014392F /* CastleBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C980A8CA220F5E3E0014392F /* CastleBG.png */; };
+		C980A8CE220F5E3E0014392F /* CastleBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C980A8CA220F5E3E0014392F /* CastleBG.png */; };
+		C980A8CF220F5E3E0014392F /* CastleBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C980A8CA220F5E3E0014392F /* CastleBG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +129,7 @@
 		C980A8A3220F57DF0014392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C980A8A5220F57DF0014392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C980A8A6220F57DF0014392F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C980A8CA220F5E3E0014392F /* CastleBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CastleBG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +180,7 @@
 		C980A84D220F57DE0014392F /* Interaktiv Pekebok 2 Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C980A8CA220F5E3E0014392F /* CastleBG.png */,
 				C980A84E220F57DE0014392F /* Actions.sks */,
 				C980A84F220F57DE0014392F /* GameScene.sks */,
 				C980A850220F57DE0014392F /* GameScene.h */,
@@ -410,6 +417,7 @@
 				C980A8AB220F57DF0014392F /* GameScene.sks in Resources */,
 				C980A862220F57DE0014392F /* Main.storyboard in Resources */,
 				C980A8A8220F57DF0014392F /* Actions.sks in Resources */,
+				C980A8CB220F5E3E0014392F /* CastleBG.png in Resources */,
 				C980A865220F57DE0014392F /* LaunchScreen.storyboard in Resources */,
 				C980A8B3220F57DF0014392F /* Assets.xcassets in Resources */,
 			);
@@ -419,6 +427,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C980A8CC220F5E3E0014392F /* CastleBG.png in Resources */,
 				C980A8B4220F57DF0014392F /* Assets.xcassets in Resources */,
 				C980A872220F57DE0014392F /* Interface.storyboard in Resources */,
 			);
@@ -429,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C980A8AC220F57DF0014392F /* GameScene.sks in Resources */,
+				C980A8CD220F5E3E0014392F /* CastleBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +449,7 @@
 				C980A892220F57DF0014392F /* Main.storyboard in Resources */,
 				C980A8AD220F57DF0014392F /* GameScene.sks in Resources */,
 				C980A8B5220F57DF0014392F /* Assets.xcassets in Resources */,
+				C980A8CE220F5E3E0014392F /* CastleBG.png in Resources */,
 				C980A8A9220F57DF0014392F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +461,7 @@
 				C980A8A4220F57DF0014392F /* Main.storyboard in Resources */,
 				C980A8AE220F57DF0014392F /* GameScene.sks in Resources */,
 				C980A8B6220F57DF0014392F /* Assets.xcassets in Resources */,
+				C980A8CF220F5E3E0014392F /* CastleBG.png in Resources */,
 				C980A8AA220F57DF0014392F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,6 +742,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7T2PCN3N7;
 				INFOPLIST_FILE = "Interaktiv Pekebok 2 iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -746,6 +759,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7T2PCN3N7;
 				INFOPLIST_FILE = "Interaktiv Pekebok 2 iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
