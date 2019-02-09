@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C980A85C220F57DE0014392F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A85B220F57DE0014392F /* AppDelegate.m */; };
+		C980A85F220F57DE0014392F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A85E220F57DE0014392F /* GameViewController.m */; };
+		C980A862220F57DE0014392F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C980A860220F57DE0014392F /* Main.storyboard */; };
+		C980A865220F57DE0014392F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C980A863220F57DE0014392F /* LaunchScreen.storyboard */; };
+		C980A868220F57DE0014392F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A867220F57DE0014392F /* main.m */; };
+		C980A86C220F57DE0014392F /* Interaktiv Pekebok 2.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C980A86B220F57DE0014392F /* Interaktiv Pekebok 2.app */; };
+		C980A872220F57DE0014392F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C980A870220F57DE0014392F /* Interface.storyboard */; };
+		C980A879220F57DF0014392F /* Interaktiv Pekebok 2 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C980A878220F57DF0014392F /* Interaktiv Pekebok 2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C980A87F220F57DF0014392F /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A87E220F57DF0014392F /* InterfaceController.m */; };
+		C980A882220F57DF0014392F /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A881220F57DF0014392F /* ExtensionDelegate.m */; };
+		C980A88C220F57DF0014392F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A88B220F57DF0014392F /* AppDelegate.m */; };
+		C980A88F220F57DF0014392F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A88E220F57DF0014392F /* GameViewController.m */; };
+		C980A892220F57DF0014392F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C980A890220F57DF0014392F /* Main.storyboard */; };
+		C980A895220F57DF0014392F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A894220F57DF0014392F /* main.m */; };
+		C980A89E220F57DF0014392F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A89D220F57DF0014392F /* AppDelegate.m */; };
+		C980A8A1220F57DF0014392F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A8A0220F57DF0014392F /* GameViewController.m */; };
+		C980A8A4220F57DF0014392F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C980A8A2220F57DF0014392F /* Main.storyboard */; };
+		C980A8A7220F57DF0014392F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A8A6220F57DF0014392F /* main.m */; };
+		C980A8A8220F57DF0014392F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C980A84E220F57DE0014392F /* Actions.sks */; };
+		C980A8A9220F57DF0014392F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C980A84E220F57DE0014392F /* Actions.sks */; };
+		C980A8AA220F57DF0014392F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C980A84E220F57DE0014392F /* Actions.sks */; };
+		C980A8AB220F57DF0014392F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C980A84F220F57DE0014392F /* GameScene.sks */; };
+		C980A8AC220F57DF0014392F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C980A84F220F57DE0014392F /* GameScene.sks */; };
+		C980A8AD220F57DF0014392F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C980A84F220F57DE0014392F /* GameScene.sks */; };
+		C980A8AE220F57DF0014392F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C980A84F220F57DE0014392F /* GameScene.sks */; };
+		C980A8AF220F57DF0014392F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A851220F57DE0014392F /* GameScene.m */; };
+		C980A8B0220F57DF0014392F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A851220F57DE0014392F /* GameScene.m */; };
+		C980A8B1220F57DF0014392F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A851220F57DE0014392F /* GameScene.m */; };
+		C980A8B2220F57DF0014392F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A851220F57DE0014392F /* GameScene.m */; };
+		C980A8B3220F57DF0014392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C980A852220F57DE0014392F /* Assets.xcassets */; };
+		C980A8B4220F57DF0014392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C980A852220F57DE0014392F /* Assets.xcassets */; };
+		C980A8B5220F57DF0014392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C980A852220F57DE0014392F /* Assets.xcassets */; };
+		C980A8B6220F57DF0014392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C980A852220F57DE0014392F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C980A86D220F57DE0014392F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C980A849220F57DE0014392F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C980A86A220F57DE0014392F;
+			remoteInfo = "Interaktiv Pekebok 2 watchOS App";
+		};
+		C980A87A220F57DF0014392F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C980A849220F57DE0014392F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C980A877220F57DF0014392F;
+			remoteInfo = "Interaktiv Pekebok 2 watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C980A8BC220F57DF0014392F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C980A879220F57DF0014392F /* Interaktiv Pekebok 2 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980A8C0220F57DF0014392F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C980A86C220F57DE0014392F /* Interaktiv Pekebok 2.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C980A84E220F57DE0014392F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C980A84F220F57DE0014392F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C980A850220F57DE0014392F /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		C980A851220F57DE0014392F /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		C980A852220F57DE0014392F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C980A857220F57DE0014392F /* Interaktiv Pekebok 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interaktiv Pekebok 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C980A85A220F57DE0014392F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C980A85B220F57DE0014392F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C980A85D220F57DE0014392F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C980A85E220F57DE0014392F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C980A861220F57DE0014392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C980A864220F57DE0014392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C980A866220F57DE0014392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C980A867220F57DE0014392F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C980A86B220F57DE0014392F /* Interaktiv Pekebok 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interaktiv Pekebok 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C980A871220F57DE0014392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C980A873220F57DE0014392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C980A878220F57DF0014392F /* Interaktiv Pekebok 2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Interaktiv Pekebok 2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C980A87D220F57DF0014392F /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		C980A87E220F57DF0014392F /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		C980A880220F57DF0014392F /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		C980A881220F57DF0014392F /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		C980A883220F57DF0014392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C980A888220F57DF0014392F /* Interaktiv Pekebok 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interaktiv Pekebok 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C980A88A220F57DF0014392F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C980A88B220F57DF0014392F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C980A88D220F57DF0014392F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C980A88E220F57DF0014392F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C980A891220F57DF0014392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C980A893220F57DF0014392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C980A894220F57DF0014392F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C980A89A220F57DF0014392F /* Interaktiv Pekebok 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interaktiv Pekebok 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C980A89C220F57DF0014392F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C980A89D220F57DF0014392F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C980A89F220F57DF0014392F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C980A8A0220F57DF0014392F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C980A8A3220F57DF0014392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C980A8A5220F57DF0014392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C980A8A6220F57DF0014392F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C980A854220F57DE0014392F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980A875220F57DF0014392F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980A885220F57DF0014392F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980A897220F57DF0014392F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C980A848220F57DE0014392F = {
+			isa = PBXGroup;
+			children = (
+				C980A84D220F57DE0014392F /* Interaktiv Pekebok 2 Shared */,
+				C980A859220F57DE0014392F /* Interaktiv Pekebok 2 iOS */,
+				C980A86F220F57DE0014392F /* Interaktiv Pekebok 2 watchOS App */,
+				C980A87C220F57DF0014392F /* Interaktiv Pekebok 2 watchOS App Extension */,
+				C980A889220F57DF0014392F /* Interaktiv Pekebok 2 tvOS */,
+				C980A89B220F57DF0014392F /* Interaktiv Pekebok 2 macOS */,
+				C980A858220F57DE0014392F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C980A84D220F57DE0014392F /* Interaktiv Pekebok 2 Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C980A84E220F57DE0014392F /* Actions.sks */,
+				C980A84F220F57DE0014392F /* GameScene.sks */,
+				C980A850220F57DE0014392F /* GameScene.h */,
+				C980A851220F57DE0014392F /* GameScene.m */,
+				C980A852220F57DE0014392F /* Assets.xcassets */,
+			);
+			path = "Interaktiv Pekebok 2 Shared";
+			sourceTree = "<group>";
+		};
+		C980A858220F57DE0014392F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C980A857220F57DE0014392F /* Interaktiv Pekebok 2.app */,
+				C980A86B220F57DE0014392F /* Interaktiv Pekebok 2.app */,
+				C980A878220F57DF0014392F /* Interaktiv Pekebok 2 Extension.appex */,
+				C980A888220F57DF0014392F /* Interaktiv Pekebok 2.app */,
+				C980A89A220F57DF0014392F /* Interaktiv Pekebok 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C980A859220F57DE0014392F /* Interaktiv Pekebok 2 iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C980A85A220F57DE0014392F /* AppDelegate.h */,
+				C980A85B220F57DE0014392F /* AppDelegate.m */,
+				C980A85D220F57DE0014392F /* GameViewController.h */,
+				C980A85E220F57DE0014392F /* GameViewController.m */,
+				C980A860220F57DE0014392F /* Main.storyboard */,
+				C980A863220F57DE0014392F /* LaunchScreen.storyboard */,
+				C980A866220F57DE0014392F /* Info.plist */,
+				C980A867220F57DE0014392F /* main.m */,
+			);
+			path = "Interaktiv Pekebok 2 iOS";
+			sourceTree = "<group>";
+		};
+		C980A86F220F57DE0014392F /* Interaktiv Pekebok 2 watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				C980A870220F57DE0014392F /* Interface.storyboard */,
+				C980A873220F57DE0014392F /* Info.plist */,
+			);
+			path = "Interaktiv Pekebok 2 watchOS App";
+			sourceTree = "<group>";
+		};
+		C980A87C220F57DF0014392F /* Interaktiv Pekebok 2 watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C980A87D220F57DF0014392F /* InterfaceController.h */,
+				C980A87E220F57DF0014392F /* InterfaceController.m */,
+				C980A880220F57DF0014392F /* ExtensionDelegate.h */,
+				C980A881220F57DF0014392F /* ExtensionDelegate.m */,
+				C980A883220F57DF0014392F /* Info.plist */,
+			);
+			path = "Interaktiv Pekebok 2 watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		C980A889220F57DF0014392F /* Interaktiv Pekebok 2 tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				C980A88A220F57DF0014392F /* AppDelegate.h */,
+				C980A88B220F57DF0014392F /* AppDelegate.m */,
+				C980A88D220F57DF0014392F /* GameViewController.h */,
+				C980A88E220F57DF0014392F /* GameViewController.m */,
+				C980A890220F57DF0014392F /* Main.storyboard */,
+				C980A893220F57DF0014392F /* Info.plist */,
+				C980A894220F57DF0014392F /* main.m */,
+			);
+			path = "Interaktiv Pekebok 2 tvOS";
+			sourceTree = "<group>";
+		};
+		C980A89B220F57DF0014392F /* Interaktiv Pekebok 2 macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C980A89C220F57DF0014392F /* AppDelegate.h */,
+				C980A89D220F57DF0014392F /* AppDelegate.m */,
+				C980A89F220F57DF0014392F /* GameViewController.h */,
+				C980A8A0220F57DF0014392F /* GameViewController.m */,
+				C980A8A2220F57DF0014392F /* Main.storyboard */,
+				C980A8A5220F57DF0014392F /* Info.plist */,
+				C980A8A6220F57DF0014392F /* main.m */,
+			);
+			path = "Interaktiv Pekebok 2 macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C980A856220F57DE0014392F /* Interaktiv Pekebok 2 iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C980A8C1220F57DF0014392F /* Build configuration list for PBXNativeTarget "Interaktiv Pekebok 2 iOS" */;
+			buildPhases = (
+				C980A853220F57DE0014392F /* Sources */,
+				C980A854220F57DE0014392F /* Frameworks */,
+				C980A855220F57DE0014392F /* Resources */,
+				C980A8C0220F57DF0014392F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C980A86E220F57DE0014392F /* PBXTargetDependency */,
+			);
+			name = "Interaktiv Pekebok 2 iOS";
+			productName = "Interaktiv Pekebok 2 iOS";
+			productReference = C980A857220F57DE0014392F /* Interaktiv Pekebok 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C980A86A220F57DE0014392F /* Interaktiv Pekebok 2 watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C980A8BD220F57DF0014392F /* Build configuration list for PBXNativeTarget "Interaktiv Pekebok 2 watchOS App" */;
+			buildPhases = (
+				C980A869220F57DE0014392F /* Resources */,
+				C980A8BC220F57DF0014392F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C980A87B220F57DF0014392F /* PBXTargetDependency */,
+			);
+			name = "Interaktiv Pekebok 2 watchOS App";
+			productName = "Interaktiv Pekebok 2 watchOS App";
+			productReference = C980A86B220F57DE0014392F /* Interaktiv Pekebok 2.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C980A877220F57DF0014392F /* Interaktiv Pekebok 2 watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C980A8B9220F57DF0014392F /* Build configuration list for PBXNativeTarget "Interaktiv Pekebok 2 watchOS App Extension" */;
+			buildPhases = (
+				C980A874220F57DF0014392F /* Sources */,
+				C980A875220F57DF0014392F /* Frameworks */,
+				C980A876220F57DF0014392F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interaktiv Pekebok 2 watchOS App Extension";
+			productName = "Interaktiv Pekebok 2 watchOS App Extension";
+			productReference = C980A878220F57DF0014392F /* Interaktiv Pekebok 2 Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		C980A887220F57DF0014392F /* Interaktiv Pekebok 2 tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C980A8C4220F57DF0014392F /* Build configuration list for PBXNativeTarget "Interaktiv Pekebok 2 tvOS" */;
+			buildPhases = (
+				C980A884220F57DF0014392F /* Sources */,
+				C980A885220F57DF0014392F /* Frameworks */,
+				C980A886220F57DF0014392F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interaktiv Pekebok 2 tvOS";
+			productName = "Interaktiv Pekebok 2 tvOS";
+			productReference = C980A888220F57DF0014392F /* Interaktiv Pekebok 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C980A899220F57DF0014392F /* Interaktiv Pekebok 2 macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C980A8C7220F57DF0014392F /* Build configuration list for PBXNativeTarget "Interaktiv Pekebok 2 macOS" */;
+			buildPhases = (
+				C980A896220F57DF0014392F /* Sources */,
+				C980A897220F57DF0014392F /* Frameworks */,
+				C980A898220F57DF0014392F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interaktiv Pekebok 2 macOS";
+			productName = "Interaktiv Pekebok 2 macOS";
+			productReference = C980A89A220F57DF0014392F /* Interaktiv Pekebok 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C980A849220F57DE0014392F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Eivind Aanestad";
+				TargetAttributes = {
+					C980A856220F57DE0014392F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C980A86A220F57DE0014392F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C980A877220F57DF0014392F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C980A887220F57DF0014392F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C980A899220F57DF0014392F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C980A84C220F57DE0014392F /* Build configuration list for PBXProject "Interaktiv Pekebok 2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C980A848220F57DE0014392F;
+			productRefGroup = C980A858220F57DE0014392F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C980A856220F57DE0014392F /* Interaktiv Pekebok 2 iOS */,
+				C980A86A220F57DE0014392F /* Interaktiv Pekebok 2 watchOS App */,
+				C980A877220F57DF0014392F /* Interaktiv Pekebok 2 watchOS App Extension */,
+				C980A887220F57DF0014392F /* Interaktiv Pekebok 2 tvOS */,
+				C980A899220F57DF0014392F /* Interaktiv Pekebok 2 macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C980A855220F57DE0014392F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980A8AB220F57DF0014392F /* GameScene.sks in Resources */,
+				C980A862220F57DE0014392F /* Main.storyboard in Resources */,
+				C980A8A8220F57DF0014392F /* Actions.sks in Resources */,
+				C980A865220F57DE0014392F /* LaunchScreen.storyboard in Resources */,
+				C980A8B3220F57DF0014392F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980A869220F57DE0014392F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980A8B4220F57DF0014392F /* Assets.xcassets in Resources */,
+				C980A872220F57DE0014392F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980A876220F57DF0014392F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980A8AC220F57DF0014392F /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980A886220F57DF0014392F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980A892220F57DF0014392F /* Main.storyboard in Resources */,
+				C980A8AD220F57DF0014392F /* GameScene.sks in Resources */,
+				C980A8B5220F57DF0014392F /* Assets.xcassets in Resources */,
+				C980A8A9220F57DF0014392F /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980A898220F57DF0014392F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980A8A4220F57DF0014392F /* Main.storyboard in Resources */,
+				C980A8AE220F57DF0014392F /* GameScene.sks in Resources */,
+				C980A8B6220F57DF0014392F /* Assets.xcassets in Resources */,
+				C980A8AA220F57DF0014392F /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C980A853220F57DE0014392F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980A85F220F57DE0014392F /* GameViewController.m in Sources */,
+				C980A868220F57DE0014392F /* main.m in Sources */,
+				C980A8AF220F57DF0014392F /* GameScene.m in Sources */,
+				C980A85C220F57DE0014392F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980A874220F57DF0014392F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980A882220F57DF0014392F /* ExtensionDelegate.m in Sources */,
+				C980A8B0220F57DF0014392F /* GameScene.m in Sources */,
+				C980A87F220F57DF0014392F /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980A884220F57DF0014392F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980A88F220F57DF0014392F /* GameViewController.m in Sources */,
+				C980A895220F57DF0014392F /* main.m in Sources */,
+				C980A8B1220F57DF0014392F /* GameScene.m in Sources */,
+				C980A88C220F57DF0014392F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980A896220F57DF0014392F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980A8A1220F57DF0014392F /* GameViewController.m in Sources */,
+				C980A8A7220F57DF0014392F /* main.m in Sources */,
+				C980A8B2220F57DF0014392F /* GameScene.m in Sources */,
+				C980A89E220F57DF0014392F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C980A86E220F57DE0014392F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C980A86A220F57DE0014392F /* Interaktiv Pekebok 2 watchOS App */;
+			targetProxy = C980A86D220F57DE0014392F /* PBXContainerItemProxy */;
+		};
+		C980A87B220F57DF0014392F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C980A877220F57DF0014392F /* Interaktiv Pekebok 2 watchOS App Extension */;
+			targetProxy = C980A87A220F57DF0014392F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C980A860220F57DE0014392F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C980A861220F57DE0014392F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C980A863220F57DE0014392F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C980A864220F57DE0014392F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C980A870220F57DE0014392F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C980A871220F57DE0014392F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		C980A890220F57DF0014392F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C980A891220F57DF0014392F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C980A8A2220F57DF0014392F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C980A8A3220F57DF0014392F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C980A8B7220F57DF0014392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		C980A8B8220F57DF0014392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		C980A8BA220F57DF0014392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaktiv Pekebok 2 watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AanestadAppArchitect.Interaktiv-Pekebok-2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "Interaktiv Pekebok 2 Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		C980A8BB220F57DF0014392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaktiv Pekebok 2 watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AanestadAppArchitect.Interaktiv-Pekebok-2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "Interaktiv Pekebok 2 Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		C980A8BE220F57DF0014392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Interaktiv_Pekebok_2_Extension;
+				INFOPLIST_FILE = "Interaktiv Pekebok 2 watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AanestadAppArchitect.Interaktiv-Pekebok-2.watchkitapp";
+				PRODUCT_NAME = "Interaktiv Pekebok 2";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		C980A8BF220F57DF0014392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Interaktiv_Pekebok_2_Extension;
+				INFOPLIST_FILE = "Interaktiv Pekebok 2 watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AanestadAppArchitect.Interaktiv-Pekebok-2.watchkitapp";
+				PRODUCT_NAME = "Interaktiv Pekebok 2";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		C980A8C2220F57DF0014392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaktiv Pekebok 2 iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AanestadAppArchitect.Interaktiv-Pekebok-2";
+				PRODUCT_NAME = "Interaktiv Pekebok 2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C980A8C3220F57DF0014392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaktiv Pekebok 2 iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AanestadAppArchitect.Interaktiv-Pekebok-2";
+				PRODUCT_NAME = "Interaktiv Pekebok 2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C980A8C5220F57DF0014392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaktiv Pekebok 2 tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AanestadAppArchitect.Interaktiv-Pekebok-2";
+				PRODUCT_NAME = "Interaktiv Pekebok 2";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		C980A8C6220F57DF0014392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaktiv Pekebok 2 tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AanestadAppArchitect.Interaktiv-Pekebok-2";
+				PRODUCT_NAME = "Interaktiv Pekebok 2";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C980A8C8220F57DF0014392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Interaktiv Pekebok 2 macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "AanestadAppArchitect.Interaktiv-Pekebok-2";
+				PRODUCT_NAME = "Interaktiv Pekebok 2";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C980A8C9220F57DF0014392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Interaktiv Pekebok 2 macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "AanestadAppArchitect.Interaktiv-Pekebok-2";
+				PRODUCT_NAME = "Interaktiv Pekebok 2";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C980A84C220F57DE0014392F /* Build configuration list for PBXProject "Interaktiv Pekebok 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C980A8B7220F57DF0014392F /* Debug */,
+				C980A8B8220F57DF0014392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C980A8B9220F57DF0014392F /* Build configuration list for PBXNativeTarget "Interaktiv Pekebok 2 watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C980A8BA220F57DF0014392F /* Debug */,
+				C980A8BB220F57DF0014392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C980A8BD220F57DF0014392F /* Build configuration list for PBXNativeTarget "Interaktiv Pekebok 2 watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C980A8BE220F57DF0014392F /* Debug */,
+				C980A8BF220F57DF0014392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C980A8C1220F57DF0014392F /* Build configuration list for PBXNativeTarget "Interaktiv Pekebok 2 iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C980A8C2220F57DF0014392F /* Debug */,
+				C980A8C3220F57DF0014392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C980A8C4220F57DF0014392F /* Build configuration list for PBXNativeTarget "Interaktiv Pekebok 2 tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C980A8C5220F57DF0014392F /* Debug */,
+				C980A8C6220F57DF0014392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C980A8C7220F57DF0014392F /* Build configuration list for PBXNativeTarget "Interaktiv Pekebok 2 macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C980A8C8220F57DF0014392F /* Debug */,
+				C980A8C9220F57DF0014392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C980A849220F57DE0014392F /* Project object */;
+}
