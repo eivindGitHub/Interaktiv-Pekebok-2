@@ -19,10 +19,10 @@
     // Present the scene
     SKView *skView = (SKView *)self.view;
     [skView presentScene:scene];
-    
     skView.ignoresSiblingOrder = YES;
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
+    //skView.scene.scaleMode = SKSceneScaleModeAspectFit;
 }
 
 - (BOOL)shouldAutorotate {

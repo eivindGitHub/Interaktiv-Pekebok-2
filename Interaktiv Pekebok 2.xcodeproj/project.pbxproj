@@ -60,6 +60,16 @@
 		C980A8CD220F5E3E0014392F /* CastleBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C980A8CA220F5E3E0014392F /* CastleBG.png */; };
 		C980A8CE220F5E3E0014392F /* CastleBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C980A8CA220F5E3E0014392F /* CastleBG.png */; };
 		C980A8CF220F5E3E0014392F /* CastleBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C980A8CA220F5E3E0014392F /* CastleBG.png */; };
+		C98507C3221046FE00CE2C3C /* snowball1_sing.png in Resources */ = {isa = PBXBuildFile; fileRef = C98507C2221046FE00CE2C3C /* snowball1_sing.png */; };
+		C98507C4221046FE00CE2C3C /* snowball1_sing.png in Resources */ = {isa = PBXBuildFile; fileRef = C98507C2221046FE00CE2C3C /* snowball1_sing.png */; };
+		C98507C5221046FE00CE2C3C /* snowball1_sing.png in Resources */ = {isa = PBXBuildFile; fileRef = C98507C2221046FE00CE2C3C /* snowball1_sing.png */; };
+		C98507C6221046FE00CE2C3C /* snowball1_sing.png in Resources */ = {isa = PBXBuildFile; fileRef = C98507C2221046FE00CE2C3C /* snowball1_sing.png */; };
+		C98507C7221046FE00CE2C3C /* snowball1_sing.png in Resources */ = {isa = PBXBuildFile; fileRef = C98507C2221046FE00CE2C3C /* snowball1_sing.png */; };
+		C98507C92210480C00CE2C3C /* H_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98507C82210480C00CE2C3C /* H_a.mp3 */; };
+		C98507CA2210480C00CE2C3C /* H_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98507C82210480C00CE2C3C /* H_a.mp3 */; };
+		C98507CB2210480C00CE2C3C /* H_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98507C82210480C00CE2C3C /* H_a.mp3 */; };
+		C98507CC2210480C00CE2C3C /* H_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98507C82210480C00CE2C3C /* H_a.mp3 */; };
+		C98507CD2210480C00CE2C3C /* H_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98507C82210480C00CE2C3C /* H_a.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +158,8 @@
 		C980A8A5220F57DF0014392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C980A8A6220F57DF0014392F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C980A8CA220F5E3E0014392F /* CastleBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CastleBG.png; sourceTree = "<group>"; };
+		C98507C2221046FE00CE2C3C /* snowball1_sing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowball1_sing.png; sourceTree = "<group>"; };
+		C98507C82210480C00CE2C3C /* H_a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H_a.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,10 +197,8 @@
 		C9681FE6220FAD2D00740570 /* Castle */ = {
 			isa = PBXGroup;
 			children = (
-				C9681FE7220FB15B00740570 /* snowball1.png */,
-				C9681FDB220FAD2300740570 /* castle-gate.png */,
-				C9681FDA220FAD2300740570 /* gateclip.png */,
-				C980A8CA220F5E3E0014392F /* CastleBG.png */,
+				C98507C1221046B300CE2C3C /* Sounds */,
+				C98507C0221046A000CE2C3C /* Images */,
 			);
 			path = Castle;
 			sourceTree = "<group>";
@@ -293,6 +303,26 @@
 				C980A8A6220F57DF0014392F /* main.m */,
 			);
 			path = "Interaktiv Pekebok 2 macOS";
+			sourceTree = "<group>";
+		};
+		C98507C0221046A000CE2C3C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C98507C2221046FE00CE2C3C /* snowball1_sing.png */,
+				C9681FE7220FB15B00740570 /* snowball1.png */,
+				C9681FDB220FAD2300740570 /* castle-gate.png */,
+				C9681FDA220FAD2300740570 /* gateclip.png */,
+				C980A8CA220F5E3E0014392F /* CastleBG.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C98507C1221046B300CE2C3C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C98507C82210480C00CE2C3C /* H_a.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,9 +477,11 @@
 				C9681FDC220FAD2300740570 /* gateclip.png in Resources */,
 				C980A8AB220F57DF0014392F /* GameScene.sks in Resources */,
 				C980A862220F57DE0014392F /* Main.storyboard in Resources */,
+				C98507C3221046FE00CE2C3C /* snowball1_sing.png in Resources */,
 				C980A8A8220F57DF0014392F /* Actions.sks in Resources */,
 				C9681FE1220FAD2300740570 /* castle-gate.png in Resources */,
 				C980A8CB220F5E3E0014392F /* CastleBG.png in Resources */,
+				C98507C92210480C00CE2C3C /* H_a.mp3 in Resources */,
 				C980A865220F57DE0014392F /* LaunchScreen.storyboard in Resources */,
 				C980A8B3220F57DF0014392F /* Assets.xcassets in Resources */,
 			);
@@ -464,6 +496,8 @@
 				C980A8CC220F5E3E0014392F /* CastleBG.png in Resources */,
 				C9681FE9220FB15B00740570 /* snowball1.png in Resources */,
 				C980A8B4220F57DF0014392F /* Assets.xcassets in Resources */,
+				C98507CA2210480C00CE2C3C /* H_a.mp3 in Resources */,
+				C98507C4221046FE00CE2C3C /* snowball1_sing.png in Resources */,
 				C980A872220F57DE0014392F /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,9 +507,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9681FE3220FAD2300740570 /* castle-gate.png in Resources */,
+				C98507CB2210480C00CE2C3C /* H_a.mp3 in Resources */,
 				C9681FDE220FAD2300740570 /* gateclip.png in Resources */,
 				C980A8AC220F57DF0014392F /* GameScene.sks in Resources */,
 				C9681FEA220FB15B00740570 /* snowball1.png in Resources */,
+				C98507C5221046FE00CE2C3C /* snowball1_sing.png in Resources */,
 				C980A8CD220F5E3E0014392F /* CastleBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +521,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9681FDF220FAD2300740570 /* gateclip.png in Resources */,
+				C98507CC2210480C00CE2C3C /* H_a.mp3 in Resources */,
+				C98507C6221046FE00CE2C3C /* snowball1_sing.png in Resources */,
 				C980A892220F57DF0014392F /* Main.storyboard in Resources */,
 				C9681FE4220FAD2300740570 /* castle-gate.png in Resources */,
 				C9681FEB220FB15B00740570 /* snowball1.png in Resources */,
@@ -500,6 +538,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9681FE0220FAD2300740570 /* gateclip.png in Resources */,
+				C98507CD2210480C00CE2C3C /* H_a.mp3 in Resources */,
+				C98507C7221046FE00CE2C3C /* snowball1_sing.png in Resources */,
 				C980A8A4220F57DF0014392F /* Main.storyboard in Resources */,
 				C9681FE5220FAD2300740570 /* castle-gate.png in Resources */,
 				C9681FEC220FB15B00740570 /* snowball1.png in Resources */,
