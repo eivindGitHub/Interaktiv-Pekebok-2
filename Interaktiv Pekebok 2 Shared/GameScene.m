@@ -11,8 +11,24 @@
 @implementation GameScene {
     SKShapeNode *_spinnyNode;
     SKLabelNode *_label;
-    SKShapeNode *_snowball1;
-    SKShapeNode *_snowball1_sing;
+    SKShapeNode *_leverup;
+    SKShapeNode *_leverdown;
+    SKShapeNode *_princess;
+    NSArray *_cameras;
+    SKTexture *camera0;
+    SKTexture *camera1;
+    SKTexture *camera2;
+    SKTexture *camera3;
+    SKTexture *camera4;
+    SKTexture *camera5;
+    SKTexture *camera6;
+    SKTexture *camera7;
+    SKTexture *camera8;
+    SKTexture *camera9;
+    SKTexture *camera10;
+    SKTexture *camera11;
+    SKTexture *camera12;
+    SKTexture *camera13;
     SKShapeNode *_touchednode;
 }
 
@@ -30,9 +46,26 @@
 }
 
 - (void)setUpScene {
-    //_snowball1 = (SKShapeNode *)[self childNodeWithName:@"//snowball1"];
-    //_snowball1_sing = (SKShapeNode *)[self childNodeWithName:@"//snowball1_sing"];
-
+    _leverup = (SKShapeNode *)[self childNodeWithName:@"//castle_lever_up"];
+    [_leverup setHidden:true];
+    _leverdown = (SKShapeNode *)[self childNodeWithName:@"//castle_lever_down"];
+    [_leverdown setHidden:false];
+    _princess = (SKShapeNode *)[self childNodeWithName:@"//princessdummy"];
+    camera0 = [SKTexture textureWithImageNamed:@"castlecamera0"];
+    camera1 = [SKTexture textureWithImageNamed:@"castlecamera1"];
+    camera2 = [SKTexture textureWithImageNamed:@"castlecamera2"];
+    camera3 = [SKTexture textureWithImageNamed:@"castlecamera3"];
+    camera4 = [SKTexture textureWithImageNamed:@"castlecamera4"];
+    camera5 = [SKTexture textureWithImageNamed:@"castlecamera5"];
+    camera6 = [SKTexture textureWithImageNamed:@"castlecamera6"];
+    camera7 = [SKTexture textureWithImageNamed:@"castlecamera7"];
+    camera8 = [SKTexture textureWithImageNamed:@"castlecamera8"];
+    camera9 = [SKTexture textureWithImageNamed:@"castlecamera9"];
+    camera10 = [SKTexture textureWithImageNamed:@"castlecamera10"];
+    camera11 = [SKTexture textureWithImageNamed:@"castlecamera11"];
+    camera12 = [SKTexture textureWithImageNamed:@"castlecamera12"];
+    camera13 = [SKTexture textureWithImageNamed:@"castlecamera13"];
+    _cameras = [NSArray arrayWithObjects:camera1,camera2,camera3,camera4,camera5,camera6,camera7,camera8,camera9,camera10,camera11,camera12,camera13,camera12,camera11,camera10,camera9,camera8,camera7,camera6,camera5,camera4,camera3,camera2,camera1,camera0, nil];
 #if TARGET_OS_WATCH
     // For watch we just periodically create one of these and let it spin
     // For other platforms we let user touch/mouse events create these
@@ -89,25 +122,38 @@
 - (void)handleTouchedPoint:(CGPoint)touchedPoint {
     SKSpriteNode *touchedNode = (SKSpriteNode *)[self nodeAtPoint:touchedPoint];
     
-    // Detects which node was touched by utilizing names.
+    // Plays audio and animates touched snowball.
     for (SKAudioNode *an in touchedNode.children) {
-        if(an != nil && [an isKindOfClass:[SKAudioNode class]]) {
+        if(an != nil && [an isKindOfClass:[SKAudioNode class]] && [touchedNode.name rangeOfString:@"snowball"].location != NSNotFound) {
             NSString *mystring = touchedNode.name;
             NSString *mystringsing = [mystring stringByAppendingString:@"_sing"];
             SKTexture *tex1 = [SKTexture textureWithImageNamed:mystring];
             SKTexture *tex2 = [SKTexture textureWithImageNamed:mystringsing];
             [touchedNode runAction:[SKAction animateWithTextures:@[tex2,tex1] timePerFrame:0.5 resize:YES restore:NO]];
             [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
+            NSLog(@"Touched singing snowball");
         }
     }
-    if ([touchedNode.name isEqualToString:@"snowball1_sing"]) {
-        NSLog(@"Touched singing snowball");
+    // lever
+    if ([touchedNode.name rangeOfString:@"castle_lever"].location != NSNotFound) {
+        [_leverup setHidden:!_leverup.hidden];
+        [_leverdown setHidden:!_leverdown.hidden];
+        [touchedNode runAction:[SKAction playSoundFileNamed:@"sfx_lever" waitForCompletion:NO]];
+        NSLog(@"Touched lever");
     }
-    if ([touchedNode.name isEqualToString:@"Player Character"]) {
-        NSLog(@"Touched player");
+    // princess
+    if ([_princess containsPoint:touchedPoint]) {
+        for (SKAudioNode *an in _princess.children) {
+            if(an != nil && [an isKindOfClass:[SKAudioNode class]]) {
+                [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
+            }
+        }
+        NSLog(@"Touched princess");
     }
-    if ([touchedNode.name isEqualToString:@"Test Node"]) {
-        NSLog(@"Touched test node");
+    if ([touchedNode.name isEqualToString:@"castlecamera0"]) {
+        [touchedNode runAction:[SKAction animateWithTextures:_cameras timePerFrame:0.1 resize:YES restore:NO]];
+        [touchedNode runAction:[SKAction playSoundFileNamed:@"sfx_camera2" waitForCompletion:NO]];
+        NSLog(@"Touched camera");
     }
 }
 #endif
