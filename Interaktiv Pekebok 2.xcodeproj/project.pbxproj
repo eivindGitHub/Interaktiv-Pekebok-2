@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9681FDC220FAD2300740570 /* gateclip.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDA220FAD2300740570 /* gateclip.png */; };
+		C9681FDD220FAD2300740570 /* gateclip.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDA220FAD2300740570 /* gateclip.png */; };
+		C9681FDE220FAD2300740570 /* gateclip.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDA220FAD2300740570 /* gateclip.png */; };
+		C9681FDF220FAD2300740570 /* gateclip.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDA220FAD2300740570 /* gateclip.png */; };
+		C9681FE0220FAD2300740570 /* gateclip.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDA220FAD2300740570 /* gateclip.png */; };
+		C9681FE1220FAD2300740570 /* castle-gate.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDB220FAD2300740570 /* castle-gate.png */; };
+		C9681FE2220FAD2300740570 /* castle-gate.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDB220FAD2300740570 /* castle-gate.png */; };
+		C9681FE3220FAD2300740570 /* castle-gate.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDB220FAD2300740570 /* castle-gate.png */; };
+		C9681FE4220FAD2300740570 /* castle-gate.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDB220FAD2300740570 /* castle-gate.png */; };
+		C9681FE5220FAD2300740570 /* castle-gate.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDB220FAD2300740570 /* castle-gate.png */; };
+		C9681FE8220FB15B00740570 /* snowball1.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FE7220FB15B00740570 /* snowball1.png */; };
+		C9681FE9220FB15B00740570 /* snowball1.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FE7220FB15B00740570 /* snowball1.png */; };
+		C9681FEA220FB15B00740570 /* snowball1.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FE7220FB15B00740570 /* snowball1.png */; };
+		C9681FEB220FB15B00740570 /* snowball1.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FE7220FB15B00740570 /* snowball1.png */; };
+		C9681FEC220FB15B00740570 /* snowball1.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FE7220FB15B00740570 /* snowball1.png */; };
 		C980A85C220F57DE0014392F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A85B220F57DE0014392F /* AppDelegate.m */; };
 		C980A85F220F57DE0014392F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C980A85E220F57DE0014392F /* GameViewController.m */; };
 		C980A862220F57DE0014392F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C980A860220F57DE0014392F /* Main.storyboard */; };
@@ -90,6 +105,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C9681FDA220FAD2300740570 /* gateclip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gateclip.png; sourceTree = "<group>"; };
+		C9681FDB220FAD2300740570 /* castle-gate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "castle-gate.png"; sourceTree = "<group>"; };
+		C9681FE7220FB15B00740570 /* snowball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowball1.png; sourceTree = "<group>"; };
 		C980A84E220F57DE0014392F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		C980A84F220F57DE0014392F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		C980A850220F57DE0014392F /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
@@ -164,6 +182,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9681FE6220FAD2D00740570 /* Castle */ = {
+			isa = PBXGroup;
+			children = (
+				C9681FE7220FB15B00740570 /* snowball1.png */,
+				C9681FDB220FAD2300740570 /* castle-gate.png */,
+				C9681FDA220FAD2300740570 /* gateclip.png */,
+				C980A8CA220F5E3E0014392F /* CastleBG.png */,
+			);
+			path = Castle;
+			sourceTree = "<group>";
+		};
 		C980A848220F57DE0014392F = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +209,7 @@
 		C980A84D220F57DE0014392F /* Interaktiv Pekebok 2 Shared */ = {
 			isa = PBXGroup;
 			children = (
-				C980A8CA220F5E3E0014392F /* CastleBG.png */,
+				C9681FE6220FAD2D00740570 /* Castle */,
 				C980A84E220F57DE0014392F /* Actions.sks */,
 				C980A84F220F57DE0014392F /* GameScene.sks */,
 				C980A850220F57DE0014392F /* GameScene.h */,
@@ -414,9 +443,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9681FE8220FB15B00740570 /* snowball1.png in Resources */,
+				C9681FDC220FAD2300740570 /* gateclip.png in Resources */,
 				C980A8AB220F57DF0014392F /* GameScene.sks in Resources */,
 				C980A862220F57DE0014392F /* Main.storyboard in Resources */,
 				C980A8A8220F57DF0014392F /* Actions.sks in Resources */,
+				C9681FE1220FAD2300740570 /* castle-gate.png in Resources */,
 				C980A8CB220F5E3E0014392F /* CastleBG.png in Resources */,
 				C980A865220F57DE0014392F /* LaunchScreen.storyboard in Resources */,
 				C980A8B3220F57DF0014392F /* Assets.xcassets in Resources */,
@@ -427,7 +459,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9681FDD220FAD2300740570 /* gateclip.png in Resources */,
+				C9681FE2220FAD2300740570 /* castle-gate.png in Resources */,
 				C980A8CC220F5E3E0014392F /* CastleBG.png in Resources */,
+				C9681FE9220FB15B00740570 /* snowball1.png in Resources */,
 				C980A8B4220F57DF0014392F /* Assets.xcassets in Resources */,
 				C980A872220F57DE0014392F /* Interface.storyboard in Resources */,
 			);
@@ -437,7 +472,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9681FE3220FAD2300740570 /* castle-gate.png in Resources */,
+				C9681FDE220FAD2300740570 /* gateclip.png in Resources */,
 				C980A8AC220F57DF0014392F /* GameScene.sks in Resources */,
+				C9681FEA220FB15B00740570 /* snowball1.png in Resources */,
 				C980A8CD220F5E3E0014392F /* CastleBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +484,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9681FDF220FAD2300740570 /* gateclip.png in Resources */,
 				C980A892220F57DF0014392F /* Main.storyboard in Resources */,
+				C9681FE4220FAD2300740570 /* castle-gate.png in Resources */,
+				C9681FEB220FB15B00740570 /* snowball1.png in Resources */,
 				C980A8AD220F57DF0014392F /* GameScene.sks in Resources */,
 				C980A8B5220F57DF0014392F /* Assets.xcassets in Resources */,
 				C980A8CE220F5E3E0014392F /* CastleBG.png in Resources */,
@@ -458,7 +499,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9681FE0220FAD2300740570 /* gateclip.png in Resources */,
 				C980A8A4220F57DF0014392F /* Main.storyboard in Resources */,
+				C9681FE5220FAD2300740570 /* castle-gate.png in Resources */,
+				C9681FEC220FB15B00740570 /* snowball1.png in Resources */,
 				C980A8AE220F57DF0014392F /* GameScene.sks in Resources */,
 				C980A8B6220F57DF0014392F /* Assets.xcassets in Resources */,
 				C980A8CF220F5E3E0014392F /* CastleBG.png in Resources */,
