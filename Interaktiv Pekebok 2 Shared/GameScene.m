@@ -30,8 +30,8 @@
 }
 
 - (void)setUpScene {
-    _snowball1 = (SKShapeNode *)[self childNodeWithName:@"//snowball1"];
-    _snowball1_sing = (SKShapeNode *)[self childNodeWithName:@"//snowball1_sing"];
+    //_snowball1 = (SKShapeNode *)[self childNodeWithName:@"//snowball1"];
+    //_snowball1_sing = (SKShapeNode *)[self childNodeWithName:@"//snowball1_sing"];
 
 #if TARGET_OS_WATCH
     // For watch we just periodically create one of these and let it spin
