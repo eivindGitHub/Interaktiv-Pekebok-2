@@ -31,31 +31,12 @@
 
 - (void)setUpScene {
     _snowball1 = (SKShapeNode *)[self childNodeWithName:@"//snowball1"];
-    [_snowball1 runAction:[SKAction repeatAction:[SKAction rotateByAngle:M_PI duration:1] count:10]];
     _snowball1_sing = (SKShapeNode *)[self childNodeWithName:@"//snowball1_sing"];
-    [_snowball1_sing setHidden:true];
-    // Get label node from scene and store it for use later
-    _label = (SKLabelNode *)[self childNodeWithName:@"//helloLabel"];
-    _label.alpha = 0.0;
-    [_label runAction:[SKAction fadeInWithDuration:2.0]];
-    
-    // Create shape node to use during mouse interaction
-    CGFloat w = (self.size.width + self.size.height) * 0.05;
-    _spinnyNode = [SKShapeNode shapeNodeWithRectOfSize:CGSizeMake(w, w) cornerRadius:w * 0.3];
-    
-    
 
 #if TARGET_OS_WATCH
     // For watch we just periodically create one of these and let it spin
     // For other platforms we let user touch/mouse events create these
-    _spinnyNode.position = CGPointMake(0.0, 0.0);
-    _spinnyNode.strokeColor = [SKColor redColor];
-    [self runAction:[SKAction repeatActionForever:[SKAction sequence:@[
-        [SKAction waitForDuration:2.0],
-        [SKAction runBlock:^{
-            [self addChild:[_spinnyNode copy]];
-        }]
-    ]]]];
+    
 #endif
 }
 
@@ -106,13 +87,18 @@
     }
 }
 - (void)handleTouchedPoint:(CGPoint)touchedPoint {
-    SKNode *touchedNode = [self nodeAtPoint:touchedPoint];
+    SKSpriteNode *touchedNode = (SKSpriteNode *)[self nodeAtPoint:touchedPoint];
     
     // Detects which node was touched by utilizing names.
-    if ([touchedNode.name isEqualToString:@"snowball1"]) {
-        NSLog(@"Touched snowball");
-        SKAudioNode *_H_a = (SKAudioNode *)[touchedNode childNodeWithName:@"H_a"];
-        [_H_a runAction:[SKAction playSoundFileNamed:_H_a.name waitForCompletion:NO]];
+    for (SKAudioNode *an in touchedNode.children) {
+        if(an != nil && [an isKindOfClass:[SKAudioNode class]]) {
+            NSString *mystring = touchedNode.name;
+            NSString *mystringsing = [mystring stringByAppendingString:@"_sing"];
+            SKTexture *tex1 = [SKTexture textureWithImageNamed:mystring];
+            SKTexture *tex2 = [SKTexture textureWithImageNamed:mystringsing];
+            [touchedNode runAction:[SKAction animateWithTextures:@[tex2,tex1] timePerFrame:0.5 resize:YES restore:NO]];
+            [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
+        }
     }
     if ([touchedNode.name isEqualToString:@"snowball1_sing"]) {
         NSLog(@"Touched singing snowball");
