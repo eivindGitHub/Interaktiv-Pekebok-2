@@ -29,7 +29,20 @@
     SKTexture *camera11;
     SKTexture *camera12;
     SKTexture *camera13;
+    NSArray *_speakers;
+    SKTexture *castle_speaker0;
+    SKTexture *castle_speaker1;
+    SKTexture *castle_speaker2;
+    SKTexture *castle_speaker3;
+    SKTexture *castle_speaker4;
+    SKTexture *castle_speaker5;
+    SKTexture *castle_speaker6;
+    SKTexture *castle_speaker7;
+    SKTexture *castle_speaker8;
+    SKTexture *castle_speaker9;
     SKShapeNode *_touchednode;
+    bool isMusic;
+    AVAudioPlayer *musicplayer;
 }
 
 + (GameScene *)newGameScene {
@@ -66,6 +79,24 @@
     camera12 = [SKTexture textureWithImageNamed:@"castlecamera12"];
     camera13 = [SKTexture textureWithImageNamed:@"castlecamera13"];
     _cameras = [NSArray arrayWithObjects:camera1,camera2,camera3,camera4,camera5,camera6,camera7,camera8,camera9,camera10,camera11,camera12,camera13,camera12,camera11,camera10,camera9,camera8,camera7,camera6,camera5,camera4,camera3,camera2,camera1,camera0, nil];
+    castle_speaker0 = [SKTexture textureWithImageNamed:@"castle_speaker0"];
+    castle_speaker1 = [SKTexture textureWithImageNamed:@"castle_speaker1"];
+    castle_speaker2 = [SKTexture textureWithImageNamed:@"castle_speaker2"];
+    castle_speaker3 = [SKTexture textureWithImageNamed:@"castle_speaker3"];
+    castle_speaker4 = [SKTexture textureWithImageNamed:@"castle_speaker4"];
+    castle_speaker5 = [SKTexture textureWithImageNamed:@"castle_speaker5"];
+    castle_speaker6 = [SKTexture textureWithImageNamed:@"castle_speaker6"];
+    castle_speaker7 = [SKTexture textureWithImageNamed:@"castle_speaker7"];
+    castle_speaker8 = [SKTexture textureWithImageNamed:@"castle_speaker8"];
+    castle_speaker9 = [SKTexture textureWithImageNamed:@"castle_speaker9"];
+    _speakers = [NSArray arrayWithObjects:castle_speaker0,castle_speaker1,castle_speaker2,castle_speaker3,castle_speaker4,castle_speaker5,castle_speaker6,castle_speaker7,castle_speaker8,castle_speaker9, nil];
+    isMusic = false;
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:@"castle_music2"
+                                         ofType:@"mp3"]];
+    musicplayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    musicplayer.numberOfLoops = -1;
+    
 #if TARGET_OS_WATCH
     // For watch we just periodically create one of these and let it spin
     // For other platforms we let user touch/mouse events create these
@@ -154,6 +185,21 @@
         [touchedNode runAction:[SKAction animateWithTextures:_cameras timePerFrame:0.1 resize:YES restore:NO]];
         [touchedNode runAction:[SKAction playSoundFileNamed:@"sfx_camera2" waitForCompletion:NO]];
         NSLog(@"Touched camera");
+    }
+    if ([touchedNode.name isEqualToString:@"castle_speaker0"]) {
+        if(!isMusic){
+            [touchedNode runAction:[SKAction repeatActionForever:[SKAction animateWithTextures:_speakers timePerFrame:0.1 resize:YES restore:NO]] withKey:@"musicaction"];
+            [musicplayer play];
+            isMusic = !isMusic;
+        }
+        else{
+            [touchedNode removeActionForKey:@"musicaction"];
+            [touchedNode setTexture:castle_speaker0];
+            [musicplayer pause];
+            isMusic = !isMusic;
+        }
+        
+        NSLog(@"Touched speaker");
     }
 }
 #endif
