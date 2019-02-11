@@ -63,6 +63,7 @@
     SKShapeNode *letternodeAE; SKShapeNode *letternodeOE; SKShapeNode *letternodeAA;
     NSArray *_letternodes;
     
+    NSString *_currentletter;
     bool isMusic;
     AVAudioPlayer *musicplayer;
 }
@@ -98,6 +99,7 @@
     hidebubble = [SKAction hide];
     hidesequence = [SKAction sequence:@[unhidebubble, waitbubble, hidebubble]];
     bubblesequence2 = [SKAction sequence:@[unhidebubble, waitbubble2, hidebubble]];
+    _currentletter = @"a";
     
     camera0 = [SKTexture textureWithImageNamed:@"castlecamera0"];
     camera1 = [SKTexture textureWithImageNamed:@"castlecamera1"];
@@ -201,30 +203,50 @@
 - (void)handleTouchedPoint:(CGPoint)touchedPoint {
     SKSpriteNode *touchedNode = (SKSpriteNode *)[self nodeAtPoint:touchedPoint];
     
-    // Plays audio and animates touched snowball or letter.
-    for (SKAudioNode *an in touchedNode.children) {
-        if(an != nil && [an isKindOfClass:[SKAudioNode class]] && [touchedNode.name rangeOfString:@"snowball"].location != NSNotFound) {
-            NSString *mystring = touchedNode.name;
-            NSString *mystringsing = [mystring stringByAppendingString:@"_sing"];
-            SKTexture *tex1 = [SKTexture textureWithImageNamed:mystring];
-            SKTexture *tex2 = [SKTexture textureWithImageNamed:mystringsing];
-            [touchedNode runAction:[SKAction animateWithTextures:@[tex2,tex1] timePerFrame:0.5 resize:YES restore:NO]];
-            [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
-            NSLog(@"Touched singing snowball");
-        }
-        else if(an != nil && [an isKindOfClass:[SKAudioNode class]] && [touchedNode.name rangeOfString:@"letter"].location != NSNotFound){
-            for (SKSpriteNode *ln in _letternodes){
-                NSString *offstring = ln.name;
-                SKTexture *offtex = [SKTexture textureWithImageNamed:offstring];
-                [ln runAction:[SKAction setTexture:offtex]];
+    // Plays audio and animates touched snowball.
+    if([touchedNode.name rangeOfString:@"snowball"].location != NSNotFound){
+        NSString *singstring = [@"_" stringByAppendingString:_currentletter];
+        int wildnumber = arc4random_uniform(7) + 1;
+        NSString *wildstring = [NSString stringWithFormat:@"%d",wildnumber];
+        for (SKAudioNode *an in touchedNode.children) {
+            if( an != nil && [an isKindOfClass:[SKAudioNode class]] && [an.name hasSuffix:singstring] ){
+                NSString *mystring = touchedNode.name;
+                NSString *mystringsing = [mystring stringByAppendingString:@"_sing"];                
+                SKTexture *tex1 = [SKTexture textureWithImageNamed:mystring];
+                SKTexture *tex2 = [SKTexture textureWithImageNamed:mystringsing];
+                [touchedNode runAction:[SKAction animateWithTextures:@[tex2,tex1] timePerFrame:0.5 resize:YES restore:NO]];
+                [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
+                NSLog(@"Touched singing snowball");
             }
-            [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
-            NSString *mystring = touchedNode.name;
-            NSString *mystringon = [mystring stringByReplacingOccurrencesOfString:@"_off" withString:@""];
-            SKTexture *ontex = [SKTexture textureWithImageNamed:mystringon];
-            [touchedNode runAction:[SKAction setTexture:ontex resize:NO]];
-            [_snakkeboble runAction:hidesequence];
-            NSLog(@"Touched letter");
+            else if( an != nil && [an isKindOfClass:[SKAudioNode class]] && [an.name hasPrefix:@"wildsnowball"] && [an.name hasSuffix:wildstring] ){
+                NSString *mystring = touchedNode.name;
+                NSString *mystringsing = [mystring stringByAppendingString:@"_sing"];
+                SKTexture *tex1 = [SKTexture textureWithImageNamed:mystring];
+                SKTexture *tex2 = [SKTexture textureWithImageNamed:mystringsing];
+                [touchedNode runAction:[SKAction animateWithTextures:@[tex2,tex1] timePerFrame:2.5 resize:YES restore:NO]];
+                [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
+                NSLog(@"Touched singing wild snowball");
+            }
+        }
+    }
+    // Plays audio and animates touched letter.
+    else if([touchedNode.name rangeOfString:@"letter"].location != NSNotFound){
+        for (SKAudioNode *an in touchedNode.children) {
+            if(an != nil && [an isKindOfClass:[SKAudioNode class]]){
+                for (SKSpriteNode *ln in _letternodes){
+                    NSString *offstring = ln.name;
+                    SKTexture *offtex = [SKTexture textureWithImageNamed:offstring];
+                    [ln runAction:[SKAction setTexture:offtex]];
+                }
+                [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
+                NSString *mystring = touchedNode.name;
+                NSString *mystringon = [mystring stringByReplacingOccurrencesOfString:@"_off" withString:@""];
+                SKTexture *ontex = [SKTexture textureWithImageNamed:mystringon];
+                [touchedNode runAction:[SKAction setTexture:ontex resize:NO]];
+                [_snakkeboble runAction:hidesequence];
+                _currentletter = touchedNode.userData[@"letter"];
+                NSLog(@"Touched letter");
+            }
         }
     }
     // lever

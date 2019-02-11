@@ -107,6 +107,366 @@
 		C93A0863221206E400C6CE04 /* snakkeboble_prins.png in Resources */ = {isa = PBXBuildFile; fileRef = C93A0860221206E400C6CE04 /* snakkeboble_prins.png */; };
 		C93A0864221206E400C6CE04 /* snakkeboble_prins.png in Resources */ = {isa = PBXBuildFile; fileRef = C93A0860221206E400C6CE04 /* snakkeboble_prins.png */; };
 		C93A0865221206E400C6CE04 /* snakkeboble_prins.png in Resources */ = {isa = PBXBuildFile; fileRef = C93A0860221206E400C6CE04 /* snakkeboble_prins.png */; };
+		C93A086E22120C7D00C6CE04 /* H_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086622120C7C00C6CE04 /* H_ae.mp3 */; };
+		C93A086F22120C7D00C6CE04 /* H_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086622120C7C00C6CE04 /* H_ae.mp3 */; };
+		C93A087022120C7D00C6CE04 /* H_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086622120C7C00C6CE04 /* H_ae.mp3 */; };
+		C93A087122120C7D00C6CE04 /* H_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086622120C7C00C6CE04 /* H_ae.mp3 */; };
+		C93A087222120C7D00C6CE04 /* H_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086622120C7C00C6CE04 /* H_ae.mp3 */; };
+		C93A087322120C7D00C6CE04 /* H_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086722120C7C00C6CE04 /* H_o.mp3 */; };
+		C93A087422120C7D00C6CE04 /* H_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086722120C7C00C6CE04 /* H_o.mp3 */; };
+		C93A087522120C7D00C6CE04 /* H_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086722120C7C00C6CE04 /* H_o.mp3 */; };
+		C93A087622120C7D00C6CE04 /* H_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086722120C7C00C6CE04 /* H_o.mp3 */; };
+		C93A087722120C7D00C6CE04 /* H_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086722120C7C00C6CE04 /* H_o.mp3 */; };
+		C93A087822120C7D00C6CE04 /* H_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086822120C7C00C6CE04 /* H_oe.mp3 */; };
+		C93A087922120C7D00C6CE04 /* H_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086822120C7C00C6CE04 /* H_oe.mp3 */; };
+		C93A087A22120C7D00C6CE04 /* H_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086822120C7C00C6CE04 /* H_oe.mp3 */; };
+		C93A087B22120C7D00C6CE04 /* H_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086822120C7C00C6CE04 /* H_oe.mp3 */; };
+		C93A087C22120C7D00C6CE04 /* H_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086822120C7C00C6CE04 /* H_oe.mp3 */; };
+		C93A087D22120C7D00C6CE04 /* H_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086922120C7C00C6CE04 /* H_i.mp3 */; };
+		C93A087E22120C7D00C6CE04 /* H_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086922120C7C00C6CE04 /* H_i.mp3 */; };
+		C93A087F22120C7D00C6CE04 /* H_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086922120C7C00C6CE04 /* H_i.mp3 */; };
+		C93A088022120C7D00C6CE04 /* H_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086922120C7C00C6CE04 /* H_i.mp3 */; };
+		C93A088122120C7D00C6CE04 /* H_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086922120C7C00C6CE04 /* H_i.mp3 */; };
+		C93A088222120C7D00C6CE04 /* H_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086A22120C7D00C6CE04 /* H_y.mp3 */; };
+		C93A088322120C7D00C6CE04 /* H_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086A22120C7D00C6CE04 /* H_y.mp3 */; };
+		C93A088422120C7D00C6CE04 /* H_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086A22120C7D00C6CE04 /* H_y.mp3 */; };
+		C93A088522120C7D00C6CE04 /* H_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086A22120C7D00C6CE04 /* H_y.mp3 */; };
+		C93A088622120C7D00C6CE04 /* H_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086A22120C7D00C6CE04 /* H_y.mp3 */; };
+		C93A088722120C7D00C6CE04 /* H_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086B22120C7D00C6CE04 /* H_aa.mp3 */; };
+		C93A088822120C7D00C6CE04 /* H_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086B22120C7D00C6CE04 /* H_aa.mp3 */; };
+		C93A088922120C7D00C6CE04 /* H_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086B22120C7D00C6CE04 /* H_aa.mp3 */; };
+		C93A088A22120C7D00C6CE04 /* H_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086B22120C7D00C6CE04 /* H_aa.mp3 */; };
+		C93A088B22120C7D00C6CE04 /* H_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086B22120C7D00C6CE04 /* H_aa.mp3 */; };
+		C93A088C22120C7D00C6CE04 /* H_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086C22120C7D00C6CE04 /* H_u.mp3 */; };
+		C93A088D22120C7D00C6CE04 /* H_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086C22120C7D00C6CE04 /* H_u.mp3 */; };
+		C93A088E22120C7D00C6CE04 /* H_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086C22120C7D00C6CE04 /* H_u.mp3 */; };
+		C93A088F22120C7D00C6CE04 /* H_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086C22120C7D00C6CE04 /* H_u.mp3 */; };
+		C93A089022120C7D00C6CE04 /* H_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086C22120C7D00C6CE04 /* H_u.mp3 */; };
+		C93A089122120C7D00C6CE04 /* H_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086D22120C7D00C6CE04 /* H_e.mp3 */; };
+		C93A089222120C7D00C6CE04 /* H_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086D22120C7D00C6CE04 /* H_e.mp3 */; };
+		C93A089322120C7D00C6CE04 /* H_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086D22120C7D00C6CE04 /* H_e.mp3 */; };
+		C93A089422120C7D00C6CE04 /* H_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086D22120C7D00C6CE04 /* H_e.mp3 */; };
+		C93A089522120C7D00C6CE04 /* H_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A086D22120C7D00C6CE04 /* H_e.mp3 */; };
+		C93A089E2212147100C6CE04 /* Ciss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08962212146F00C6CE04 /* Ciss_i.mp3 */; };
+		C93A089F2212147100C6CE04 /* Ciss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08962212146F00C6CE04 /* Ciss_i.mp3 */; };
+		C93A08A02212147100C6CE04 /* Ciss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08962212146F00C6CE04 /* Ciss_i.mp3 */; };
+		C93A08A12212147100C6CE04 /* Ciss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08962212146F00C6CE04 /* Ciss_i.mp3 */; };
+		C93A08A22212147100C6CE04 /* Ciss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08962212146F00C6CE04 /* Ciss_i.mp3 */; };
+		C93A08A32212147100C6CE04 /* Ciss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08972212146F00C6CE04 /* Ciss_o.mp3 */; };
+		C93A08A42212147100C6CE04 /* Ciss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08972212146F00C6CE04 /* Ciss_o.mp3 */; };
+		C93A08A52212147100C6CE04 /* Ciss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08972212146F00C6CE04 /* Ciss_o.mp3 */; };
+		C93A08A62212147100C6CE04 /* Ciss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08972212146F00C6CE04 /* Ciss_o.mp3 */; };
+		C93A08A72212147100C6CE04 /* Ciss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08972212146F00C6CE04 /* Ciss_o.mp3 */; };
+		C93A08A82212147100C6CE04 /* Ciss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08982212146F00C6CE04 /* Ciss_ae.mp3 */; };
+		C93A08A92212147100C6CE04 /* Ciss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08982212146F00C6CE04 /* Ciss_ae.mp3 */; };
+		C93A08AA2212147100C6CE04 /* Ciss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08982212146F00C6CE04 /* Ciss_ae.mp3 */; };
+		C93A08AB2212147100C6CE04 /* Ciss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08982212146F00C6CE04 /* Ciss_ae.mp3 */; };
+		C93A08AC2212147100C6CE04 /* Ciss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08982212146F00C6CE04 /* Ciss_ae.mp3 */; };
+		C93A08AD2212147100C6CE04 /* Ciss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08992212147000C6CE04 /* Ciss_aa.mp3 */; };
+		C93A08AE2212147100C6CE04 /* Ciss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08992212147000C6CE04 /* Ciss_aa.mp3 */; };
+		C93A08AF2212147100C6CE04 /* Ciss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08992212147000C6CE04 /* Ciss_aa.mp3 */; };
+		C93A08B02212147100C6CE04 /* Ciss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08992212147000C6CE04 /* Ciss_aa.mp3 */; };
+		C93A08B12212147100C6CE04 /* Ciss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08992212147000C6CE04 /* Ciss_aa.mp3 */; };
+		C93A08B22212147100C6CE04 /* Ciss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089A2212147000C6CE04 /* Ciss_u.mp3 */; };
+		C93A08B32212147100C6CE04 /* Ciss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089A2212147000C6CE04 /* Ciss_u.mp3 */; };
+		C93A08B42212147100C6CE04 /* Ciss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089A2212147000C6CE04 /* Ciss_u.mp3 */; };
+		C93A08B52212147100C6CE04 /* Ciss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089A2212147000C6CE04 /* Ciss_u.mp3 */; };
+		C93A08B62212147100C6CE04 /* Ciss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089A2212147000C6CE04 /* Ciss_u.mp3 */; };
+		C93A08B72212147100C6CE04 /* Ciss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089B2212147000C6CE04 /* Ciss_y.mp3 */; };
+		C93A08B82212147100C6CE04 /* Ciss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089B2212147000C6CE04 /* Ciss_y.mp3 */; };
+		C93A08B92212147100C6CE04 /* Ciss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089B2212147000C6CE04 /* Ciss_y.mp3 */; };
+		C93A08BA2212147100C6CE04 /* Ciss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089B2212147000C6CE04 /* Ciss_y.mp3 */; };
+		C93A08BB2212147100C6CE04 /* Ciss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089B2212147000C6CE04 /* Ciss_y.mp3 */; };
+		C93A08BC2212147100C6CE04 /* Ciss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089C2212147000C6CE04 /* Ciss_oe.mp3 */; };
+		C93A08BD2212147100C6CE04 /* Ciss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089C2212147000C6CE04 /* Ciss_oe.mp3 */; };
+		C93A08BE2212147100C6CE04 /* Ciss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089C2212147000C6CE04 /* Ciss_oe.mp3 */; };
+		C93A08BF2212147100C6CE04 /* Ciss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089C2212147000C6CE04 /* Ciss_oe.mp3 */; };
+		C93A08C02212147100C6CE04 /* Ciss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089C2212147000C6CE04 /* Ciss_oe.mp3 */; };
+		C93A08C12212147100C6CE04 /* Ciss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089D2212147000C6CE04 /* Ciss_e.mp3 */; };
+		C93A08C22212147100C6CE04 /* Ciss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089D2212147000C6CE04 /* Ciss_e.mp3 */; };
+		C93A08C32212147100C6CE04 /* Ciss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089D2212147000C6CE04 /* Ciss_e.mp3 */; };
+		C93A08C42212147100C6CE04 /* Ciss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089D2212147000C6CE04 /* Ciss_e.mp3 */; };
+		C93A08C52212147100C6CE04 /* Ciss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A089D2212147000C6CE04 /* Ciss_e.mp3 */; };
+		C93A08CE2212154C00C6CE04 /* D_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C62212154A00C6CE04 /* D_u.mp3 */; };
+		C93A08CF2212154C00C6CE04 /* D_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C62212154A00C6CE04 /* D_u.mp3 */; };
+		C93A08D02212154C00C6CE04 /* D_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C62212154A00C6CE04 /* D_u.mp3 */; };
+		C93A08D12212154C00C6CE04 /* D_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C62212154A00C6CE04 /* D_u.mp3 */; };
+		C93A08D22212154C00C6CE04 /* D_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C62212154A00C6CE04 /* D_u.mp3 */; };
+		C93A08D32212154C00C6CE04 /* D_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C72212154A00C6CE04 /* D_ae.mp3 */; };
+		C93A08D42212154C00C6CE04 /* D_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C72212154A00C6CE04 /* D_ae.mp3 */; };
+		C93A08D52212154C00C6CE04 /* D_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C72212154A00C6CE04 /* D_ae.mp3 */; };
+		C93A08D62212154C00C6CE04 /* D_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C72212154A00C6CE04 /* D_ae.mp3 */; };
+		C93A08D72212154C00C6CE04 /* D_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C72212154A00C6CE04 /* D_ae.mp3 */; };
+		C93A08D82212154C00C6CE04 /* D_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C82212154B00C6CE04 /* D_aa.mp3 */; };
+		C93A08D92212154C00C6CE04 /* D_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C82212154B00C6CE04 /* D_aa.mp3 */; };
+		C93A08DA2212154C00C6CE04 /* D_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C82212154B00C6CE04 /* D_aa.mp3 */; };
+		C93A08DB2212154C00C6CE04 /* D_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C82212154B00C6CE04 /* D_aa.mp3 */; };
+		C93A08DC2212154C00C6CE04 /* D_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C82212154B00C6CE04 /* D_aa.mp3 */; };
+		C93A08DD2212154C00C6CE04 /* D_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C92212154B00C6CE04 /* D_o.mp3 */; };
+		C93A08DE2212154C00C6CE04 /* D_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C92212154B00C6CE04 /* D_o.mp3 */; };
+		C93A08DF2212154C00C6CE04 /* D_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C92212154B00C6CE04 /* D_o.mp3 */; };
+		C93A08E02212154C00C6CE04 /* D_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C92212154B00C6CE04 /* D_o.mp3 */; };
+		C93A08E12212154C00C6CE04 /* D_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08C92212154B00C6CE04 /* D_o.mp3 */; };
+		C93A08E22212154C00C6CE04 /* D_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CA2212154B00C6CE04 /* D_i.mp3 */; };
+		C93A08E32212154C00C6CE04 /* D_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CA2212154B00C6CE04 /* D_i.mp3 */; };
+		C93A08E42212154C00C6CE04 /* D_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CA2212154B00C6CE04 /* D_i.mp3 */; };
+		C93A08E52212154C00C6CE04 /* D_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CA2212154B00C6CE04 /* D_i.mp3 */; };
+		C93A08E62212154C00C6CE04 /* D_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CA2212154B00C6CE04 /* D_i.mp3 */; };
+		C93A08E72212154C00C6CE04 /* D_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CB2212154C00C6CE04 /* D_y.mp3 */; };
+		C93A08E82212154C00C6CE04 /* D_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CB2212154C00C6CE04 /* D_y.mp3 */; };
+		C93A08E92212154C00C6CE04 /* D_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CB2212154C00C6CE04 /* D_y.mp3 */; };
+		C93A08EA2212154C00C6CE04 /* D_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CB2212154C00C6CE04 /* D_y.mp3 */; };
+		C93A08EB2212154C00C6CE04 /* D_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CB2212154C00C6CE04 /* D_y.mp3 */; };
+		C93A08EC2212154C00C6CE04 /* D_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CC2212154C00C6CE04 /* D_e.mp3 */; };
+		C93A08ED2212154C00C6CE04 /* D_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CC2212154C00C6CE04 /* D_e.mp3 */; };
+		C93A08EE2212154C00C6CE04 /* D_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CC2212154C00C6CE04 /* D_e.mp3 */; };
+		C93A08EF2212154C00C6CE04 /* D_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CC2212154C00C6CE04 /* D_e.mp3 */; };
+		C93A08F02212154C00C6CE04 /* D_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CC2212154C00C6CE04 /* D_e.mp3 */; };
+		C93A08F12212154C00C6CE04 /* D_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CD2212154C00C6CE04 /* D_oe.mp3 */; };
+		C93A08F22212154C00C6CE04 /* D_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CD2212154C00C6CE04 /* D_oe.mp3 */; };
+		C93A08F32212154C00C6CE04 /* D_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CD2212154C00C6CE04 /* D_oe.mp3 */; };
+		C93A08F42212154C00C6CE04 /* D_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CD2212154C00C6CE04 /* D_oe.mp3 */; };
+		C93A08F52212154C00C6CE04 /* D_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08CD2212154C00C6CE04 /* D_oe.mp3 */; };
+		C93A08FE221215C700C6CE04 /* E_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F6221215C500C6CE04 /* E_ae.mp3 */; };
+		C93A08FF221215C700C6CE04 /* E_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F6221215C500C6CE04 /* E_ae.mp3 */; };
+		C93A0900221215C700C6CE04 /* E_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F6221215C500C6CE04 /* E_ae.mp3 */; };
+		C93A0901221215C700C6CE04 /* E_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F6221215C500C6CE04 /* E_ae.mp3 */; };
+		C93A0902221215C700C6CE04 /* E_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F6221215C500C6CE04 /* E_ae.mp3 */; };
+		C93A0903221215C700C6CE04 /* E_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F7221215C500C6CE04 /* E_e.mp3 */; };
+		C93A0904221215C700C6CE04 /* E_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F7221215C500C6CE04 /* E_e.mp3 */; };
+		C93A0905221215C700C6CE04 /* E_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F7221215C500C6CE04 /* E_e.mp3 */; };
+		C93A0906221215C700C6CE04 /* E_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F7221215C500C6CE04 /* E_e.mp3 */; };
+		C93A0907221215C700C6CE04 /* E_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F7221215C500C6CE04 /* E_e.mp3 */; };
+		C93A0908221215C700C6CE04 /* E_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F8221215C600C6CE04 /* E_oe.mp3 */; };
+		C93A0909221215C700C6CE04 /* E_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F8221215C600C6CE04 /* E_oe.mp3 */; };
+		C93A090A221215C700C6CE04 /* E_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F8221215C600C6CE04 /* E_oe.mp3 */; };
+		C93A090B221215C700C6CE04 /* E_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F8221215C600C6CE04 /* E_oe.mp3 */; };
+		C93A090C221215C700C6CE04 /* E_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F8221215C600C6CE04 /* E_oe.mp3 */; };
+		C93A090D221215C700C6CE04 /* E_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F9221215C600C6CE04 /* E_aa.mp3 */; };
+		C93A090E221215C700C6CE04 /* E_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F9221215C600C6CE04 /* E_aa.mp3 */; };
+		C93A090F221215C700C6CE04 /* E_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F9221215C600C6CE04 /* E_aa.mp3 */; };
+		C93A0910221215C700C6CE04 /* E_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F9221215C600C6CE04 /* E_aa.mp3 */; };
+		C93A0911221215C700C6CE04 /* E_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08F9221215C600C6CE04 /* E_aa.mp3 */; };
+		C93A0912221215C700C6CE04 /* E_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FA221215C600C6CE04 /* E_u.mp3 */; };
+		C93A0913221215C700C6CE04 /* E_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FA221215C600C6CE04 /* E_u.mp3 */; };
+		C93A0914221215C700C6CE04 /* E_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FA221215C600C6CE04 /* E_u.mp3 */; };
+		C93A0915221215C700C6CE04 /* E_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FA221215C600C6CE04 /* E_u.mp3 */; };
+		C93A0916221215C700C6CE04 /* E_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FA221215C600C6CE04 /* E_u.mp3 */; };
+		C93A0917221215C700C6CE04 /* E_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FB221215C700C6CE04 /* E_y.mp3 */; };
+		C93A0918221215C700C6CE04 /* E_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FB221215C700C6CE04 /* E_y.mp3 */; };
+		C93A0919221215C700C6CE04 /* E_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FB221215C700C6CE04 /* E_y.mp3 */; };
+		C93A091A221215C700C6CE04 /* E_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FB221215C700C6CE04 /* E_y.mp3 */; };
+		C93A091B221215C700C6CE04 /* E_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FB221215C700C6CE04 /* E_y.mp3 */; };
+		C93A091C221215C700C6CE04 /* E_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FC221215C700C6CE04 /* E_i.mp3 */; };
+		C93A091D221215C700C6CE04 /* E_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FC221215C700C6CE04 /* E_i.mp3 */; };
+		C93A091E221215C700C6CE04 /* E_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FC221215C700C6CE04 /* E_i.mp3 */; };
+		C93A091F221215C700C6CE04 /* E_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FC221215C700C6CE04 /* E_i.mp3 */; };
+		C93A0920221215C700C6CE04 /* E_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FC221215C700C6CE04 /* E_i.mp3 */; };
+		C93A0921221215C700C6CE04 /* E_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FD221215C700C6CE04 /* E_o.mp3 */; };
+		C93A0922221215C700C6CE04 /* E_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FD221215C700C6CE04 /* E_o.mp3 */; };
+		C93A0923221215C700C6CE04 /* E_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FD221215C700C6CE04 /* E_o.mp3 */; };
+		C93A0924221215C700C6CE04 /* E_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FD221215C700C6CE04 /* E_o.mp3 */; };
+		C93A0925221215C700C6CE04 /* E_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A08FD221215C700C6CE04 /* E_o.mp3 */; };
+		C93A092E2212164000C6CE04 /* Fiss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09262212163E00C6CE04 /* Fiss_i.mp3 */; };
+		C93A092F2212164000C6CE04 /* Fiss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09262212163E00C6CE04 /* Fiss_i.mp3 */; };
+		C93A09302212164000C6CE04 /* Fiss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09262212163E00C6CE04 /* Fiss_i.mp3 */; };
+		C93A09312212164000C6CE04 /* Fiss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09262212163E00C6CE04 /* Fiss_i.mp3 */; };
+		C93A09322212164000C6CE04 /* Fiss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09262212163E00C6CE04 /* Fiss_i.mp3 */; };
+		C93A09332212164000C6CE04 /* Fiss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09272212163E00C6CE04 /* Fiss_ae.mp3 */; };
+		C93A09342212164000C6CE04 /* Fiss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09272212163E00C6CE04 /* Fiss_ae.mp3 */; };
+		C93A09352212164000C6CE04 /* Fiss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09272212163E00C6CE04 /* Fiss_ae.mp3 */; };
+		C93A09362212164000C6CE04 /* Fiss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09272212163E00C6CE04 /* Fiss_ae.mp3 */; };
+		C93A09372212164000C6CE04 /* Fiss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09272212163E00C6CE04 /* Fiss_ae.mp3 */; };
+		C93A09382212164000C6CE04 /* Fiss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09282212163F00C6CE04 /* Fiss_oe.mp3 */; };
+		C93A09392212164000C6CE04 /* Fiss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09282212163F00C6CE04 /* Fiss_oe.mp3 */; };
+		C93A093A2212164000C6CE04 /* Fiss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09282212163F00C6CE04 /* Fiss_oe.mp3 */; };
+		C93A093B2212164000C6CE04 /* Fiss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09282212163F00C6CE04 /* Fiss_oe.mp3 */; };
+		C93A093C2212164000C6CE04 /* Fiss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09282212163F00C6CE04 /* Fiss_oe.mp3 */; };
+		C93A093D2212164000C6CE04 /* Fiss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09292212163F00C6CE04 /* Fiss_aa.mp3 */; };
+		C93A093E2212164000C6CE04 /* Fiss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09292212163F00C6CE04 /* Fiss_aa.mp3 */; };
+		C93A093F2212164000C6CE04 /* Fiss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09292212163F00C6CE04 /* Fiss_aa.mp3 */; };
+		C93A09402212164000C6CE04 /* Fiss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09292212163F00C6CE04 /* Fiss_aa.mp3 */; };
+		C93A09412212164000C6CE04 /* Fiss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09292212163F00C6CE04 /* Fiss_aa.mp3 */; };
+		C93A09422212164000C6CE04 /* Fiss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092A2212163F00C6CE04 /* Fiss_e.mp3 */; };
+		C93A09432212164000C6CE04 /* Fiss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092A2212163F00C6CE04 /* Fiss_e.mp3 */; };
+		C93A09442212164000C6CE04 /* Fiss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092A2212163F00C6CE04 /* Fiss_e.mp3 */; };
+		C93A09452212164000C6CE04 /* Fiss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092A2212163F00C6CE04 /* Fiss_e.mp3 */; };
+		C93A09462212164000C6CE04 /* Fiss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092A2212163F00C6CE04 /* Fiss_e.mp3 */; };
+		C93A09472212164000C6CE04 /* Fiss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092B2212164000C6CE04 /* Fiss_u.mp3 */; };
+		C93A09482212164000C6CE04 /* Fiss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092B2212164000C6CE04 /* Fiss_u.mp3 */; };
+		C93A09492212164000C6CE04 /* Fiss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092B2212164000C6CE04 /* Fiss_u.mp3 */; };
+		C93A094A2212164000C6CE04 /* Fiss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092B2212164000C6CE04 /* Fiss_u.mp3 */; };
+		C93A094B2212164000C6CE04 /* Fiss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092B2212164000C6CE04 /* Fiss_u.mp3 */; };
+		C93A094C2212164000C6CE04 /* Fiss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092C2212164000C6CE04 /* Fiss_y.mp3 */; };
+		C93A094D2212164000C6CE04 /* Fiss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092C2212164000C6CE04 /* Fiss_y.mp3 */; };
+		C93A094E2212164000C6CE04 /* Fiss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092C2212164000C6CE04 /* Fiss_y.mp3 */; };
+		C93A094F2212164000C6CE04 /* Fiss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092C2212164000C6CE04 /* Fiss_y.mp3 */; };
+		C93A09502212164000C6CE04 /* Fiss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092C2212164000C6CE04 /* Fiss_y.mp3 */; };
+		C93A09512212164000C6CE04 /* Fiss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092D2212164000C6CE04 /* Fiss_o.mp3 */; };
+		C93A09522212164000C6CE04 /* Fiss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092D2212164000C6CE04 /* Fiss_o.mp3 */; };
+		C93A09532212164000C6CE04 /* Fiss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092D2212164000C6CE04 /* Fiss_o.mp3 */; };
+		C93A09542212164000C6CE04 /* Fiss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092D2212164000C6CE04 /* Fiss_o.mp3 */; };
+		C93A09552212164000C6CE04 /* Fiss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A092D2212164000C6CE04 /* Fiss_o.mp3 */; };
+		C93A095E221216BE00C6CE04 /* Giss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0956221216BC00C6CE04 /* Giss_o.mp3 */; };
+		C93A095F221216BE00C6CE04 /* Giss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0956221216BC00C6CE04 /* Giss_o.mp3 */; };
+		C93A0960221216BE00C6CE04 /* Giss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0956221216BC00C6CE04 /* Giss_o.mp3 */; };
+		C93A0961221216BE00C6CE04 /* Giss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0956221216BC00C6CE04 /* Giss_o.mp3 */; };
+		C93A0962221216BE00C6CE04 /* Giss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0956221216BC00C6CE04 /* Giss_o.mp3 */; };
+		C93A0963221216BE00C6CE04 /* Giss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0957221216BC00C6CE04 /* Giss_u.mp3 */; };
+		C93A0964221216BE00C6CE04 /* Giss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0957221216BC00C6CE04 /* Giss_u.mp3 */; };
+		C93A0965221216BE00C6CE04 /* Giss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0957221216BC00C6CE04 /* Giss_u.mp3 */; };
+		C93A0966221216BE00C6CE04 /* Giss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0957221216BC00C6CE04 /* Giss_u.mp3 */; };
+		C93A0967221216BE00C6CE04 /* Giss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0957221216BC00C6CE04 /* Giss_u.mp3 */; };
+		C93A0968221216BE00C6CE04 /* Giss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0958221216BD00C6CE04 /* Giss_oe.mp3 */; };
+		C93A0969221216BE00C6CE04 /* Giss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0958221216BD00C6CE04 /* Giss_oe.mp3 */; };
+		C93A096A221216BE00C6CE04 /* Giss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0958221216BD00C6CE04 /* Giss_oe.mp3 */; };
+		C93A096B221216BE00C6CE04 /* Giss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0958221216BD00C6CE04 /* Giss_oe.mp3 */; };
+		C93A096C221216BE00C6CE04 /* Giss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0958221216BD00C6CE04 /* Giss_oe.mp3 */; };
+		C93A096D221216BE00C6CE04 /* Giss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0959221216BD00C6CE04 /* Giss_aa.mp3 */; };
+		C93A096E221216BE00C6CE04 /* Giss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0959221216BD00C6CE04 /* Giss_aa.mp3 */; };
+		C93A096F221216BE00C6CE04 /* Giss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0959221216BD00C6CE04 /* Giss_aa.mp3 */; };
+		C93A0970221216BE00C6CE04 /* Giss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0959221216BD00C6CE04 /* Giss_aa.mp3 */; };
+		C93A0971221216BE00C6CE04 /* Giss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A0959221216BD00C6CE04 /* Giss_aa.mp3 */; };
+		C93A0972221216BE00C6CE04 /* Giss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095A221216BD00C6CE04 /* Giss_i.mp3 */; };
+		C93A0973221216BE00C6CE04 /* Giss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095A221216BD00C6CE04 /* Giss_i.mp3 */; };
+		C93A0974221216BE00C6CE04 /* Giss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095A221216BD00C6CE04 /* Giss_i.mp3 */; };
+		C93A0975221216BE00C6CE04 /* Giss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095A221216BD00C6CE04 /* Giss_i.mp3 */; };
+		C93A0976221216BE00C6CE04 /* Giss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095A221216BD00C6CE04 /* Giss_i.mp3 */; };
+		C93A0977221216BE00C6CE04 /* Giss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095B221216BD00C6CE04 /* Giss_ae.mp3 */; };
+		C93A0978221216BE00C6CE04 /* Giss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095B221216BD00C6CE04 /* Giss_ae.mp3 */; };
+		C93A0979221216BE00C6CE04 /* Giss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095B221216BD00C6CE04 /* Giss_ae.mp3 */; };
+		C93A097A221216BE00C6CE04 /* Giss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095B221216BD00C6CE04 /* Giss_ae.mp3 */; };
+		C93A097B221216BE00C6CE04 /* Giss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095B221216BD00C6CE04 /* Giss_ae.mp3 */; };
+		C93A097C221216BE00C6CE04 /* Giss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095C221216BD00C6CE04 /* Giss_y.mp3 */; };
+		C93A097D221216BE00C6CE04 /* Giss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095C221216BD00C6CE04 /* Giss_y.mp3 */; };
+		C93A097E221216BE00C6CE04 /* Giss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095C221216BD00C6CE04 /* Giss_y.mp3 */; };
+		C93A097F221216BE00C6CE04 /* Giss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095C221216BD00C6CE04 /* Giss_y.mp3 */; };
+		C93A0980221216BE00C6CE04 /* Giss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095C221216BD00C6CE04 /* Giss_y.mp3 */; };
+		C93A0981221216BE00C6CE04 /* Giss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095D221216BE00C6CE04 /* Giss_e.mp3 */; };
+		C93A0982221216BE00C6CE04 /* Giss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095D221216BE00C6CE04 /* Giss_e.mp3 */; };
+		C93A0983221216BE00C6CE04 /* Giss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095D221216BE00C6CE04 /* Giss_e.mp3 */; };
+		C93A0984221216BE00C6CE04 /* Giss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095D221216BE00C6CE04 /* Giss_e.mp3 */; };
+		C93A0985221216BE00C6CE04 /* Giss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A095D221216BE00C6CE04 /* Giss_e.mp3 */; };
+		C93A098E2212173500C6CE04 /* Aiss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09862212173300C6CE04 /* Aiss_i.mp3 */; };
+		C93A098F2212173500C6CE04 /* Aiss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09862212173300C6CE04 /* Aiss_i.mp3 */; };
+		C93A09902212173500C6CE04 /* Aiss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09862212173300C6CE04 /* Aiss_i.mp3 */; };
+		C93A09912212173500C6CE04 /* Aiss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09862212173300C6CE04 /* Aiss_i.mp3 */; };
+		C93A09922212173500C6CE04 /* Aiss_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09862212173300C6CE04 /* Aiss_i.mp3 */; };
+		C93A09932212173500C6CE04 /* Aiss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09872212173400C6CE04 /* Aiss_e.mp3 */; };
+		C93A09942212173500C6CE04 /* Aiss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09872212173400C6CE04 /* Aiss_e.mp3 */; };
+		C93A09952212173500C6CE04 /* Aiss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09872212173400C6CE04 /* Aiss_e.mp3 */; };
+		C93A09962212173500C6CE04 /* Aiss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09872212173400C6CE04 /* Aiss_e.mp3 */; };
+		C93A09972212173500C6CE04 /* Aiss_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09872212173400C6CE04 /* Aiss_e.mp3 */; };
+		C93A09982212173500C6CE04 /* Aiss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09882212173400C6CE04 /* Aiss_ae.mp3 */; };
+		C93A09992212173500C6CE04 /* Aiss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09882212173400C6CE04 /* Aiss_ae.mp3 */; };
+		C93A099A2212173500C6CE04 /* Aiss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09882212173400C6CE04 /* Aiss_ae.mp3 */; };
+		C93A099B2212173500C6CE04 /* Aiss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09882212173400C6CE04 /* Aiss_ae.mp3 */; };
+		C93A099C2212173500C6CE04 /* Aiss_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09882212173400C6CE04 /* Aiss_ae.mp3 */; };
+		C93A099D2212173500C6CE04 /* Aiss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09892212173400C6CE04 /* Aiss_y.mp3 */; };
+		C93A099E2212173500C6CE04 /* Aiss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09892212173400C6CE04 /* Aiss_y.mp3 */; };
+		C93A099F2212173500C6CE04 /* Aiss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09892212173400C6CE04 /* Aiss_y.mp3 */; };
+		C93A09A02212173500C6CE04 /* Aiss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09892212173400C6CE04 /* Aiss_y.mp3 */; };
+		C93A09A12212173500C6CE04 /* Aiss_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09892212173400C6CE04 /* Aiss_y.mp3 */; };
+		C93A09A22212173500C6CE04 /* Aiss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098A2212173400C6CE04 /* Aiss_aa.mp3 */; };
+		C93A09A32212173500C6CE04 /* Aiss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098A2212173400C6CE04 /* Aiss_aa.mp3 */; };
+		C93A09A42212173500C6CE04 /* Aiss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098A2212173400C6CE04 /* Aiss_aa.mp3 */; };
+		C93A09A52212173500C6CE04 /* Aiss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098A2212173400C6CE04 /* Aiss_aa.mp3 */; };
+		C93A09A62212173500C6CE04 /* Aiss_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098A2212173400C6CE04 /* Aiss_aa.mp3 */; };
+		C93A09A72212173500C6CE04 /* Aiss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098B2212173500C6CE04 /* Aiss_u.mp3 */; };
+		C93A09A82212173500C6CE04 /* Aiss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098B2212173500C6CE04 /* Aiss_u.mp3 */; };
+		C93A09A92212173500C6CE04 /* Aiss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098B2212173500C6CE04 /* Aiss_u.mp3 */; };
+		C93A09AA2212173500C6CE04 /* Aiss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098B2212173500C6CE04 /* Aiss_u.mp3 */; };
+		C93A09AB2212173500C6CE04 /* Aiss_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098B2212173500C6CE04 /* Aiss_u.mp3 */; };
+		C93A09AC2212173500C6CE04 /* Aiss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098C2212173500C6CE04 /* Aiss_o.mp3 */; };
+		C93A09AD2212173500C6CE04 /* Aiss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098C2212173500C6CE04 /* Aiss_o.mp3 */; };
+		C93A09AE2212173500C6CE04 /* Aiss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098C2212173500C6CE04 /* Aiss_o.mp3 */; };
+		C93A09AF2212173500C6CE04 /* Aiss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098C2212173500C6CE04 /* Aiss_o.mp3 */; };
+		C93A09B02212173500C6CE04 /* Aiss_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098C2212173500C6CE04 /* Aiss_o.mp3 */; };
+		C93A09B12212173500C6CE04 /* Aiss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098D2212173500C6CE04 /* Aiss_oe.mp3 */; };
+		C93A09B22212173500C6CE04 /* Aiss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098D2212173500C6CE04 /* Aiss_oe.mp3 */; };
+		C93A09B32212173500C6CE04 /* Aiss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098D2212173500C6CE04 /* Aiss_oe.mp3 */; };
+		C93A09B42212173500C6CE04 /* Aiss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098D2212173500C6CE04 /* Aiss_oe.mp3 */; };
+		C93A09B52212173500C6CE04 /* Aiss_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A098D2212173500C6CE04 /* Aiss_oe.mp3 */; };
+		C93A09BE2212179E00C6CE04 /* H8_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B62212179C00C6CE04 /* H8_y.mp3 */; };
+		C93A09BF2212179E00C6CE04 /* H8_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B62212179C00C6CE04 /* H8_y.mp3 */; };
+		C93A09C02212179E00C6CE04 /* H8_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B62212179C00C6CE04 /* H8_y.mp3 */; };
+		C93A09C12212179E00C6CE04 /* H8_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B62212179C00C6CE04 /* H8_y.mp3 */; };
+		C93A09C22212179E00C6CE04 /* H8_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B62212179C00C6CE04 /* H8_y.mp3 */; };
+		C93A09C32212179E00C6CE04 /* H8_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B72212179C00C6CE04 /* H8_e.mp3 */; };
+		C93A09C42212179E00C6CE04 /* H8_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B72212179C00C6CE04 /* H8_e.mp3 */; };
+		C93A09C52212179E00C6CE04 /* H8_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B72212179C00C6CE04 /* H8_e.mp3 */; };
+		C93A09C62212179E00C6CE04 /* H8_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B72212179C00C6CE04 /* H8_e.mp3 */; };
+		C93A09C72212179E00C6CE04 /* H8_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B72212179C00C6CE04 /* H8_e.mp3 */; };
+		C93A09C82212179E00C6CE04 /* H8_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B82212179D00C6CE04 /* H8_oe.mp3 */; };
+		C93A09C92212179E00C6CE04 /* H8_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B82212179D00C6CE04 /* H8_oe.mp3 */; };
+		C93A09CA2212179E00C6CE04 /* H8_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B82212179D00C6CE04 /* H8_oe.mp3 */; };
+		C93A09CB2212179E00C6CE04 /* H8_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B82212179D00C6CE04 /* H8_oe.mp3 */; };
+		C93A09CC2212179E00C6CE04 /* H8_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B82212179D00C6CE04 /* H8_oe.mp3 */; };
+		C93A09CD2212179E00C6CE04 /* H8_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B92212179D00C6CE04 /* H8_aa.mp3 */; };
+		C93A09CE2212179E00C6CE04 /* H8_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B92212179D00C6CE04 /* H8_aa.mp3 */; };
+		C93A09CF2212179E00C6CE04 /* H8_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B92212179D00C6CE04 /* H8_aa.mp3 */; };
+		C93A09D02212179E00C6CE04 /* H8_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B92212179D00C6CE04 /* H8_aa.mp3 */; };
+		C93A09D12212179E00C6CE04 /* H8_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09B92212179D00C6CE04 /* H8_aa.mp3 */; };
+		C93A09D22212179E00C6CE04 /* H8_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BA2212179D00C6CE04 /* H8_o.mp3 */; };
+		C93A09D32212179E00C6CE04 /* H8_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BA2212179D00C6CE04 /* H8_o.mp3 */; };
+		C93A09D42212179E00C6CE04 /* H8_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BA2212179D00C6CE04 /* H8_o.mp3 */; };
+		C93A09D52212179E00C6CE04 /* H8_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BA2212179D00C6CE04 /* H8_o.mp3 */; };
+		C93A09D62212179E00C6CE04 /* H8_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BA2212179D00C6CE04 /* H8_o.mp3 */; };
+		C93A09D72212179E00C6CE04 /* H8_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BB2212179D00C6CE04 /* H8_ae.mp3 */; };
+		C93A09D82212179E00C6CE04 /* H8_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BB2212179D00C6CE04 /* H8_ae.mp3 */; };
+		C93A09D92212179E00C6CE04 /* H8_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BB2212179D00C6CE04 /* H8_ae.mp3 */; };
+		C93A09DA2212179E00C6CE04 /* H8_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BB2212179D00C6CE04 /* H8_ae.mp3 */; };
+		C93A09DB2212179E00C6CE04 /* H8_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BB2212179D00C6CE04 /* H8_ae.mp3 */; };
+		C93A09DC2212179E00C6CE04 /* H8_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BC2212179E00C6CE04 /* H8_i.mp3 */; };
+		C93A09DD2212179E00C6CE04 /* H8_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BC2212179E00C6CE04 /* H8_i.mp3 */; };
+		C93A09DE2212179E00C6CE04 /* H8_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BC2212179E00C6CE04 /* H8_i.mp3 */; };
+		C93A09DF2212179E00C6CE04 /* H8_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BC2212179E00C6CE04 /* H8_i.mp3 */; };
+		C93A09E02212179E00C6CE04 /* H8_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BC2212179E00C6CE04 /* H8_i.mp3 */; };
+		C93A09E12212179E00C6CE04 /* H8_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BD2212179E00C6CE04 /* H8_u.mp3 */; };
+		C93A09E22212179E00C6CE04 /* H8_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BD2212179E00C6CE04 /* H8_u.mp3 */; };
+		C93A09E32212179E00C6CE04 /* H8_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BD2212179E00C6CE04 /* H8_u.mp3 */; };
+		C93A09E42212179E00C6CE04 /* H8_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BD2212179E00C6CE04 /* H8_u.mp3 */; };
+		C93A09E52212179E00C6CE04 /* H8_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09BD2212179E00C6CE04 /* H8_u.mp3 */; };
+		C93A09EE221217FE00C6CE04 /* Hd_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E6221217FD00C6CE04 /* Hd_o.mp3 */; };
+		C93A09EF221217FE00C6CE04 /* Hd_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E6221217FD00C6CE04 /* Hd_o.mp3 */; };
+		C93A09F0221217FE00C6CE04 /* Hd_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E6221217FD00C6CE04 /* Hd_o.mp3 */; };
+		C93A09F1221217FE00C6CE04 /* Hd_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E6221217FD00C6CE04 /* Hd_o.mp3 */; };
+		C93A09F2221217FE00C6CE04 /* Hd_o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E6221217FD00C6CE04 /* Hd_o.mp3 */; };
+		C93A09F3221217FE00C6CE04 /* Hd_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E7221217FD00C6CE04 /* Hd_i.mp3 */; };
+		C93A09F4221217FE00C6CE04 /* Hd_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E7221217FD00C6CE04 /* Hd_i.mp3 */; };
+		C93A09F5221217FE00C6CE04 /* Hd_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E7221217FD00C6CE04 /* Hd_i.mp3 */; };
+		C93A09F6221217FE00C6CE04 /* Hd_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E7221217FD00C6CE04 /* Hd_i.mp3 */; };
+		C93A09F7221217FE00C6CE04 /* Hd_i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E7221217FD00C6CE04 /* Hd_i.mp3 */; };
+		C93A09F8221217FE00C6CE04 /* Hd_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E8221217FD00C6CE04 /* Hd_y.mp3 */; };
+		C93A09F9221217FE00C6CE04 /* Hd_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E8221217FD00C6CE04 /* Hd_y.mp3 */; };
+		C93A09FA221217FE00C6CE04 /* Hd_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E8221217FD00C6CE04 /* Hd_y.mp3 */; };
+		C93A09FB221217FE00C6CE04 /* Hd_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E8221217FD00C6CE04 /* Hd_y.mp3 */; };
+		C93A09FC221217FE00C6CE04 /* Hd_y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E8221217FD00C6CE04 /* Hd_y.mp3 */; };
+		C93A09FD221217FE00C6CE04 /* Hd_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E9221217FD00C6CE04 /* Hd_oe.mp3 */; };
+		C93A09FE221217FE00C6CE04 /* Hd_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E9221217FD00C6CE04 /* Hd_oe.mp3 */; };
+		C93A09FF221217FE00C6CE04 /* Hd_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E9221217FD00C6CE04 /* Hd_oe.mp3 */; };
+		C93A0A00221217FE00C6CE04 /* Hd_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E9221217FD00C6CE04 /* Hd_oe.mp3 */; };
+		C93A0A01221217FE00C6CE04 /* Hd_oe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09E9221217FD00C6CE04 /* Hd_oe.mp3 */; };
+		C93A0A02221217FE00C6CE04 /* Hd_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EA221217FD00C6CE04 /* Hd_ae.mp3 */; };
+		C93A0A03221217FE00C6CE04 /* Hd_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EA221217FD00C6CE04 /* Hd_ae.mp3 */; };
+		C93A0A04221217FE00C6CE04 /* Hd_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EA221217FD00C6CE04 /* Hd_ae.mp3 */; };
+		C93A0A05221217FE00C6CE04 /* Hd_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EA221217FD00C6CE04 /* Hd_ae.mp3 */; };
+		C93A0A06221217FE00C6CE04 /* Hd_ae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EA221217FD00C6CE04 /* Hd_ae.mp3 */; };
+		C93A0A07221217FE00C6CE04 /* Hd_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EB221217FE00C6CE04 /* Hd_e.mp3 */; };
+		C93A0A08221217FE00C6CE04 /* Hd_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EB221217FE00C6CE04 /* Hd_e.mp3 */; };
+		C93A0A09221217FE00C6CE04 /* Hd_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EB221217FE00C6CE04 /* Hd_e.mp3 */; };
+		C93A0A0A221217FE00C6CE04 /* Hd_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EB221217FE00C6CE04 /* Hd_e.mp3 */; };
+		C93A0A0B221217FE00C6CE04 /* Hd_e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EB221217FE00C6CE04 /* Hd_e.mp3 */; };
+		C93A0A0C221217FE00C6CE04 /* Hd_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EC221217FE00C6CE04 /* Hd_aa.mp3 */; };
+		C93A0A0D221217FE00C6CE04 /* Hd_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EC221217FE00C6CE04 /* Hd_aa.mp3 */; };
+		C93A0A0E221217FE00C6CE04 /* Hd_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EC221217FE00C6CE04 /* Hd_aa.mp3 */; };
+		C93A0A0F221217FE00C6CE04 /* Hd_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EC221217FE00C6CE04 /* Hd_aa.mp3 */; };
+		C93A0A10221217FE00C6CE04 /* Hd_aa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09EC221217FE00C6CE04 /* Hd_aa.mp3 */; };
+		C93A0A11221217FE00C6CE04 /* Hd_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09ED221217FE00C6CE04 /* Hd_u.mp3 */; };
+		C93A0A12221217FE00C6CE04 /* Hd_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09ED221217FE00C6CE04 /* Hd_u.mp3 */; };
+		C93A0A13221217FE00C6CE04 /* Hd_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09ED221217FE00C6CE04 /* Hd_u.mp3 */; };
+		C93A0A14221217FE00C6CE04 /* Hd_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09ED221217FE00C6CE04 /* Hd_u.mp3 */; };
+		C93A0A15221217FE00C6CE04 /* Hd_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93A09ED221217FE00C6CE04 /* Hd_u.mp3 */; };
 		C946A4F02210BB8F002A840D /* castle_lever_up.png in Resources */ = {isa = PBXBuildFile; fileRef = C946A4EE2210BB8F002A840D /* castle_lever_up.png */; };
 		C946A4F12210BB8F002A840D /* castle_lever_up.png in Resources */ = {isa = PBXBuildFile; fileRef = C946A4EE2210BB8F002A840D /* castle_lever_up.png */; };
 		C946A4F22210BB8F002A840D /* castle_lever_up.png in Resources */ = {isa = PBXBuildFile; fileRef = C946A4EE2210BB8F002A840D /* castle_lever_up.png */; };
@@ -670,6 +1030,78 @@
 		C93A082B2211E94E00C6CE04 /* vowel_nor_O.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vowel_nor_O.mp3; sourceTree = "<group>"; };
 		C93A085A2211F9F400C6CE04 /* snakkeboble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snakkeboble.png; sourceTree = "<group>"; };
 		C93A0860221206E400C6CE04 /* snakkeboble_prins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snakkeboble_prins.png; sourceTree = "<group>"; };
+		C93A086622120C7C00C6CE04 /* H_ae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H_ae.mp3; sourceTree = "<group>"; };
+		C93A086722120C7C00C6CE04 /* H_o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H_o.mp3; sourceTree = "<group>"; };
+		C93A086822120C7C00C6CE04 /* H_oe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H_oe.mp3; sourceTree = "<group>"; };
+		C93A086922120C7C00C6CE04 /* H_i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H_i.mp3; sourceTree = "<group>"; };
+		C93A086A22120C7D00C6CE04 /* H_y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H_y.mp3; sourceTree = "<group>"; };
+		C93A086B22120C7D00C6CE04 /* H_aa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H_aa.mp3; sourceTree = "<group>"; };
+		C93A086C22120C7D00C6CE04 /* H_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H_u.mp3; sourceTree = "<group>"; };
+		C93A086D22120C7D00C6CE04 /* H_e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H_e.mp3; sourceTree = "<group>"; };
+		C93A08962212146F00C6CE04 /* Ciss_i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ciss_i.mp3; sourceTree = "<group>"; };
+		C93A08972212146F00C6CE04 /* Ciss_o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ciss_o.mp3; sourceTree = "<group>"; };
+		C93A08982212146F00C6CE04 /* Ciss_ae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ciss_ae.mp3; sourceTree = "<group>"; };
+		C93A08992212147000C6CE04 /* Ciss_aa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ciss_aa.mp3; sourceTree = "<group>"; };
+		C93A089A2212147000C6CE04 /* Ciss_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ciss_u.mp3; sourceTree = "<group>"; };
+		C93A089B2212147000C6CE04 /* Ciss_y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ciss_y.mp3; sourceTree = "<group>"; };
+		C93A089C2212147000C6CE04 /* Ciss_oe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ciss_oe.mp3; sourceTree = "<group>"; };
+		C93A089D2212147000C6CE04 /* Ciss_e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ciss_e.mp3; sourceTree = "<group>"; };
+		C93A08C62212154A00C6CE04 /* D_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D_u.mp3; sourceTree = "<group>"; };
+		C93A08C72212154A00C6CE04 /* D_ae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D_ae.mp3; sourceTree = "<group>"; };
+		C93A08C82212154B00C6CE04 /* D_aa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D_aa.mp3; sourceTree = "<group>"; };
+		C93A08C92212154B00C6CE04 /* D_o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D_o.mp3; sourceTree = "<group>"; };
+		C93A08CA2212154B00C6CE04 /* D_i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D_i.mp3; sourceTree = "<group>"; };
+		C93A08CB2212154C00C6CE04 /* D_y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D_y.mp3; sourceTree = "<group>"; };
+		C93A08CC2212154C00C6CE04 /* D_e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D_e.mp3; sourceTree = "<group>"; };
+		C93A08CD2212154C00C6CE04 /* D_oe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D_oe.mp3; sourceTree = "<group>"; };
+		C93A08F6221215C500C6CE04 /* E_ae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E_ae.mp3; sourceTree = "<group>"; };
+		C93A08F7221215C500C6CE04 /* E_e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E_e.mp3; sourceTree = "<group>"; };
+		C93A08F8221215C600C6CE04 /* E_oe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E_oe.mp3; sourceTree = "<group>"; };
+		C93A08F9221215C600C6CE04 /* E_aa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E_aa.mp3; sourceTree = "<group>"; };
+		C93A08FA221215C600C6CE04 /* E_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E_u.mp3; sourceTree = "<group>"; };
+		C93A08FB221215C700C6CE04 /* E_y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E_y.mp3; sourceTree = "<group>"; };
+		C93A08FC221215C700C6CE04 /* E_i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E_i.mp3; sourceTree = "<group>"; };
+		C93A08FD221215C700C6CE04 /* E_o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E_o.mp3; sourceTree = "<group>"; };
+		C93A09262212163E00C6CE04 /* Fiss_i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fiss_i.mp3; sourceTree = "<group>"; };
+		C93A09272212163E00C6CE04 /* Fiss_ae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fiss_ae.mp3; sourceTree = "<group>"; };
+		C93A09282212163F00C6CE04 /* Fiss_oe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fiss_oe.mp3; sourceTree = "<group>"; };
+		C93A09292212163F00C6CE04 /* Fiss_aa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fiss_aa.mp3; sourceTree = "<group>"; };
+		C93A092A2212163F00C6CE04 /* Fiss_e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fiss_e.mp3; sourceTree = "<group>"; };
+		C93A092B2212164000C6CE04 /* Fiss_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fiss_u.mp3; sourceTree = "<group>"; };
+		C93A092C2212164000C6CE04 /* Fiss_y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fiss_y.mp3; sourceTree = "<group>"; };
+		C93A092D2212164000C6CE04 /* Fiss_o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fiss_o.mp3; sourceTree = "<group>"; };
+		C93A0956221216BC00C6CE04 /* Giss_o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Giss_o.mp3; sourceTree = "<group>"; };
+		C93A0957221216BC00C6CE04 /* Giss_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Giss_u.mp3; sourceTree = "<group>"; };
+		C93A0958221216BD00C6CE04 /* Giss_oe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Giss_oe.mp3; sourceTree = "<group>"; };
+		C93A0959221216BD00C6CE04 /* Giss_aa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Giss_aa.mp3; sourceTree = "<group>"; };
+		C93A095A221216BD00C6CE04 /* Giss_i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Giss_i.mp3; sourceTree = "<group>"; };
+		C93A095B221216BD00C6CE04 /* Giss_ae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Giss_ae.mp3; sourceTree = "<group>"; };
+		C93A095C221216BD00C6CE04 /* Giss_y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Giss_y.mp3; sourceTree = "<group>"; };
+		C93A095D221216BE00C6CE04 /* Giss_e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Giss_e.mp3; sourceTree = "<group>"; };
+		C93A09862212173300C6CE04 /* Aiss_i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aiss_i.mp3; sourceTree = "<group>"; };
+		C93A09872212173400C6CE04 /* Aiss_e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aiss_e.mp3; sourceTree = "<group>"; };
+		C93A09882212173400C6CE04 /* Aiss_ae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aiss_ae.mp3; sourceTree = "<group>"; };
+		C93A09892212173400C6CE04 /* Aiss_y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aiss_y.mp3; sourceTree = "<group>"; };
+		C93A098A2212173400C6CE04 /* Aiss_aa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aiss_aa.mp3; sourceTree = "<group>"; };
+		C93A098B2212173500C6CE04 /* Aiss_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aiss_u.mp3; sourceTree = "<group>"; };
+		C93A098C2212173500C6CE04 /* Aiss_o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aiss_o.mp3; sourceTree = "<group>"; };
+		C93A098D2212173500C6CE04 /* Aiss_oe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aiss_oe.mp3; sourceTree = "<group>"; };
+		C93A09B62212179C00C6CE04 /* H8_y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H8_y.mp3; sourceTree = "<group>"; };
+		C93A09B72212179C00C6CE04 /* H8_e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H8_e.mp3; sourceTree = "<group>"; };
+		C93A09B82212179D00C6CE04 /* H8_oe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H8_oe.mp3; sourceTree = "<group>"; };
+		C93A09B92212179D00C6CE04 /* H8_aa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H8_aa.mp3; sourceTree = "<group>"; };
+		C93A09BA2212179D00C6CE04 /* H8_o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H8_o.mp3; sourceTree = "<group>"; };
+		C93A09BB2212179D00C6CE04 /* H8_ae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H8_ae.mp3; sourceTree = "<group>"; };
+		C93A09BC2212179E00C6CE04 /* H8_i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H8_i.mp3; sourceTree = "<group>"; };
+		C93A09BD2212179E00C6CE04 /* H8_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H8_u.mp3; sourceTree = "<group>"; };
+		C93A09E6221217FD00C6CE04 /* Hd_o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hd_o.mp3; sourceTree = "<group>"; };
+		C93A09E7221217FD00C6CE04 /* Hd_i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hd_i.mp3; sourceTree = "<group>"; };
+		C93A09E8221217FD00C6CE04 /* Hd_y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hd_y.mp3; sourceTree = "<group>"; };
+		C93A09E9221217FD00C6CE04 /* Hd_oe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hd_oe.mp3; sourceTree = "<group>"; };
+		C93A09EA221217FD00C6CE04 /* Hd_ae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hd_ae.mp3; sourceTree = "<group>"; };
+		C93A09EB221217FE00C6CE04 /* Hd_e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hd_e.mp3; sourceTree = "<group>"; };
+		C93A09EC221217FE00C6CE04 /* Hd_aa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hd_aa.mp3; sourceTree = "<group>"; };
+		C93A09ED221217FE00C6CE04 /* Hd_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hd_u.mp3; sourceTree = "<group>"; };
 		C946A4EE2210BB8F002A840D /* castle_lever_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castle_lever_up.png; sourceTree = "<group>"; };
 		C946A4EF2210BB8F002A840D /* castle_lever_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castle_lever_down.png; sourceTree = "<group>"; };
 		C946A4FA2210BEFF002A840D /* snowball_wild_sing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowball_wild_sing.png; sourceTree = "<group>"; };
@@ -1094,14 +1526,86 @@
 				C946A50C2210BF0F002A840D /* wildsnowball_7.mp3 */,
 				C946A5072210BF0F002A840D /* wildsnowball_8.mp3 */,
 				C981FD7F2210B6BB00A56D42 /* Hd_a.mp3 */,
+				C93A09EA221217FD00C6CE04 /* Hd_ae.mp3 */,
+				C93A09EB221217FE00C6CE04 /* Hd_e.mp3 */,
+				C93A09E7221217FD00C6CE04 /* Hd_i.mp3 */,
+				C93A09E6221217FD00C6CE04 /* Hd_o.mp3 */,
+				C93A09E9221217FD00C6CE04 /* Hd_oe.mp3 */,
+				C93A09ED221217FE00C6CE04 /* Hd_u.mp3 */,
+				C93A09E8221217FD00C6CE04 /* Hd_y.mp3 */,
+				C93A09EC221217FE00C6CE04 /* Hd_aa.mp3 */,
 				C981FD6D2210B5C300A56D42 /* H8_a.mp3 */,
+				C93A09BB2212179D00C6CE04 /* H8_ae.mp3 */,
+				C93A09B72212179C00C6CE04 /* H8_e.mp3 */,
+				C93A09BC2212179E00C6CE04 /* H8_i.mp3 */,
+				C93A09BA2212179D00C6CE04 /* H8_o.mp3 */,
+				C93A09B82212179D00C6CE04 /* H8_oe.mp3 */,
+				C93A09BD2212179E00C6CE04 /* H8_u.mp3 */,
+				C93A09B62212179C00C6CE04 /* H8_y.mp3 */,
+				C93A09B92212179D00C6CE04 /* H8_aa.mp3 */,
 				C981FD672210B5A700A56D42 /* Aiss_a.mp3 */,
+				C93A09882212173400C6CE04 /* Aiss_ae.mp3 */,
+				C93A09872212173400C6CE04 /* Aiss_e.mp3 */,
+				C93A09862212173300C6CE04 /* Aiss_i.mp3 */,
+				C93A098C2212173500C6CE04 /* Aiss_o.mp3 */,
+				C93A098D2212173500C6CE04 /* Aiss_oe.mp3 */,
+				C93A098B2212173500C6CE04 /* Aiss_u.mp3 */,
+				C93A09892212173400C6CE04 /* Aiss_y.mp3 */,
+				C93A098A2212173400C6CE04 /* Aiss_aa.mp3 */,
 				C981FD612210B4E300A56D42 /* Giss_a.mp3 */,
+				C93A095B221216BD00C6CE04 /* Giss_ae.mp3 */,
+				C93A095D221216BE00C6CE04 /* Giss_e.mp3 */,
+				C93A095A221216BD00C6CE04 /* Giss_i.mp3 */,
+				C93A0956221216BC00C6CE04 /* Giss_o.mp3 */,
+				C93A0958221216BD00C6CE04 /* Giss_oe.mp3 */,
+				C93A0957221216BC00C6CE04 /* Giss_u.mp3 */,
+				C93A095C221216BD00C6CE04 /* Giss_y.mp3 */,
+				C93A0959221216BD00C6CE04 /* Giss_aa.mp3 */,
 				C981FD5B2210B48600A56D42 /* Fiss_a.mp3 */,
+				C93A09272212163E00C6CE04 /* Fiss_ae.mp3 */,
+				C93A092A2212163F00C6CE04 /* Fiss_e.mp3 */,
+				C93A09262212163E00C6CE04 /* Fiss_i.mp3 */,
+				C93A092D2212164000C6CE04 /* Fiss_o.mp3 */,
+				C93A09282212163F00C6CE04 /* Fiss_oe.mp3 */,
+				C93A092B2212164000C6CE04 /* Fiss_u.mp3 */,
+				C93A092C2212164000C6CE04 /* Fiss_y.mp3 */,
+				C93A09292212163F00C6CE04 /* Fiss_aa.mp3 */,
 				C981FD552210B47B00A56D42 /* E_a.mp3 */,
+				C93A08F6221215C500C6CE04 /* E_ae.mp3 */,
+				C93A08F7221215C500C6CE04 /* E_e.mp3 */,
+				C93A08FC221215C700C6CE04 /* E_i.mp3 */,
+				C93A08FD221215C700C6CE04 /* E_o.mp3 */,
+				C93A08F8221215C600C6CE04 /* E_oe.mp3 */,
+				C93A08FA221215C600C6CE04 /* E_u.mp3 */,
+				C93A08FB221215C700C6CE04 /* E_y.mp3 */,
+				C93A08F9221215C600C6CE04 /* E_aa.mp3 */,
 				C981FD072210B0B300A56D42 /* D_a.mp3 */,
+				C93A08C72212154A00C6CE04 /* D_ae.mp3 */,
+				C93A08CC2212154C00C6CE04 /* D_e.mp3 */,
+				C93A08CA2212154B00C6CE04 /* D_i.mp3 */,
+				C93A08C92212154B00C6CE04 /* D_o.mp3 */,
+				C93A08CD2212154C00C6CE04 /* D_oe.mp3 */,
+				C93A08C62212154A00C6CE04 /* D_u.mp3 */,
+				C93A08CB2212154C00C6CE04 /* D_y.mp3 */,
+				C93A08C82212154B00C6CE04 /* D_aa.mp3 */,
 				C981FD012210AF1700A56D42 /* Ciss_a.mp3 */,
+				C93A08982212146F00C6CE04 /* Ciss_ae.mp3 */,
+				C93A089D2212147000C6CE04 /* Ciss_e.mp3 */,
+				C93A08962212146F00C6CE04 /* Ciss_i.mp3 */,
+				C93A08972212146F00C6CE04 /* Ciss_o.mp3 */,
+				C93A089C2212147000C6CE04 /* Ciss_oe.mp3 */,
+				C93A089A2212147000C6CE04 /* Ciss_u.mp3 */,
+				C93A089B2212147000C6CE04 /* Ciss_y.mp3 */,
+				C93A08992212147000C6CE04 /* Ciss_aa.mp3 */,
 				C98507C82210480C00CE2C3C /* H_a.mp3 */,
+				C93A086622120C7C00C6CE04 /* H_ae.mp3 */,
+				C93A086D22120C7D00C6CE04 /* H_e.mp3 */,
+				C93A086922120C7C00C6CE04 /* H_i.mp3 */,
+				C93A086722120C7C00C6CE04 /* H_o.mp3 */,
+				C93A086822120C7C00C6CE04 /* H_oe.mp3 */,
+				C93A086C22120C7D00C6CE04 /* H_u.mp3 */,
+				C93A086A22120C7D00C6CE04 /* H_y.mp3 */,
+				C93A086B22120C7D00C6CE04 /* H_aa.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -1256,34 +1760,51 @@
 			files = (
 				C981FD082210B0B300A56D42 /* D_a.mp3 in Resources */,
 				C981FCFC2210AEF300A56D42 /* snowball3_sing.png in Resources */,
+				C93A091C221215C700C6CE04 /* E_i.mp3 in Resources */,
+				C93A09332212164000C6CE04 /* Fiss_ae.mp3 in Resources */,
 				C946A56D2210D6C6002A840D /* castlecamera2.png in Resources */,
+				C93A08EC2212154C00C6CE04 /* D_e.mp3 in Resources */,
 				C946A53D2210CAA3002A840D /* princessdummy.png in Resources */,
 				C93A080A2211D7DD00C6CE04 /* musearm_OE.png in Resources */,
 				C946A65A2210EB02002A840D /* letter_A.png in Resources */,
 				C981FD232210B21600A56D42 /* snowball7_sing.png in Resources */,
+				C93A097C221216BE00C6CE04 /* Giss_y.mp3 in Resources */,
 				C946A5D82210DE82002A840D /* castle_speaker1.png in Resources */,
 				C946A59A2210D6C6002A840D /* castlecamera8.png in Resources */,
+				C93A0977221216BE00C6CE04 /* Giss_ae.mp3 in Resources */,
 				C981FCEB2210A92F00A56D42 /* snowball2.png in Resources */,
 				C946A5222210BF0F002A840D /* wildsnowball_1.mp3 in Resources */,
 				C946A6052210EB02002A840D /* letter_Y_off.png in Resources */,
+				C93A09DC2212179E00C6CE04 /* H8_i.mp3 in Resources */,
 				C9681FE8220FB15B00740570 /* snowball1.png in Resources */,
+				C93A08D82212154C00C6CE04 /* D_aa.mp3 in Resources */,
 				C93A07F62211D7DD00C6CE04 /* musearm_AA.png in Resources */,
 				C93A08402211E94F00C6CE04 /* vowel_nor_AE.mp3 in Resources */,
 				C946A5132210BF0F002A840D /* wildsnowball_8.mp3 in Resources */,
 				C981FD462210B21600A56D42 /* snowballD_sing.png in Resources */,
+				C93A09FD221217FE00C6CE04 /* Hd_oe.mp3 in Resources */,
 				C946A52C2210BF0F002A840D /* wildsnowball_7.mp3 in Resources */,
 				C93A08542211E94F00C6CE04 /* vowel_nor_O.mp3 in Resources */,
+				C93A0912221215C700C6CE04 /* E_u.mp3 in Resources */,
 				C9681FDC220FAD2300740570 /* gateclip.png in Resources */,
 				C93A080F2211D7DD00C6CE04 /* musearm_A.png in Resources */,
 				C981FD802210B6BB00A56D42 /* Hd_a.mp3 in Resources */,
 				C946A5BA2210DE82002A840D /* castle_speaker6.png in Resources */,
+				C93A09B12212173500C6CE04 /* Aiss_oe.mp3 in Resources */,
 				C980A8AB220F57DF0014392F /* GameScene.sks in Resources */,
 				C93A08312211E94F00C6CE04 /* vowel_nor_A.mp3 in Resources */,
 				C946A6412210EB02002A840D /* letter_O_off.png in Resources */,
+				C93A09A22212173500C6CE04 /* Aiss_aa.mp3 in Resources */,
 				C946A5902210D6C6002A840D /* castlecamera13.png in Resources */,
+				C93A087322120C7D00C6CE04 /* H_o.mp3 in Resources */,
+				C93A0968221216BE00C6CE04 /* Giss_oe.mp3 in Resources */,
 				C946A5BF2210DE82002A840D /* castle_speaker7.png in Resources */,
 				C980A862220F57DE0014392F /* Main.storyboard in Resources */,
 				C946A6552210EB02002A840D /* letter_E_off.png in Resources */,
+				C93A0972221216BE00C6CE04 /* Giss_i.mp3 in Resources */,
+				C93A08D32212154C00C6CE04 /* D_ae.mp3 in Resources */,
+				C93A08DD2212154C00C6CE04 /* D_o.mp3 in Resources */,
+				C93A088722120C7D00C6CE04 /* H_aa.mp3 in Resources */,
 				C946A5952210D6C6002A840D /* castlecamera9.png in Resources */,
 				C946A5A42210D6C6002A840D /* castlecamera1.png in Resources */,
 				C946A5812210D6C6002A840D /* castlecamera6.png in Resources */,
@@ -1292,7 +1813,13 @@
 				C946A4FC2210BEFF002A840D /* snowball_wild_sing.png in Resources */,
 				C93A08052211D7DD00C6CE04 /* musearm_AE.png in Resources */,
 				C93A08452211E94F00C6CE04 /* vowel_nor_OE.mp3 in Resources */,
+				C93A093D2212164000C6CE04 /* Fiss_aa.mp3 in Resources */,
+				C93A08A32212147100C6CE04 /* Ciss_o.mp3 in Resources */,
 				C946A5E22210DE82002A840D /* castle_speaker2.png in Resources */,
+				C93A0963221216BE00C6CE04 /* Giss_u.mp3 in Resources */,
+				C93A09F3221217FE00C6CE04 /* Hd_i.mp3 in Resources */,
+				C93A08CE2212154C00C6CE04 /* D_u.mp3 in Resources */,
+				C93A09C32212179E00C6CE04 /* H8_e.mp3 in Resources */,
 				C98507C3221046FE00CE2C3C /* snowball1_sing.png in Resources */,
 				C93A081E2211D7DD00C6CE04 /* musearm_I.png in Resources */,
 				C980A8A8220F57DF0014392F /* Actions.sks in Resources */,
@@ -1303,74 +1830,123 @@
 				C946A61E2210EB02002A840D /* letter_I.png in Resources */,
 				C981FD1E2210B21600A56D42 /* snowball4.png in Resources */,
 				C946A5722210D6C6002A840D /* castlecamera5.png in Resources */,
+				C93A0A11221217FE00C6CE04 /* Hd_u.mp3 in Resources */,
+				C93A08E22212154C00C6CE04 /* D_i.mp3 in Resources */,
 				C946A50E2210BF0F002A840D /* wildsnowball_6.mp3 in Resources */,
 				C981FD5C2210B48600A56D42 /* Fiss_a.mp3 in Resources */,
 				C9681FE1220FAD2300740570 /* castle-gate.png in Resources */,
 				C981FD2D2210B21600A56D42 /* snowball5_sing.png in Resources */,
 				C981FD412210B21600A56D42 /* snowball8_sing.png in Resources */,
 				C946A5DD2210DE82002A840D /* castle_speaker5.png in Resources */,
+				C93A09D72212179E00C6CE04 /* H8_ae.mp3 in Resources */,
 				C981FD682210B5A700A56D42 /* Aiss_a.mp3 in Resources */,
 				C946A51D2210BF0F002A840D /* wildsnowball_5.mp3 in Resources */,
+				C93A096D221216BE00C6CE04 /* Giss_aa.mp3 in Resources */,
 				C946A5C42210DE82002A840D /* castle_speaker8.png in Resources */,
 				C946A5492210D1AF002A840D /* sfx_lever.mp3 in Resources */,
 				C93A083B2211E94F00C6CE04 /* vowel_nor_U.mp3 in Resources */,
 				C981FCF02210A92F00A56D42 /* snowball2_sing.png in Resources */,
 				C946A5632210D6C6002A840D /* castlecamera3.png in Resources */,
+				C93A089E2212147100C6CE04 /* Ciss_i.mp3 in Resources */,
+				C93A09EE221217FE00C6CE04 /* Hd_o.mp3 in Resources */,
+				C93A087D22120C7D00C6CE04 /* H_i.mp3 in Resources */,
+				C93A09512212164000C6CE04 /* Fiss_o.mp3 in Resources */,
 				C946A58B2210D6C6002A840D /* castlecamera12.png in Resources */,
 				C981FD022210AF1700A56D42 /* Ciss_a.mp3 in Resources */,
 				C946A6462210EB02002A840D /* letter_AE_off.png in Resources */,
+				C93A09422212164000C6CE04 /* Fiss_e.mp3 in Resources */,
 				C946A6282210EB02002A840D /* letter_OE_off.png in Resources */,
+				C93A087822120C7D00C6CE04 /* H_oe.mp3 in Resources */,
+				C93A0903221215C700C6CE04 /* E_e.mp3 in Resources */,
 				C981FD562210B47B00A56D42 /* E_a.mp3 in Resources */,
 				C981FD322210B21600A56D42 /* snowball6.png in Resources */,
 				C946A59F2210D6C6002A840D /* castlecamera10.png in Resources */,
+				C93A09C82212179E00C6CE04 /* H8_oe.mp3 in Resources */,
+				C93A0981221216BE00C6CE04 /* Giss_e.mp3 in Resources */,
 				C981FD192210B21600A56D42 /* snowballD.png in Resources */,
 				C981FD282210B21600A56D42 /* snowball8.png in Resources */,
 				C980A8CB220F5E3E0014392F /* CastleBG.png in Resources */,
 				C93A084F2211E94F00C6CE04 /* vowel_nor_Y.mp3 in Resources */,
+				C93A086E22120C7D00C6CE04 /* H_ae.mp3 in Resources */,
+				C93A09932212173500C6CE04 /* Aiss_e.mp3 in Resources */,
 				C981FD372210B21600A56D42 /* snowball4_sing.png in Resources */,
 				C981FD752210B64C00A56D42 /* snowballD_sing.png in Resources */,
 				C946A4F52210BB8F002A840D /* castle_lever_down.png in Resources */,
+				C93A09982212173500C6CE04 /* Aiss_ae.mp3 in Resources */,
 				C946A5372210C709002A840D /* norsk_prinsesse.mp3 in Resources */,
+				C93A08BC2212147100C6CE04 /* Ciss_oe.mp3 in Resources */,
 				C946A63C2210EB02002A840D /* letter_I_off.png in Resources */,
+				C93A08A82212147100C6CE04 /* Ciss_ae.mp3 in Resources */,
 				C946A6192210EB02002A840D /* letter_E.png in Resources */,
 				C946A57C2210D6C6002A840D /* castlecamera4.png in Resources */,
 				C946A5C92210DE82002A840D /* castle_speaker0.png in Resources */,
+				C93A09AC2212173500C6CE04 /* Aiss_o.mp3 in Resources */,
 				C93A082C2211E94F00C6CE04 /* vowel_nor_AA.mp3 in Resources */,
+				C93A0A0C221217FE00C6CE04 /* Hd_aa.mp3 in Resources */,
 				C93A08192211D7DD00C6CE04 /* musearm_O.png in Resources */,
+				C93A092E2212164000C6CE04 /* Fiss_i.mp3 in Resources */,
+				C93A09CD2212179E00C6CE04 /* H8_aa.mp3 in Resources */,
 				C946A5772210D6C6002A840D /* castlecamera11.png in Resources */,
+				C93A099D2212173500C6CE04 /* Aiss_y.mp3 in Resources */,
 				C946A5432210D19D002A840D /* sfx_castlegate.mp3 in Resources */,
 				C946A5ED2210DF02002A840D /* castle_music2.mp3 in Resources */,
+				C93A08B72212147100C6CE04 /* Ciss_y.mp3 in Resources */,
+				C93A0A02221217FE00C6CE04 /* Hd_ae.mp3 in Resources */,
+				C93A09472212164000C6CE04 /* Fiss_u.mp3 in Resources */,
 				C946A5D32210DE82002A840D /* castle_speaker3.png in Resources */,
+				C93A090D221215C700C6CE04 /* E_aa.mp3 in Resources */,
 				C946A6232210EB02002A840D /* letter_AE.png in Resources */,
 				C98507C92210480C00CE2C3C /* H_a.mp3 in Resources */,
+				C93A08F12212154C00C6CE04 /* D_oe.mp3 in Resources */,
 				C946A54F2210D1BA002A840D /* sfx_prinsesse_no.mp3 in Resources */,
+				C93A0917221215C700C6CE04 /* E_y.mp3 in Resources */,
 				C946A5272210BF0F002A840D /* wildsnowball_4.mp3 in Resources */,
 				C980A865220F57DE0014392F /* LaunchScreen.storyboard in Resources */,
+				C93A0921221215C700C6CE04 /* E_o.mp3 in Resources */,
 				C93A07FB2211D7DD00C6CE04 /* musearm_Y.png in Resources */,
 				C946A60A2210EB02002A840D /* letter_Y.png in Resources */,
+				C93A08C12212147100C6CE04 /* Ciss_e.mp3 in Resources */,
 				C93A08142211D7DD00C6CE04 /* musearm_E.png in Resources */,
 				C946A6502210EB02002A840D /* letter_A_off.png in Resources */,
+				C93A088C22120C7D00C6CE04 /* H_u.mp3 in Resources */,
 				C946A5312210BF0F002A840D /* wildsnowball_3.mp3 in Resources */,
+				C93A09D22212179E00C6CE04 /* H8_o.mp3 in Resources */,
+				C93A08B22212147100C6CE04 /* Ciss_u.mp3 in Resources */,
 				C93A084A2211E94F00C6CE04 /* vowel_nor_E.mp3 in Resources */,
 				C980A8B3220F57DF0014392F /* Assets.xcassets in Resources */,
+				C93A08AD2212147100C6CE04 /* Ciss_aa.mp3 in Resources */,
 				C946A4F02210BB8F002A840D /* castle_lever_up.png in Resources */,
 				C981FD7A2210B64C00A56D42 /* snowballD.png in Resources */,
+				C93A09BE2212179E00C6CE04 /* H8_y.mp3 in Resources */,
 				C946A5AA2210DDDE002A840D /* sfx_camera2.mp3 in Resources */,
 				C946A6322210EB02002A840D /* letter_O.png in Resources */,
+				C93A08FE221215C700C6CE04 /* E_ae.mp3 in Resources */,
+				C93A094C2212164000C6CE04 /* Fiss_y.mp3 in Resources */,
 				C93A08362211E94F00C6CE04 /* vowel_nor_I.mp3 in Resources */,
 				C946A5682210D6C6002A840D /* castlecamera7.png in Resources */,
 				C946A62D2210EB02002A840D /* letter_U.png in Resources */,
+				C93A09A72212173500C6CE04 /* Aiss_u.mp3 in Resources */,
 				C946A60F2210EB02002A840D /* letter_AA.png in Resources */,
+				C93A088222120C7D00C6CE04 /* H_y.mp3 in Resources */,
 				C946A5012210BEFF002A840D /* snowball_wild.png in Resources */,
+				C93A09F8221217FE00C6CE04 /* Hd_y.mp3 in Resources */,
+				C93A0A07221217FE00C6CE04 /* Hd_e.mp3 in Resources */,
 				C93A085B2211F9F400C6CE04 /* snakkeboble.png in Resources */,
 				C946A64B2210EB02002A840D /* letter_U_off.png in Resources */,
+				C93A095E221216BE00C6CE04 /* Giss_o.mp3 in Resources */,
+				C93A09382212164000C6CE04 /* Fiss_oe.mp3 in Resources */,
 				C981FCF72210AEF300A56D42 /* snowball3.png in Resources */,
+				C93A098E2212173500C6CE04 /* Aiss_i.mp3 in Resources */,
 				C946A5182210BF0F002A840D /* wildsnowball_2.mp3 in Resources */,
 				C981FD3C2210B21600A56D42 /* snowball6_sing.png in Resources */,
+				C93A08E72212154C00C6CE04 /* D_y.mp3 in Resources */,
 				C981FD622210B4E300A56D42 /* Giss_a.mp3 in Resources */,
 				C93A08002211D7DD00C6CE04 /* musearm_U.png in Resources */,
 				C981FD6E2210B5C300A56D42 /* H8_a.mp3 in Resources */,
+				C93A089122120C7D00C6CE04 /* H_e.mp3 in Resources */,
+				C93A0908221215C700C6CE04 /* E_oe.mp3 in Resources */,
 				C946A6142210EB02002A840D /* letter_OE.png in Resources */,
+				C93A09E12212179E00C6CE04 /* H8_u.mp3 in Resources */,
 				C981FD502210B21600A56D42 /* snowball7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1379,28 +1955,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93A089222120C7D00C6CE04 /* H_e.mp3 in Resources */,
+				C93A09D82212179E00C6CE04 /* H8_ae.mp3 in Resources */,
 				C946A6292210EB02002A840D /* letter_OE_off.png in Resources */,
 				C946A4F12210BB8F002A840D /* castle_lever_up.png in Resources */,
 				C946A5502210D1BA002A840D /* sfx_prinsesse_no.mp3 in Resources */,
 				C93A08102211D7DD00C6CE04 /* musearm_A.png in Resources */,
 				C93A083C2211E94F00C6CE04 /* vowel_nor_U.mp3 in Resources */,
+				C93A08E82212154C00C6CE04 /* D_y.mp3 in Resources */,
+				C93A08AE2212147100C6CE04 /* Ciss_aa.mp3 in Resources */,
+				C93A08B82212147100C6CE04 /* Ciss_y.mp3 in Resources */,
+				C93A08A42212147100C6CE04 /* Ciss_o.mp3 in Resources */,
+				C93A09C92212179E00C6CE04 /* H8_oe.mp3 in Resources */,
+				C93A097D221216BE00C6CE04 /* Giss_y.mp3 in Resources */,
+				C93A08D92212154C00C6CE04 /* D_aa.mp3 in Resources */,
 				C93A08412211E94F00C6CE04 /* vowel_nor_AE.mp3 in Resources */,
 				C981FD1A2210B21600A56D42 /* snowballD.png in Resources */,
+				C93A08F22212154C00C6CE04 /* D_oe.mp3 in Resources */,
 				C946A52D2210BF0F002A840D /* wildsnowball_7.mp3 in Resources */,
+				C93A09522212164000C6CE04 /* Fiss_o.mp3 in Resources */,
+				C93A09C42212179E00C6CE04 /* H8_e.mp3 in Resources */,
+				C93A0969221216BE00C6CE04 /* Giss_oe.mp3 in Resources */,
 				C9681FDD220FAD2300740570 /* gateclip.png in Resources */,
+				C93A0909221215C700C6CE04 /* E_oe.mp3 in Resources */,
+				C93A0978221216BE00C6CE04 /* Giss_ae.mp3 in Resources */,
 				C9681FE2220FAD2300740570 /* castle-gate.png in Resources */,
 				C946A5AB2210DDDE002A840D /* sfx_camera2.mp3 in Resources */,
 				C946A51E2210BF0F002A840D /* wildsnowball_5.mp3 in Resources */,
 				C946A6422210EB02002A840D /* letter_O_off.png in Resources */,
 				C946A61A2210EB02002A840D /* letter_E.png in Resources */,
 				C981FD7B2210B64C00A56D42 /* snowballD.png in Resources */,
+				C93A087922120C7D00C6CE04 /* H_oe.mp3 in Resources */,
+				C93A091D221215C700C6CE04 /* E_i.mp3 in Resources */,
 				C946A5C52210DE82002A840D /* castle_speaker8.png in Resources */,
 				C93A084B2211E94F00C6CE04 /* vowel_nor_E.mp3 in Resources */,
 				C946A5692210D6C6002A840D /* castlecamera7.png in Resources */,
+				C93A087422120C7D00C6CE04 /* H_o.mp3 in Resources */,
 				C946A4FD2210BEFF002A840D /* snowball_wild_sing.png in Resources */,
+				C93A08ED2212154C00C6CE04 /* D_e.mp3 in Resources */,
+				C93A095F221216BE00C6CE04 /* Giss_o.mp3 in Resources */,
 				C981FD572210B47B00A56D42 /* E_a.mp3 in Resources */,
 				C946A6382210EB02002A840D /* letter_AA_off.png in Resources */,
 				C946A6152210EB02002A840D /* letter_OE.png in Resources */,
+				C93A0A0D221217FE00C6CE04 /* Hd_aa.mp3 in Resources */,
 				C93A07F72211D7DD00C6CE04 /* musearm_AA.png in Resources */,
 				C93A081F2211D7DD00C6CE04 /* musearm_I.png in Resources */,
 				C946A5A02210D6C6002A840D /* castlecamera10.png in Resources */,
@@ -1412,7 +2009,9 @@
 				C946A63D2210EB02002A840D /* letter_I_off.png in Resources */,
 				C946A5C02210DE82002A840D /* castle_speaker7.png in Resources */,
 				C946A5E32210DE82002A840D /* castle_speaker2.png in Resources */,
+				C93A0918221215C700C6CE04 /* E_y.mp3 in Resources */,
 				C93A07FC2211D7DD00C6CE04 /* musearm_Y.png in Resources */,
+				C93A09CE2212179E00C6CE04 /* H8_aa.mp3 in Resources */,
 				C981FD512210B21600A56D42 /* snowball7.png in Resources */,
 				C93A08012211D7DD00C6CE04 /* musearm_U.png in Resources */,
 				C946A5D92210DE82002A840D /* castle_speaker1.png in Resources */,
@@ -1420,33 +2019,58 @@
 				C981FD092210B0B300A56D42 /* D_a.mp3 in Resources */,
 				C946A6332210EB02002A840D /* letter_O.png in Resources */,
 				C946A5CA2210DE82002A840D /* castle_speaker0.png in Resources */,
+				C93A090E221215C700C6CE04 /* E_aa.mp3 in Resources */,
+				C93A08B32212147100C6CE04 /* Ciss_u.mp3 in Resources */,
 				C93A08322211E94F00C6CE04 /* vowel_nor_A.mp3 in Resources */,
 				C946A5A52210D6C6002A840D /* castlecamera1.png in Resources */,
+				C93A09B22212173500C6CE04 /* Aiss_oe.mp3 in Resources */,
 				C981FD812210B6BB00A56D42 /* Hd_a.mp3 in Resources */,
 				C93A08372211E94F00C6CE04 /* vowel_nor_I.mp3 in Resources */,
 				C946A56E2210D6C6002A840D /* castlecamera2.png in Resources */,
+				C93A09A82212173500C6CE04 /* Aiss_u.mp3 in Resources */,
+				C93A0A03221217FE00C6CE04 /* Hd_ae.mp3 in Resources */,
+				C93A09EF221217FE00C6CE04 /* Hd_o.mp3 in Resources */,
+				C93A09A32212173500C6CE04 /* Aiss_aa.mp3 in Resources */,
+				C93A09F9221217FE00C6CE04 /* Hd_y.mp3 in Resources */,
 				C981FCEC2210A92F00A56D42 /* snowball2.png in Resources */,
+				C93A09BF2212179E00C6CE04 /* H8_y.mp3 in Resources */,
+				C93A087E22120C7D00C6CE04 /* H_i.mp3 in Resources */,
 				C981FD632210B4E300A56D42 /* Giss_a.mp3 in Resources */,
 				C946A5962210D6C6002A840D /* castlecamera9.png in Resources */,
+				C93A0964221216BE00C6CE04 /* Giss_u.mp3 in Resources */,
 				C946A5872210D6C6002A840D /* castlecamera0.png in Resources */,
+				C93A0973221216BE00C6CE04 /* Giss_i.mp3 in Resources */,
 				C946A58C2210D6C6002A840D /* castlecamera12.png in Resources */,
 				C946A57D2210D6C6002A840D /* castlecamera4.png in Resources */,
 				C946A5EE2210DF02002A840D /* castle_music2.mp3 in Resources */,
 				C946A5232210BF0F002A840D /* wildsnowball_1.mp3 in Resources */,
+				C93A09D32212179E00C6CE04 /* H8_o.mp3 in Resources */,
+				C93A09342212164000C6CE04 /* Fiss_ae.mp3 in Resources */,
+				C93A094D2212164000C6CE04 /* Fiss_y.mp3 in Resources */,
+				C93A088D22120C7D00C6CE04 /* H_u.mp3 in Resources */,
 				C946A5BB2210DE82002A840D /* castle_speaker6.png in Resources */,
+				C93A099E2212173500C6CE04 /* Aiss_y.mp3 in Resources */,
 				C946A5192210BF0F002A840D /* wildsnowball_2.mp3 in Resources */,
+				C93A0904221215C700C6CE04 /* E_e.mp3 in Resources */,
+				C93A093E2212164000C6CE04 /* Fiss_aa.mp3 in Resources */,
 				C93A080B2211D7DD00C6CE04 /* musearm_OE.png in Resources */,
 				C946A5CF2210DE82002A840D /* castle_speaker9.png in Resources */,
 				C946A5642210D6C6002A840D /* castlecamera3.png in Resources */,
 				C981FD1F2210B21600A56D42 /* snowball4.png in Resources */,
 				C981FD6F2210B5C300A56D42 /* H8_a.mp3 in Resources */,
+				C93A08C22212147100C6CE04 /* Ciss_e.mp3 in Resources */,
 				C946A5E82210DE82002A840D /* castle_speaker4.png in Resources */,
+				C93A08E32212154C00C6CE04 /* D_i.mp3 in Resources */,
 				C9681FE9220FB15B00740570 /* snowball1.png in Resources */,
 				C946A6472210EB02002A840D /* letter_AE_off.png in Resources */,
 				C93A08502211E94F00C6CE04 /* vowel_nor_Y.mp3 in Resources */,
 				C946A5142210BF0F002A840D /* wildsnowball_8.mp3 in Resources */,
+				C93A09992212173500C6CE04 /* Aiss_ae.mp3 in Resources */,
 				C93A081A2211D7DD00C6CE04 /* musearm_O.png in Resources */,
+				C93A08DE2212154C00C6CE04 /* D_o.mp3 in Resources */,
 				C946A5D42210DE82002A840D /* castle_speaker3.png in Resources */,
+				C93A09DD2212179E00C6CE04 /* H8_i.mp3 in Resources */,
+				C93A0A12221217FE00C6CE04 /* Hd_u.mp3 in Resources */,
 				C981FD422210B21600A56D42 /* snowball8_sing.png in Resources */,
 				C946A53E2210CAA3002A840D /* princessdummy.png in Resources */,
 				C946A60B2210EB02002A840D /* letter_Y.png in Resources */,
@@ -1455,19 +2079,25 @@
 				C946A50F2210BF0F002A840D /* wildsnowball_6.mp3 in Resources */,
 				C946A6512210EB02002A840D /* letter_A_off.png in Resources */,
 				C981FD332210B21600A56D42 /* snowball6.png in Resources */,
+				C93A08FF221215C700C6CE04 /* E_ae.mp3 in Resources */,
+				C93A09392212164000C6CE04 /* Fiss_oe.mp3 in Resources */,
 				C981FD4C2210B21600A56D42 /* snowball5.png in Resources */,
 				C93A08062211D7DD00C6CE04 /* musearm_AE.png in Resources */,
+				C93A096E221216BE00C6CE04 /* Giss_aa.mp3 in Resources */,
+				C93A09482212164000C6CE04 /* Fiss_u.mp3 in Resources */,
 				C946A64C2210EB02002A840D /* letter_U_off.png in Resources */,
 				C93A08552211E94F00C6CE04 /* vowel_nor_O.mp3 in Resources */,
 				C946A5382210C709002A840D /* norsk_prinsesse.mp3 in Resources */,
 				C946A6062210EB02002A840D /* letter_Y_off.png in Resources */,
 				C980A8B4220F57DF0014392F /* Assets.xcassets in Resources */,
+				C93A09FE221217FE00C6CE04 /* Hd_oe.mp3 in Resources */,
 				C981FD472210B21600A56D42 /* snowballD_sing.png in Resources */,
 				C981FCFD2210AEF300A56D42 /* snowball3_sing.png in Resources */,
 				C946A5782210D6C6002A840D /* castlecamera11.png in Resources */,
 				C946A6242210EB02002A840D /* letter_AE.png in Resources */,
 				C981FCF82210AEF300A56D42 /* snowball3.png in Resources */,
 				C93A082D2211E94F00C6CE04 /* vowel_nor_AA.mp3 in Resources */,
+				C93A0922221215C700C6CE04 /* E_o.mp3 in Resources */,
 				C981FD242210B21600A56D42 /* snowball7_sing.png in Resources */,
 				C981FD3D2210B21600A56D42 /* snowball6_sing.png in Resources */,
 				C946A59B2210D6C6002A840D /* castlecamera8.png in Resources */,
@@ -1476,24 +2106,42 @@
 				C98507CA2210480C00CE2C3C /* H_a.mp3 in Resources */,
 				C981FCF12210A92F00A56D42 /* snowball2_sing.png in Resources */,
 				C946A6562210EB02002A840D /* letter_E_off.png in Resources */,
+				C93A08BD2212147100C6CE04 /* Ciss_oe.mp3 in Resources */,
 				C946A61F2210EB02002A840D /* letter_I.png in Resources */,
 				C98507C4221046FE00CE2C3C /* snowball1_sing.png in Resources */,
+				C93A08D42212154C00C6CE04 /* D_ae.mp3 in Resources */,
+				C93A09E22212179E00C6CE04 /* H8_u.mp3 in Resources */,
 				C946A4F62210BB8F002A840D /* castle_lever_down.png in Resources */,
 				C981FD2E2210B21600A56D42 /* snowball5_sing.png in Resources */,
+				C93A09432212164000C6CE04 /* Fiss_e.mp3 in Resources */,
+				C93A0A08221217FE00C6CE04 /* Hd_e.mp3 in Resources */,
 				C946A54A2210D1AF002A840D /* sfx_lever.mp3 in Resources */,
 				C980A872220F57DE0014392F /* Interface.storyboard in Resources */,
 				C93A0862221206E400C6CE04 /* snakkeboble_prins.png in Resources */,
+				C93A0913221215C700C6CE04 /* E_u.mp3 in Resources */,
+				C93A098F2212173500C6CE04 /* Aiss_i.mp3 in Resources */,
 				C981FD762210B64C00A56D42 /* snowballD_sing.png in Resources */,
 				C981FD692210B5A700A56D42 /* Aiss_a.mp3 in Resources */,
+				C93A08A92212147100C6CE04 /* Ciss_ae.mp3 in Resources */,
+				C93A088822120C7D00C6CE04 /* H_aa.mp3 in Resources */,
 				C981FD5D2210B48600A56D42 /* Fiss_a.mp3 in Resources */,
 				C946A5322210BF0F002A840D /* wildsnowball_3.mp3 in Resources */,
+				C93A09942212173500C6CE04 /* Aiss_e.mp3 in Resources */,
 				C93A085C2211F9F400C6CE04 /* snakkeboble.png in Resources */,
+				C93A0982221216BE00C6CE04 /* Giss_e.mp3 in Resources */,
 				C946A5912210D6C6002A840D /* castlecamera13.png in Resources */,
 				C946A5282210BF0F002A840D /* wildsnowball_4.mp3 in Resources */,
 				C981FD382210B21600A56D42 /* snowball4_sing.png in Resources */,
+				C93A089F2212147100C6CE04 /* Ciss_i.mp3 in Resources */,
 				C946A5822210D6C6002A840D /* castlecamera6.png in Resources */,
 				C981FD032210AF1700A56D42 /* Ciss_a.mp3 in Resources */,
+				C93A09F4221217FE00C6CE04 /* Hd_i.mp3 in Resources */,
+				C93A088322120C7D00C6CE04 /* H_y.mp3 in Resources */,
+				C93A08CF2212154C00C6CE04 /* D_u.mp3 in Resources */,
+				C93A09AD2212173500C6CE04 /* Aiss_o.mp3 in Resources */,
+				C93A092F2212164000C6CE04 /* Fiss_i.mp3 in Resources */,
 				C946A5732210D6C6002A840D /* castlecamera5.png in Resources */,
+				C93A086F22120C7D00C6CE04 /* H_ae.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1505,17 +2153,27 @@
 				C946A5972210D6C6002A840D /* castlecamera9.png in Resources */,
 				C946A56A2210D6C6002A840D /* castlecamera7.png in Resources */,
 				C946A52E2210BF0F002A840D /* wildsnowball_7.mp3 in Resources */,
+				C93A0979221216BE00C6CE04 /* Giss_ae.mp3 in Resources */,
 				C93A07F82211D7DD00C6CE04 /* musearm_AA.png in Resources */,
 				C981FD342210B21600A56D42 /* snowball6.png in Resources */,
 				C981FD2A2210B21600A56D42 /* snowball8.png in Resources */,
 				C946A5242210BF0F002A840D /* wildsnowball_1.mp3 in Resources */,
 				C981FD6A2210B5A700A56D42 /* Aiss_a.mp3 in Resources */,
+				C93A09FA221217FE00C6CE04 /* Hd_y.mp3 in Resources */,
 				C9681FE3220FAD2300740570 /* castle-gate.png in Resources */,
+				C93A09F0221217FE00C6CE04 /* Hd_o.mp3 in Resources */,
+				C93A09CA2212179E00C6CE04 /* H8_oe.mp3 in Resources */,
 				C981FD392210B21600A56D42 /* snowball4_sing.png in Resources */,
+				C93A09532212164000C6CE04 /* Fiss_o.mp3 in Resources */,
 				C946A5742210D6C6002A840D /* castlecamera5.png in Resources */,
 				C946A5D02210DE82002A840D /* castle_speaker9.png in Resources */,
+				C93A0A13221217FE00C6CE04 /* Hd_u.mp3 in Resources */,
 				C98507CB2210480C00CE2C3C /* H_a.mp3 in Resources */,
 				C946A6482210EB02002A840D /* letter_AE_off.png in Resources */,
+				C93A094E2212164000C6CE04 /* Fiss_y.mp3 in Resources */,
+				C93A0983221216BE00C6CE04 /* Giss_e.mp3 in Resources */,
+				C93A087F22120C7D00C6CE04 /* H_i.mp3 in Resources */,
+				C93A08AF2212147100C6CE04 /* Ciss_aa.mp3 in Resources */,
 				C93A07FD2211D7DD00C6CE04 /* musearm_Y.png in Resources */,
 				C946A5EF2210DF02002A840D /* castle_music2.mp3 in Resources */,
 				C946A4F72210BB8F002A840D /* castle_lever_down.png in Resources */,
@@ -1523,95 +2181,157 @@
 				C946A62F2210EB02002A840D /* letter_U.png in Resources */,
 				C946A5792210D6C6002A840D /* castlecamera11.png in Resources */,
 				C946A6432210EB02002A840D /* letter_O_off.png in Resources */,
+				C93A09442212164000C6CE04 /* Fiss_e.mp3 in Resources */,
+				C93A08A02212147100C6CE04 /* Ciss_i.mp3 in Resources */,
 				C93A08472211E94F00C6CE04 /* vowel_nor_OE.mp3 in Resources */,
+				C93A09902212173500C6CE04 /* Aiss_i.mp3 in Resources */,
 				C981FD7C2210B64C00A56D42 /* snowballD.png in Resources */,
+				C93A0960221216BE00C6CE04 /* Giss_o.mp3 in Resources */,
 				C9681FDE220FAD2300740570 /* gateclip.png in Resources */,
 				C980A8AC220F57DF0014392F /* GameScene.sks in Resources */,
+				C93A0914221215C700C6CE04 /* E_u.mp3 in Resources */,
 				C946A61B2210EB02002A840D /* letter_E.png in Resources */,
 				C981FCED2210A92F00A56D42 /* snowball2.png in Resources */,
+				C93A09492212164000C6CE04 /* Fiss_u.mp3 in Resources */,
 				C946A5452210D19D002A840D /* sfx_castlegate.mp3 in Resources */,
 				C946A5E92210DE82002A840D /* castle_speaker4.png in Resources */,
 				C93A084C2211E94F00C6CE04 /* vowel_nor_E.mp3 in Resources */,
 				C981FCF22210A92F00A56D42 /* snowball2_sing.png in Resources */,
 				C946A65C2210EB02002A840D /* letter_A.png in Resources */,
 				C946A62A2210EB02002A840D /* letter_OE_off.png in Resources */,
+				C93A08BE2212147100C6CE04 /* Ciss_oe.mp3 in Resources */,
 				C9681FEA220FB15B00740570 /* snowball1.png in Resources */,
+				C93A091E221215C700C6CE04 /* E_i.mp3 in Resources */,
+				C93A08D52212154C00C6CE04 /* D_ae.mp3 in Resources */,
 				C946A5882210D6C6002A840D /* castlecamera0.png in Resources */,
 				C946A5DF2210DE82002A840D /* castle_speaker5.png in Resources */,
 				C93A08512211E94F00C6CE04 /* vowel_nor_Y.mp3 in Resources */,
 				C93A08562211E94F00C6CE04 /* vowel_nor_O.mp3 in Resources */,
+				C93A0923221215C700C6CE04 /* E_o.mp3 in Resources */,
+				C93A087522120C7D00C6CE04 /* H_o.mp3 in Resources */,
+				C93A09B32212173500C6CE04 /* Aiss_oe.mp3 in Resources */,
 				C981FD2F2210B21600A56D42 /* snowball5_sing.png in Resources */,
 				C93A08382211E94F00C6CE04 /* vowel_nor_I.mp3 in Resources */,
+				C93A099F2212173500C6CE04 /* Aiss_y.mp3 in Resources */,
 				C946A5E42210DE82002A840D /* castle_speaker2.png in Resources */,
+				C93A093F2212164000C6CE04 /* Fiss_aa.mp3 in Resources */,
+				C93A09DE2212179E00C6CE04 /* H8_i.mp3 in Resources */,
 				C946A64D2210EB02002A840D /* letter_U_off.png in Resources */,
+				C93A09302212164000C6CE04 /* Fiss_i.mp3 in Resources */,
+				C93A08E92212154C00C6CE04 /* D_y.mp3 in Resources */,
+				C93A0A04221217FE00C6CE04 /* Hd_ae.mp3 in Resources */,
 				C946A5BC2210DE82002A840D /* castle_speaker6.png in Resources */,
+				C93A09E32212179E00C6CE04 /* H8_u.mp3 in Resources */,
 				C93A080C2211D7DD00C6CE04 /* musearm_OE.png in Resources */,
+				C93A08B42212147100C6CE04 /* Ciss_u.mp3 in Resources */,
+				C93A08B92212147100C6CE04 /* Ciss_y.mp3 in Resources */,
+				C93A08A52212147100C6CE04 /* Ciss_o.mp3 in Resources */,
 				C981FD702210B5C300A56D42 /* H8_a.mp3 in Resources */,
+				C93A09D42212179E00C6CE04 /* H8_o.mp3 in Resources */,
 				C93A08022211D7DD00C6CE04 /* musearm_U.png in Resources */,
+				C93A09C02212179E00C6CE04 /* H8_y.mp3 in Resources */,
 				C93A082E2211E94F00C6CE04 /* vowel_nor_AA.mp3 in Resources */,
 				C98507C5221046FE00CE2C3C /* snowball1_sing.png in Resources */,
 				C946A5A62210D6C6002A840D /* castlecamera1.png in Resources */,
+				C93A09A42212173500C6CE04 /* Aiss_aa.mp3 in Resources */,
 				C946A53F2210CAA3002A840D /* princessdummy.png in Resources */,
 				C981FD5E2210B48600A56D42 /* Fiss_a.mp3 in Resources */,
 				C946A5922210D6C6002A840D /* castlecamera13.png in Resources */,
 				C93A08202211D7DD00C6CE04 /* musearm_I.png in Resources */,
+				C93A0965221216BE00C6CE04 /* Giss_u.mp3 in Resources */,
+				C93A090F221215C700C6CE04 /* E_aa.mp3 in Resources */,
+				C93A0919221215C700C6CE04 /* E_y.mp3 in Resources */,
 				C981FD3E2210B21600A56D42 /* snowball6_sing.png in Resources */,
 				C980A8CD220F5E3E0014392F /* CastleBG.png in Resources */,
+				C93A09A92212173500C6CE04 /* Aiss_u.mp3 in Resources */,
 				C981FD482210B21600A56D42 /* snowballD_sing.png in Resources */,
+				C93A087022120C7D00C6CE04 /* H_ae.mp3 in Resources */,
+				C93A08C32212147100C6CE04 /* Ciss_e.mp3 in Resources */,
+				C93A09D92212179E00C6CE04 /* H8_ae.mp3 in Resources */,
 				C946A6572210EB02002A840D /* letter_E_off.png in Resources */,
 				C981FD4D2210B21600A56D42 /* snowball5.png in Resources */,
+				C93A097E221216BE00C6CE04 /* Giss_y.mp3 in Resources */,
 				C946A56F2210D6C6002A840D /* castlecamera2.png in Resources */,
 				C93A0863221206E400C6CE04 /* snakkeboble_prins.png in Resources */,
 				C981FCF92210AEF300A56D42 /* snowball3.png in Resources */,
+				C93A08DF2212154C00C6CE04 /* D_o.mp3 in Resources */,
+				C93A089322120C7D00C6CE04 /* H_e.mp3 in Resources */,
 				C93A08112211D7DD00C6CE04 /* musearm_A.png in Resources */,
 				C946A5292210BF0F002A840D /* wildsnowball_4.mp3 in Resources */,
 				C981FD642210B4E300A56D42 /* Giss_a.mp3 in Resources */,
 				C981FD432210B21600A56D42 /* snowball8_sing.png in Resources */,
+				C93A0A09221217FE00C6CE04 /* Hd_e.mp3 in Resources */,
 				C946A5C62210DE82002A840D /* castle_speaker8.png in Resources */,
+				C93A093A2212164000C6CE04 /* Fiss_oe.mp3 in Resources */,
+				C93A08F32212154C00C6CE04 /* D_oe.mp3 in Resources */,
 				C946A5652210D6C6002A840D /* castlecamera3.png in Resources */,
 				C946A6112210EB02002A840D /* letter_AA.png in Resources */,
 				C981FD1B2210B21600A56D42 /* snowballD.png in Resources */,
+				C93A09352212164000C6CE04 /* Fiss_ae.mp3 in Resources */,
 				C981FD042210AF1700A56D42 /* Ciss_a.mp3 in Resources */,
 				C93A083D2211E94F00C6CE04 /* vowel_nor_U.mp3 in Resources */,
 				C946A6162210EB02002A840D /* letter_OE.png in Resources */,
 				C946A4FE2210BEFF002A840D /* snowball_wild_sing.png in Resources */,
 				C946A6072210EB02002A840D /* letter_Y_off.png in Resources */,
+				C93A09C52212179E00C6CE04 /* H8_e.mp3 in Resources */,
 				C946A51A2210BF0F002A840D /* wildsnowball_2.mp3 in Resources */,
 				C946A5AC2210DDDE002A840D /* sfx_camera2.mp3 in Resources */,
 				C946A6202210EB02002A840D /* letter_I.png in Resources */,
+				C93A090A221215C700C6CE04 /* E_oe.mp3 in Resources */,
 				C946A6252210EB02002A840D /* letter_AE.png in Resources */,
+				C93A087A22120C7D00C6CE04 /* H_oe.mp3 in Resources */,
 				C93A08422211E94F00C6CE04 /* vowel_nor_AE.mp3 in Resources */,
 				C946A5832210D6C6002A840D /* castlecamera6.png in Resources */,
 				C946A5032210BEFF002A840D /* snowball_wild.png in Resources */,
 				C946A6522210EB02002A840D /* letter_A_off.png in Resources */,
+				C93A096A221216BE00C6CE04 /* Giss_oe.mp3 in Resources */,
+				C93A0974221216BE00C6CE04 /* Giss_i.mp3 in Resources */,
+				C93A088922120C7D00C6CE04 /* H_aa.mp3 in Resources */,
 				C946A5512210D1BA002A840D /* sfx_prinsesse_no.mp3 in Resources */,
 				C946A5C12210DE82002A840D /* castle_speaker7.png in Resources */,
 				C946A5CB2210DE82002A840D /* castle_speaker0.png in Resources */,
+				C93A08AA2212147100C6CE04 /* Ciss_ae.mp3 in Resources */,
 				C946A51F2210BF0F002A840D /* wildsnowball_5.mp3 in Resources */,
+				C93A088E22120C7D00C6CE04 /* H_u.mp3 in Resources */,
 				C93A08162211D7DD00C6CE04 /* musearm_E.png in Resources */,
+				C93A096F221216BE00C6CE04 /* Giss_aa.mp3 in Resources */,
 				C981FD202210B21600A56D42 /* snowball4.png in Resources */,
 				C946A60C2210EB02002A840D /* letter_Y.png in Resources */,
 				C946A6342210EB02002A840D /* letter_O.png in Resources */,
+				C93A09FF221217FE00C6CE04 /* Hd_oe.mp3 in Resources */,
 				C93A081B2211D7DD00C6CE04 /* musearm_O.png in Resources */,
 				C981FD522210B21600A56D42 /* snowball7.png in Resources */,
 				C946A5D52210DE82002A840D /* castle_speaker3.png in Resources */,
+				C93A08EE2212154C00C6CE04 /* D_e.mp3 in Resources */,
+				C93A0A0E221217FE00C6CE04 /* Hd_aa.mp3 in Resources */,
+				C93A0905221215C700C6CE04 /* E_e.mp3 in Resources */,
 				C981FCFE2210AEF300A56D42 /* snowball3_sing.png in Resources */,
 				C946A5152210BF0F002A840D /* wildsnowball_8.mp3 in Resources */,
+				C93A0900221215C700C6CE04 /* E_ae.mp3 in Resources */,
+				C93A09CF2212179E00C6CE04 /* H8_aa.mp3 in Resources */,
 				C946A5392210C709002A840D /* norsk_prinsesse.mp3 in Resources */,
+				C93A08E42212154C00C6CE04 /* D_i.mp3 in Resources */,
 				C946A54B2210D1AF002A840D /* sfx_lever.mp3 in Resources */,
+				C93A099A2212173500C6CE04 /* Aiss_ae.mp3 in Resources */,
+				C93A09952212173500C6CE04 /* Aiss_e.mp3 in Resources */,
 				C946A5A12210D6C6002A840D /* castlecamera10.png in Resources */,
+				C93A08D02212154C00C6CE04 /* D_u.mp3 in Resources */,
 				C981FD252210B21600A56D42 /* snowball7_sing.png in Resources */,
+				C93A09F5221217FE00C6CE04 /* Hd_i.mp3 in Resources */,
 				C981FD582210B47B00A56D42 /* E_a.mp3 in Resources */,
 				C981FD822210B6BB00A56D42 /* Hd_a.mp3 in Resources */,
+				C93A09AE2212173500C6CE04 /* Aiss_o.mp3 in Resources */,
 				C93A08332211E94F00C6CE04 /* vowel_nor_A.mp3 in Resources */,
 				C93A085D2211F9F400C6CE04 /* snakkeboble.png in Resources */,
 				C946A4F22210BB8F002A840D /* castle_lever_up.png in Resources */,
 				C946A5102210BF0F002A840D /* wildsnowball_6.mp3 in Resources */,
+				C93A088422120C7D00C6CE04 /* H_y.mp3 in Resources */,
 				C946A5332210BF0F002A840D /* wildsnowball_3.mp3 in Resources */,
 				C946A6392210EB02002A840D /* letter_AA_off.png in Resources */,
 				C93A08072211D7DD00C6CE04 /* musearm_AE.png in Resources */,
 				C946A57E2210D6C6002A840D /* castlecamera4.png in Resources */,
 				C946A5DA2210DE82002A840D /* castle_speaker1.png in Resources */,
+				C93A08DA2212154C00C6CE04 /* D_aa.mp3 in Resources */,
 				C946A63E2210EB02002A840D /* letter_I_off.png in Resources */,
 				C981FD772210B64C00A56D42 /* snowballD_sing.png in Resources */,
 				C981FD0A2210B0B300A56D42 /* D_a.mp3 in Resources */,
@@ -1622,6 +2342,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93A09D52212179E00C6CE04 /* H8_o.mp3 in Resources */,
+				C93A0984221216BE00C6CE04 /* Giss_e.mp3 in Resources */,
+				C93A08AB2212147100C6CE04 /* Ciss_ae.mp3 in Resources */,
 				C946A5AD2210DDDE002A840D /* sfx_camera2.mp3 in Resources */,
 				C946A5E02210DE82002A840D /* castle_speaker5.png in Resources */,
 				C981FD212210B21600A56D42 /* snowball4.png in Resources */,
@@ -1629,36 +2352,55 @@
 				C946A6352210EB02002A840D /* letter_O.png in Resources */,
 				C9681FDF220FAD2300740570 /* gateclip.png in Resources */,
 				C946A6212210EB02002A840D /* letter_I.png in Resources */,
+				C93A09AA2212173500C6CE04 /* Aiss_u.mp3 in Resources */,
 				C981FD052210AF1700A56D42 /* Ciss_a.mp3 in Resources */,
 				C981FCEE2210A92F00A56D42 /* snowball2.png in Resources */,
+				C93A087122120C7D00C6CE04 /* H_ae.mp3 in Resources */,
+				C93A09DA2212179E00C6CE04 /* H8_ae.mp3 in Resources */,
 				C98507CC2210480C00CE2C3C /* H_a.mp3 in Resources */,
 				C981FD302210B21600A56D42 /* snowball5_sing.png in Resources */,
+				C93A08EF2212154C00C6CE04 /* D_e.mp3 in Resources */,
 				C981FD3A2210B21600A56D42 /* snowball4_sing.png in Resources */,
 				C946A59D2210D6C6002A840D /* castlecamera8.png in Resources */,
+				C93A0A00221217FE00C6CE04 /* Hd_oe.mp3 in Resources */,
+				C93A09C12212179E00C6CE04 /* H8_y.mp3 in Resources */,
 				C946A63A2210EB02002A840D /* letter_AA_off.png in Resources */,
+				C93A0966221216BE00C6CE04 /* Giss_u.mp3 in Resources */,
+				C93A08B02212147100C6CE04 /* Ciss_aa.mp3 in Resources */,
 				C98507C6221046FE00CE2C3C /* snowball1_sing.png in Resources */,
+				C93A09AF2212173500C6CE04 /* Aiss_o.mp3 in Resources */,
 				C946A6442210EB02002A840D /* letter_O_off.png in Resources */,
 				C981FD262210B21600A56D42 /* snowball7_sing.png in Resources */,
+				C93A09402212164000C6CE04 /* Fiss_aa.mp3 in Resources */,
 				C946A5CC2210DE82002A840D /* castle_speaker0.png in Resources */,
 				C981FD592210B47B00A56D42 /* E_a.mp3 in Resources */,
+				C93A09B42212173500C6CE04 /* Aiss_oe.mp3 in Resources */,
+				C93A08BF2212147100C6CE04 /* Ciss_oe.mp3 in Resources */,
 				C93A082F2211E94F00C6CE04 /* vowel_nor_AA.mp3 in Resources */,
+				C93A09FB221217FE00C6CE04 /* Hd_y.mp3 in Resources */,
+				C93A09312212164000C6CE04 /* Fiss_i.mp3 in Resources */,
 				C93A08572211E94F00C6CE04 /* vowel_nor_O.mp3 in Resources */,
 				C93A08432211E94F00C6CE04 /* vowel_nor_AE.mp3 in Resources */,
 				C93A08172211D7DD00C6CE04 /* musearm_E.png in Resources */,
 				C946A5C22210DE82002A840D /* castle_speaker7.png in Resources */,
 				C946A63F2210EB02002A840D /* letter_I_off.png in Resources */,
 				C981FD7D2210B64C00A56D42 /* snowballD.png in Resources */,
+				C93A094F2212164000C6CE04 /* Fiss_y.mp3 in Resources */,
+				C93A09F6221217FE00C6CE04 /* Hd_i.mp3 in Resources */,
 				C93A084D2211E94F00C6CE04 /* vowel_nor_E.mp3 in Resources */,
 				C981FD532210B21600A56D42 /* snowball7.png in Resources */,
+				C93A09A52212173500C6CE04 /* Aiss_aa.mp3 in Resources */,
 				C93A08122211D7DD00C6CE04 /* musearm_A.png in Resources */,
 				C946A62B2210EB02002A840D /* letter_OE_off.png in Resources */,
 				C93A08482211E94F00C6CE04 /* vowel_nor_OE.mp3 in Resources */,
+				C93A08F42212154C00C6CE04 /* D_oe.mp3 in Resources */,
 				C946A5EA2210DE82002A840D /* castle_speaker4.png in Resources */,
 				C946A54C2210D1AF002A840D /* sfx_lever.mp3 in Resources */,
 				C93A08212211D7DD00C6CE04 /* musearm_I.png in Resources */,
 				C946A5522210D1BA002A840D /* sfx_prinsesse_no.mp3 in Resources */,
 				C980A892220F57DF0014392F /* Main.storyboard in Resources */,
 				C981FD442210B21600A56D42 /* snowball8_sing.png in Resources */,
+				C93A09912212173500C6CE04 /* Aiss_i.mp3 in Resources */,
 				C981FCF32210A92F00A56D42 /* snowball2_sing.png in Resources */,
 				C946A52A2210BF0F002A840D /* wildsnowball_4.mp3 in Resources */,
 				C946A5702210D6C6002A840D /* castlecamera2.png in Resources */,
@@ -1667,48 +2409,80 @@
 				C981FD5F2210B48600A56D42 /* Fiss_a.mp3 in Resources */,
 				C946A5C72210DE82002A840D /* castle_speaker8.png in Resources */,
 				C946A5252210BF0F002A840D /* wildsnowball_1.mp3 in Resources */,
+				C93A0924221215C700C6CE04 /* E_o.mp3 in Resources */,
 				C946A5932210D6C6002A840D /* castlecamera13.png in Resources */,
 				C981FD352210B21600A56D42 /* snowball6.png in Resources */,
 				C946A5D12210DE82002A840D /* castle_speaker9.png in Resources */,
 				C981FD832210B6BB00A56D42 /* Hd_a.mp3 in Resources */,
+				C93A0A14221217FE00C6CE04 /* Hd_u.mp3 in Resources */,
+				C93A08EA2212154C00C6CE04 /* D_y.mp3 in Resources */,
 				C981FCFA2210AEF300A56D42 /* snowball3.png in Resources */,
 				C946A56B2210D6C6002A840D /* castlecamera7.png in Resources */,
 				C93A08082211D7DD00C6CE04 /* musearm_AE.png in Resources */,
 				C946A6082210EB02002A840D /* letter_Y_off.png in Resources */,
+				C93A0961221216BE00C6CE04 /* Giss_o.mp3 in Resources */,
+				C93A09E42212179E00C6CE04 /* H8_u.mp3 in Resources */,
+				C93A09F1221217FE00C6CE04 /* Hd_o.mp3 in Resources */,
+				C93A08E52212154C00C6CE04 /* D_i.mp3 in Resources */,
+				C93A09CB2212179E00C6CE04 /* H8_oe.mp3 in Resources */,
 				C946A5402210CAA3002A840D /* princessdummy.png in Resources */,
+				C93A088522120C7D00C6CE04 /* H_y.mp3 in Resources */,
+				C93A08E02212154C00C6CE04 /* D_o.mp3 in Resources */,
 				C9681FE4220FAD2300740570 /* castle-gate.png in Resources */,
 				C946A6302210EB02002A840D /* letter_U.png in Resources */,
+				C93A088022120C7D00C6CE04 /* H_i.mp3 in Resources */,
+				C93A087B22120C7D00C6CE04 /* H_oe.mp3 in Resources */,
+				C93A0915221215C700C6CE04 /* E_u.mp3 in Resources */,
+				C93A087622120C7D00C6CE04 /* H_o.mp3 in Resources */,
+				C93A099B2212173500C6CE04 /* Aiss_ae.mp3 in Resources */,
+				C93A088F22120C7D00C6CE04 /* H_u.mp3 in Resources */,
+				C93A089422120C7D00C6CE04 /* H_e.mp3 in Resources */,
+				C93A09542212164000C6CE04 /* Fiss_o.mp3 in Resources */,
 				C946A5A72210D6C6002A840D /* castlecamera1.png in Resources */,
 				C946A5752210D6C6002A840D /* castlecamera5.png in Resources */,
 				C946A5E52210DE82002A840D /* castle_speaker2.png in Resources */,
 				C93A08522211E94F00C6CE04 /* vowel_nor_Y.mp3 in Resources */,
 				C946A5042210BEFF002A840D /* snowball_wild.png in Resources */,
 				C946A57F2210D6C6002A840D /* castlecamera4.png in Resources */,
+				C93A08D62212154C00C6CE04 /* D_ae.mp3 in Resources */,
+				C93A08C42212147100C6CE04 /* Ciss_e.mp3 in Resources */,
 				C981FD0B2210B0B300A56D42 /* D_a.mp3 in Resources */,
 				C93A085E2211F9F400C6CE04 /* snakkeboble.png in Resources */,
 				C946A6172210EB02002A840D /* letter_OE.png in Resources */,
 				C946A5982210D6C6002A840D /* castlecamera9.png in Resources */,
 				C946A65D2210EB02002A840D /* letter_A.png in Resources */,
+				C93A0A0F221217FE00C6CE04 /* Hd_aa.mp3 in Resources */,
 				C93A07F92211D7DD00C6CE04 /* musearm_AA.png in Resources */,
 				C9681FEB220FB15B00740570 /* snowball1.png in Resources */,
 				C946A5462210D19D002A840D /* sfx_castlegate.mp3 in Resources */,
 				C946A57A2210D6C6002A840D /* castlecamera11.png in Resources */,
 				C946A6122210EB02002A840D /* letter_AA.png in Resources */,
+				C93A091F221215C700C6CE04 /* E_i.mp3 in Resources */,
 				C946A53A2210C709002A840D /* norsk_prinsesse.mp3 in Resources */,
 				C981FD782210B64C00A56D42 /* snowballD_sing.png in Resources */,
 				C946A5D62210DE82002A840D /* castle_speaker3.png in Resources */,
 				C980A8AD220F57DF0014392F /* GameScene.sks in Resources */,
 				C981FD2B2210B21600A56D42 /* snowball8.png in Resources */,
 				C93A081C2211D7DD00C6CE04 /* musearm_O.png in Resources */,
+				C93A094A2212164000C6CE04 /* Fiss_u.mp3 in Resources */,
 				C946A4FF2210BEFF002A840D /* snowball_wild_sing.png in Resources */,
 				C981FD1C2210B21600A56D42 /* snowballD.png in Resources */,
 				C93A083E2211E94F00C6CE04 /* vowel_nor_U.mp3 in Resources */,
 				C946A6532210EB02002A840D /* letter_A_off.png in Resources */,
 				C981FD6B2210B5A700A56D42 /* Aiss_a.mp3 in Resources */,
+				C93A097A221216BE00C6CE04 /* Giss_ae.mp3 in Resources */,
+				C93A09452212164000C6CE04 /* Fiss_e.mp3 in Resources */,
+				C93A09362212164000C6CE04 /* Fiss_ae.mp3 in Resources */,
+				C93A093B2212164000C6CE04 /* Fiss_oe.mp3 in Resources */,
 				C93A08342211E94F00C6CE04 /* vowel_nor_A.mp3 in Resources */,
+				C93A08D12212154C00C6CE04 /* D_u.mp3 in Resources */,
+				C93A0910221215C700C6CE04 /* E_aa.mp3 in Resources */,
+				C93A09A02212173500C6CE04 /* Aiss_y.mp3 in Resources */,
 				C946A5892210D6C6002A840D /* castlecamera0.png in Resources */,
 				C946A5DB2210DE82002A840D /* castle_speaker1.png in Resources */,
+				C93A0901221215C700C6CE04 /* E_ae.mp3 in Resources */,
 				C980A8B5220F57DF0014392F /* Assets.xcassets in Resources */,
+				C93A091A221215C700C6CE04 /* E_y.mp3 in Resources */,
 				C946A6492210EB02002A840D /* letter_AE_off.png in Resources */,
 				C946A4F32210BB8F002A840D /* castle_lever_up.png in Resources */,
 				C946A51B2210BF0F002A840D /* wildsnowball_2.mp3 in Resources */,
@@ -1718,25 +2492,43 @@
 				C93A0864221206E400C6CE04 /* snakkeboble_prins.png in Resources */,
 				C946A58E2210D6C6002A840D /* castlecamera12.png in Resources */,
 				C93A080D2211D7DD00C6CE04 /* musearm_OE.png in Resources */,
+				C93A09962212173500C6CE04 /* Aiss_e.mp3 in Resources */,
 				C93A08392211E94F00C6CE04 /* vowel_nor_I.mp3 in Resources */,
 				C946A6262210EB02002A840D /* letter_AE.png in Resources */,
 				C980A8CE220F5E3E0014392F /* CastleBG.png in Resources */,
+				C93A097F221216BE00C6CE04 /* Giss_y.mp3 in Resources */,
+				C93A0970221216BE00C6CE04 /* Giss_aa.mp3 in Resources */,
 				C981FD3F2210B21600A56D42 /* snowball6_sing.png in Resources */,
 				C946A6582210EB02002A840D /* letter_E_off.png in Resources */,
 				C946A5112210BF0F002A840D /* wildsnowball_6.mp3 in Resources */,
+				C93A08DB2212154C00C6CE04 /* D_aa.mp3 in Resources */,
 				C981FD492210B21600A56D42 /* snowballD_sing.png in Resources */,
+				C93A08A12212147100C6CE04 /* Ciss_i.mp3 in Resources */,
 				C981FD652210B4E300A56D42 /* Giss_a.mp3 in Resources */,
 				C946A61C2210EB02002A840D /* letter_E.png in Resources */,
+				C93A0A05221217FE00C6CE04 /* Hd_ae.mp3 in Resources */,
+				C93A090B221215C700C6CE04 /* E_oe.mp3 in Resources */,
+				C93A08BA2212147100C6CE04 /* Ciss_y.mp3 in Resources */,
 				C946A5162210BF0F002A840D /* wildsnowball_8.mp3 in Resources */,
 				C946A4F82210BB8F002A840D /* castle_lever_down.png in Resources */,
+				C93A0975221216BE00C6CE04 /* Giss_i.mp3 in Resources */,
+				C93A09DF2212179E00C6CE04 /* H8_i.mp3 in Resources */,
+				C93A0906221215C700C6CE04 /* E_e.mp3 in Resources */,
+				C93A096B221216BE00C6CE04 /* Giss_oe.mp3 in Resources */,
 				C981FD712210B5C300A56D42 /* H8_a.mp3 in Resources */,
+				C93A09D02212179E00C6CE04 /* H8_aa.mp3 in Resources */,
 				C946A60D2210EB02002A840D /* letter_Y.png in Resources */,
 				C946A5662210D6C6002A840D /* castlecamera3.png in Resources */,
 				C93A07FE2211D7DD00C6CE04 /* musearm_Y.png in Resources */,
 				C93A08032211D7DD00C6CE04 /* musearm_U.png in Resources */,
+				C93A08A62212147100C6CE04 /* Ciss_o.mp3 in Resources */,
 				C981FCFF2210AEF300A56D42 /* snowball3_sing.png in Resources */,
+				C93A0A0A221217FE00C6CE04 /* Hd_e.mp3 in Resources */,
 				C946A5202210BF0F002A840D /* wildsnowball_5.mp3 in Resources */,
 				C980A8A9220F57DF0014392F /* Actions.sks in Resources */,
+				C93A08B52212147100C6CE04 /* Ciss_u.mp3 in Resources */,
+				C93A088A22120C7D00C6CE04 /* H_aa.mp3 in Resources */,
+				C93A09C62212179E00C6CE04 /* H8_e.mp3 in Resources */,
 				C946A5A22210D6C6002A840D /* castlecamera10.png in Resources */,
 				C946A64E2210EB02002A840D /* letter_U_off.png in Resources */,
 			);
@@ -1746,6 +2538,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93A09D62212179E00C6CE04 /* H8_o.mp3 in Resources */,
+				C93A0985221216BE00C6CE04 /* Giss_e.mp3 in Resources */,
+				C93A08AC2212147100C6CE04 /* Ciss_ae.mp3 in Resources */,
 				C946A5AE2210DDDE002A840D /* sfx_camera2.mp3 in Resources */,
 				C946A5E12210DE82002A840D /* castle_speaker5.png in Resources */,
 				C981FD222210B21600A56D42 /* snowball4.png in Resources */,
@@ -1753,36 +2548,55 @@
 				C946A6362210EB02002A840D /* letter_O.png in Resources */,
 				C9681FE0220FAD2300740570 /* gateclip.png in Resources */,
 				C946A6222210EB02002A840D /* letter_I.png in Resources */,
+				C93A09AB2212173500C6CE04 /* Aiss_u.mp3 in Resources */,
 				C981FD062210AF1700A56D42 /* Ciss_a.mp3 in Resources */,
 				C981FCEF2210A92F00A56D42 /* snowball2.png in Resources */,
+				C93A087222120C7D00C6CE04 /* H_ae.mp3 in Resources */,
+				C93A09DB2212179E00C6CE04 /* H8_ae.mp3 in Resources */,
 				C98507CD2210480C00CE2C3C /* H_a.mp3 in Resources */,
 				C981FD312210B21600A56D42 /* snowball5_sing.png in Resources */,
+				C93A08F02212154C00C6CE04 /* D_e.mp3 in Resources */,
 				C981FD3B2210B21600A56D42 /* snowball4_sing.png in Resources */,
 				C946A59E2210D6C6002A840D /* castlecamera8.png in Resources */,
+				C93A0A01221217FE00C6CE04 /* Hd_oe.mp3 in Resources */,
+				C93A09C22212179E00C6CE04 /* H8_y.mp3 in Resources */,
 				C946A63B2210EB02002A840D /* letter_AA_off.png in Resources */,
+				C93A0967221216BE00C6CE04 /* Giss_u.mp3 in Resources */,
+				C93A08B12212147100C6CE04 /* Ciss_aa.mp3 in Resources */,
 				C98507C7221046FE00CE2C3C /* snowball1_sing.png in Resources */,
+				C93A09B02212173500C6CE04 /* Aiss_o.mp3 in Resources */,
 				C946A6452210EB02002A840D /* letter_O_off.png in Resources */,
 				C981FD272210B21600A56D42 /* snowball7_sing.png in Resources */,
+				C93A09412212164000C6CE04 /* Fiss_aa.mp3 in Resources */,
 				C946A5CD2210DE82002A840D /* castle_speaker0.png in Resources */,
 				C981FD5A2210B47B00A56D42 /* E_a.mp3 in Resources */,
+				C93A09B52212173500C6CE04 /* Aiss_oe.mp3 in Resources */,
+				C93A08C02212147100C6CE04 /* Ciss_oe.mp3 in Resources */,
 				C93A08302211E94F00C6CE04 /* vowel_nor_AA.mp3 in Resources */,
+				C93A09FC221217FE00C6CE04 /* Hd_y.mp3 in Resources */,
+				C93A09322212164000C6CE04 /* Fiss_i.mp3 in Resources */,
 				C93A08582211E94F00C6CE04 /* vowel_nor_O.mp3 in Resources */,
 				C93A08442211E94F00C6CE04 /* vowel_nor_AE.mp3 in Resources */,
 				C93A08182211D7DD00C6CE04 /* musearm_E.png in Resources */,
 				C946A5C32210DE82002A840D /* castle_speaker7.png in Resources */,
 				C946A6402210EB02002A840D /* letter_I_off.png in Resources */,
 				C981FD7E2210B64C00A56D42 /* snowballD.png in Resources */,
+				C93A09502212164000C6CE04 /* Fiss_y.mp3 in Resources */,
+				C93A09F7221217FE00C6CE04 /* Hd_i.mp3 in Resources */,
 				C93A084E2211E94F00C6CE04 /* vowel_nor_E.mp3 in Resources */,
 				C981FD542210B21600A56D42 /* snowball7.png in Resources */,
+				C93A09A62212173500C6CE04 /* Aiss_aa.mp3 in Resources */,
 				C93A08132211D7DD00C6CE04 /* musearm_A.png in Resources */,
 				C946A62C2210EB02002A840D /* letter_OE_off.png in Resources */,
 				C93A08492211E94F00C6CE04 /* vowel_nor_OE.mp3 in Resources */,
+				C93A08F52212154C00C6CE04 /* D_oe.mp3 in Resources */,
 				C946A5EB2210DE82002A840D /* castle_speaker4.png in Resources */,
 				C946A54D2210D1AF002A840D /* sfx_lever.mp3 in Resources */,
 				C93A08222211D7DD00C6CE04 /* musearm_I.png in Resources */,
 				C946A5532210D1BA002A840D /* sfx_prinsesse_no.mp3 in Resources */,
 				C980A8A4220F57DF0014392F /* Main.storyboard in Resources */,
 				C981FD452210B21600A56D42 /* snowball8_sing.png in Resources */,
+				C93A09922212173500C6CE04 /* Aiss_i.mp3 in Resources */,
 				C981FCF42210A92F00A56D42 /* snowball2_sing.png in Resources */,
 				C946A52B2210BF0F002A840D /* wildsnowball_4.mp3 in Resources */,
 				C946A5712210D6C6002A840D /* castlecamera2.png in Resources */,
@@ -1791,48 +2605,80 @@
 				C981FD602210B48600A56D42 /* Fiss_a.mp3 in Resources */,
 				C946A5C82210DE82002A840D /* castle_speaker8.png in Resources */,
 				C946A5262210BF0F002A840D /* wildsnowball_1.mp3 in Resources */,
+				C93A0925221215C700C6CE04 /* E_o.mp3 in Resources */,
 				C946A5942210D6C6002A840D /* castlecamera13.png in Resources */,
 				C981FD362210B21600A56D42 /* snowball6.png in Resources */,
 				C946A5D22210DE82002A840D /* castle_speaker9.png in Resources */,
 				C981FD842210B6BB00A56D42 /* Hd_a.mp3 in Resources */,
+				C93A0A15221217FE00C6CE04 /* Hd_u.mp3 in Resources */,
+				C93A08EB2212154C00C6CE04 /* D_y.mp3 in Resources */,
 				C981FCFB2210AEF300A56D42 /* snowball3.png in Resources */,
 				C946A56C2210D6C6002A840D /* castlecamera7.png in Resources */,
 				C93A08092211D7DD00C6CE04 /* musearm_AE.png in Resources */,
 				C946A6092210EB02002A840D /* letter_Y_off.png in Resources */,
+				C93A0962221216BE00C6CE04 /* Giss_o.mp3 in Resources */,
+				C93A09E52212179E00C6CE04 /* H8_u.mp3 in Resources */,
+				C93A09F2221217FE00C6CE04 /* Hd_o.mp3 in Resources */,
+				C93A08E62212154C00C6CE04 /* D_i.mp3 in Resources */,
+				C93A09CC2212179E00C6CE04 /* H8_oe.mp3 in Resources */,
 				C946A5412210CAA3002A840D /* princessdummy.png in Resources */,
+				C93A088622120C7D00C6CE04 /* H_y.mp3 in Resources */,
+				C93A08E12212154C00C6CE04 /* D_o.mp3 in Resources */,
 				C9681FE5220FAD2300740570 /* castle-gate.png in Resources */,
 				C946A6312210EB02002A840D /* letter_U.png in Resources */,
+				C93A088122120C7D00C6CE04 /* H_i.mp3 in Resources */,
+				C93A087C22120C7D00C6CE04 /* H_oe.mp3 in Resources */,
+				C93A0916221215C700C6CE04 /* E_u.mp3 in Resources */,
+				C93A087722120C7D00C6CE04 /* H_o.mp3 in Resources */,
+				C93A099C2212173500C6CE04 /* Aiss_ae.mp3 in Resources */,
+				C93A089022120C7D00C6CE04 /* H_u.mp3 in Resources */,
+				C93A089522120C7D00C6CE04 /* H_e.mp3 in Resources */,
+				C93A09552212164000C6CE04 /* Fiss_o.mp3 in Resources */,
 				C946A5A82210D6C6002A840D /* castlecamera1.png in Resources */,
 				C946A5762210D6C6002A840D /* castlecamera5.png in Resources */,
 				C946A5E62210DE82002A840D /* castle_speaker2.png in Resources */,
 				C93A08532211E94F00C6CE04 /* vowel_nor_Y.mp3 in Resources */,
 				C946A5052210BEFF002A840D /* snowball_wild.png in Resources */,
 				C946A5802210D6C6002A840D /* castlecamera4.png in Resources */,
+				C93A08D72212154C00C6CE04 /* D_ae.mp3 in Resources */,
+				C93A08C52212147100C6CE04 /* Ciss_e.mp3 in Resources */,
 				C981FD0C2210B0B300A56D42 /* D_a.mp3 in Resources */,
 				C93A085F2211F9F400C6CE04 /* snakkeboble.png in Resources */,
 				C946A6182210EB02002A840D /* letter_OE.png in Resources */,
 				C946A5992210D6C6002A840D /* castlecamera9.png in Resources */,
 				C946A65E2210EB02002A840D /* letter_A.png in Resources */,
+				C93A0A10221217FE00C6CE04 /* Hd_aa.mp3 in Resources */,
 				C93A07FA2211D7DD00C6CE04 /* musearm_AA.png in Resources */,
 				C9681FEC220FB15B00740570 /* snowball1.png in Resources */,
 				C946A5472210D19D002A840D /* sfx_castlegate.mp3 in Resources */,
 				C946A57B2210D6C6002A840D /* castlecamera11.png in Resources */,
 				C946A6132210EB02002A840D /* letter_AA.png in Resources */,
+				C93A0920221215C700C6CE04 /* E_i.mp3 in Resources */,
 				C946A53B2210C709002A840D /* norsk_prinsesse.mp3 in Resources */,
 				C981FD792210B64C00A56D42 /* snowballD_sing.png in Resources */,
 				C946A5D72210DE82002A840D /* castle_speaker3.png in Resources */,
 				C980A8AE220F57DF0014392F /* GameScene.sks in Resources */,
 				C981FD2C2210B21600A56D42 /* snowball8.png in Resources */,
 				C93A081D2211D7DD00C6CE04 /* musearm_O.png in Resources */,
+				C93A094B2212164000C6CE04 /* Fiss_u.mp3 in Resources */,
 				C946A5002210BEFF002A840D /* snowball_wild_sing.png in Resources */,
 				C981FD1D2210B21600A56D42 /* snowballD.png in Resources */,
 				C93A083F2211E94F00C6CE04 /* vowel_nor_U.mp3 in Resources */,
 				C946A6542210EB02002A840D /* letter_A_off.png in Resources */,
 				C981FD6C2210B5A700A56D42 /* Aiss_a.mp3 in Resources */,
+				C93A097B221216BE00C6CE04 /* Giss_ae.mp3 in Resources */,
+				C93A09462212164000C6CE04 /* Fiss_e.mp3 in Resources */,
+				C93A09372212164000C6CE04 /* Fiss_ae.mp3 in Resources */,
+				C93A093C2212164000C6CE04 /* Fiss_oe.mp3 in Resources */,
 				C93A08352211E94F00C6CE04 /* vowel_nor_A.mp3 in Resources */,
+				C93A08D22212154C00C6CE04 /* D_u.mp3 in Resources */,
+				C93A0911221215C700C6CE04 /* E_aa.mp3 in Resources */,
+				C93A09A12212173500C6CE04 /* Aiss_y.mp3 in Resources */,
 				C946A58A2210D6C6002A840D /* castlecamera0.png in Resources */,
 				C946A5DC2210DE82002A840D /* castle_speaker1.png in Resources */,
+				C93A0902221215C700C6CE04 /* E_ae.mp3 in Resources */,
 				C980A8B6220F57DF0014392F /* Assets.xcassets in Resources */,
+				C93A091B221215C700C6CE04 /* E_y.mp3 in Resources */,
 				C946A64A2210EB02002A840D /* letter_AE_off.png in Resources */,
 				C946A4F42210BB8F002A840D /* castle_lever_up.png in Resources */,
 				C946A51C2210BF0F002A840D /* wildsnowball_2.mp3 in Resources */,
@@ -1842,25 +2688,43 @@
 				C93A0865221206E400C6CE04 /* snakkeboble_prins.png in Resources */,
 				C946A58F2210D6C6002A840D /* castlecamera12.png in Resources */,
 				C93A080E2211D7DD00C6CE04 /* musearm_OE.png in Resources */,
+				C93A09972212173500C6CE04 /* Aiss_e.mp3 in Resources */,
 				C93A083A2211E94F00C6CE04 /* vowel_nor_I.mp3 in Resources */,
 				C946A6272210EB02002A840D /* letter_AE.png in Resources */,
 				C980A8CF220F5E3E0014392F /* CastleBG.png in Resources */,
+				C93A0980221216BE00C6CE04 /* Giss_y.mp3 in Resources */,
+				C93A0971221216BE00C6CE04 /* Giss_aa.mp3 in Resources */,
 				C981FD402210B21600A56D42 /* snowball6_sing.png in Resources */,
 				C946A6592210EB02002A840D /* letter_E_off.png in Resources */,
 				C946A5122210BF0F002A840D /* wildsnowball_6.mp3 in Resources */,
+				C93A08DC2212154C00C6CE04 /* D_aa.mp3 in Resources */,
 				C981FD4A2210B21600A56D42 /* snowballD_sing.png in Resources */,
+				C93A08A22212147100C6CE04 /* Ciss_i.mp3 in Resources */,
 				C981FD662210B4E300A56D42 /* Giss_a.mp3 in Resources */,
 				C946A61D2210EB02002A840D /* letter_E.png in Resources */,
+				C93A0A06221217FE00C6CE04 /* Hd_ae.mp3 in Resources */,
+				C93A090C221215C700C6CE04 /* E_oe.mp3 in Resources */,
+				C93A08BB2212147100C6CE04 /* Ciss_y.mp3 in Resources */,
 				C946A5172210BF0F002A840D /* wildsnowball_8.mp3 in Resources */,
 				C946A4F92210BB8F002A840D /* castle_lever_down.png in Resources */,
+				C93A0976221216BE00C6CE04 /* Giss_i.mp3 in Resources */,
+				C93A09E02212179E00C6CE04 /* H8_i.mp3 in Resources */,
+				C93A0907221215C700C6CE04 /* E_e.mp3 in Resources */,
+				C93A096C221216BE00C6CE04 /* Giss_oe.mp3 in Resources */,
 				C981FD722210B5C300A56D42 /* H8_a.mp3 in Resources */,
+				C93A09D12212179E00C6CE04 /* H8_aa.mp3 in Resources */,
 				C946A60E2210EB02002A840D /* letter_Y.png in Resources */,
 				C946A5672210D6C6002A840D /* castlecamera3.png in Resources */,
 				C93A07FF2211D7DD00C6CE04 /* musearm_Y.png in Resources */,
 				C93A08042211D7DD00C6CE04 /* musearm_U.png in Resources */,
+				C93A08A72212147100C6CE04 /* Ciss_o.mp3 in Resources */,
 				C981FD002210AEF300A56D42 /* snowball3_sing.png in Resources */,
+				C93A0A0B221217FE00C6CE04 /* Hd_e.mp3 in Resources */,
 				C946A5212210BF0F002A840D /* wildsnowball_5.mp3 in Resources */,
 				C980A8AA220F57DF0014392F /* Actions.sks in Resources */,
+				C93A08B62212147100C6CE04 /* Ciss_u.mp3 in Resources */,
+				C93A088B22120C7D00C6CE04 /* H_aa.mp3 in Resources */,
+				C93A09C72212179E00C6CE04 /* H8_e.mp3 in Resources */,
 				C946A5A32210D6C6002A840D /* castlecamera10.png in Resources */,
 				C946A64F2210EB02002A840D /* letter_U_off.png in Resources */,
 			);
