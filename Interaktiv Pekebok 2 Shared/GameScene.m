@@ -63,6 +63,12 @@
     SKShapeNode *letternodeAE; SKShapeNode *letternodeOE; SKShapeNode *letternodeAA;
     NSArray *_letternodes;
     
+    SKShapeNode *_blockbottom;
+    SKShapeNode *_blocktop;
+    CGFloat top;
+    CGFloat bottom;
+    SKShapeNode *_gate;
+    
     NSString *_currentletter;
     bool isMusic;
     AVAudioPlayer *musicplayer;
@@ -100,6 +106,11 @@
     hidesequence = [SKAction sequence:@[unhidebubble, waitbubble, hidebubble]];
     bubblesequence2 = [SKAction sequence:@[unhidebubble, waitbubble2, hidebubble]];
     _currentletter = @"a";
+    _blocktop = (SKShapeNode *)[self childNodeWithName:@"//blocktop"];
+    _blockbottom = (SKShapeNode *)[self childNodeWithName:@"//blockbottom"];
+    _gate = (SKShapeNode *)[self childNodeWithName:@"//gate"];
+    top = _blocktop.position.y;
+    bottom = _blockbottom.position.y;
     
     camera0 = [SKTexture textureWithImageNamed:@"castlecamera0"];
     camera1 = [SKTexture textureWithImageNamed:@"castlecamera1"];
@@ -254,6 +265,12 @@
         [_leverup setHidden:!_leverup.hidden];
         [_leverdown setHidden:!_leverdown.hidden];
         [touchedNode runAction:[SKAction playSoundFileNamed:@"sfx_lever" waitForCompletion:NO]];
+        if(!_leverup.hidden){
+            [_gate runAction:[SKAction moveToY:top duration:1.0]];
+        }
+        else{
+            [_gate runAction:[SKAction moveToY:bottom duration:1.0]];
+        }
         NSLog(@"Touched lever");
     }
     // princess
