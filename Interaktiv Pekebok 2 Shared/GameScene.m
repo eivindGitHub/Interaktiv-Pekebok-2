@@ -14,6 +14,15 @@
     SKShapeNode *_leverup;
     SKShapeNode *_leverdown;
     SKShapeNode *_princess;
+    SKShapeNode *_musearm;
+    SKShapeNode *_snakkeboble;
+    SKShapeNode *_snakkeboble_prins;
+    SKAction *unhidebubble;
+    SKAction *waitbubble;
+    SKAction *waitbubble2;
+    SKAction *hidebubble;
+    SKAction *hidesequence;
+    SKAction *bubblesequence2;
     NSArray *_cameras;
     SKTexture *camera0;
     SKTexture *camera1;
@@ -29,6 +38,7 @@
     SKTexture *camera11;
     SKTexture *camera12;
     SKTexture *camera13;
+    
     NSArray *_speakers;
     SKTexture *castle_speaker0;
     SKTexture *castle_speaker1;
@@ -41,6 +51,18 @@
     SKTexture *castle_speaker8;
     SKTexture *castle_speaker9;
     SKShapeNode *_touchednode;
+    
+    SKTexture *letterA; SKTexture *letterE; SKTexture *letterI;
+    SKTexture *letterO; SKTexture *letterU; SKTexture *letterY;
+    SKTexture *letterAE; SKTexture *letterOE; SKTexture *letterAA;
+    SKTexture *letterA_off; SKTexture *letterE_off; SKTexture *letterI_off;
+    SKTexture *letterO_off; SKTexture *letterU_off; SKTexture *letterY_off;
+    SKTexture *letterAE_off; SKTexture *letterOE_off; SKTexture *letterAA_off;
+    SKShapeNode *letternodeA; SKShapeNode *letternodeE; SKShapeNode *letternodeI;
+    SKShapeNode *letternodeO; SKShapeNode *letternodeU; SKShapeNode *letternodeY;
+    SKShapeNode *letternodeAE; SKShapeNode *letternodeOE; SKShapeNode *letternodeAA;
+    NSArray *_letternodes;
+    
     bool isMusic;
     AVAudioPlayer *musicplayer;
 }
@@ -64,6 +86,19 @@
     _leverdown = (SKShapeNode *)[self childNodeWithName:@"//castle_lever_down"];
     [_leverdown setHidden:false];
     _princess = (SKShapeNode *)[self childNodeWithName:@"//princessdummy"];
+    _musearm = (SKShapeNode *)[self childNodeWithName:@"//musearm"];
+    [_musearm setUserInteractionEnabled:NO];
+    _snakkeboble = (SKShapeNode *)[self childNodeWithName:@"//snakkeboble"];
+    [_snakkeboble setHidden:true];
+    _snakkeboble_prins = (SKShapeNode *)[self childNodeWithName:@"//snakkeboble_prins"];
+    [_snakkeboble_prins setHidden:true];
+    unhidebubble = [SKAction unhide];
+    waitbubble = [SKAction waitForDuration:0.5];
+    waitbubble2 = [SKAction waitForDuration:2.0];
+    hidebubble = [SKAction hide];
+    hidesequence = [SKAction sequence:@[unhidebubble, waitbubble, hidebubble]];
+    bubblesequence2 = [SKAction sequence:@[unhidebubble, waitbubble2, hidebubble]];
+    
     camera0 = [SKTexture textureWithImageNamed:@"castlecamera0"];
     camera1 = [SKTexture textureWithImageNamed:@"castlecamera1"];
     camera2 = [SKTexture textureWithImageNamed:@"castlecamera2"];
@@ -79,6 +114,7 @@
     camera12 = [SKTexture textureWithImageNamed:@"castlecamera12"];
     camera13 = [SKTexture textureWithImageNamed:@"castlecamera13"];
     _cameras = [NSArray arrayWithObjects:camera1,camera2,camera3,camera4,camera5,camera6,camera7,camera8,camera9,camera10,camera11,camera12,camera13,camera12,camera11,camera10,camera9,camera8,camera7,camera6,camera5,camera4,camera3,camera2,camera1,camera0, nil];
+    
     castle_speaker0 = [SKTexture textureWithImageNamed:@"castle_speaker0"];
     castle_speaker1 = [SKTexture textureWithImageNamed:@"castle_speaker1"];
     castle_speaker2 = [SKTexture textureWithImageNamed:@"castle_speaker2"];
@@ -90,6 +126,18 @@
     castle_speaker8 = [SKTexture textureWithImageNamed:@"castle_speaker8"];
     castle_speaker9 = [SKTexture textureWithImageNamed:@"castle_speaker9"];
     _speakers = [NSArray arrayWithObjects:castle_speaker0,castle_speaker1,castle_speaker2,castle_speaker3,castle_speaker4,castle_speaker5,castle_speaker6,castle_speaker7,castle_speaker8,castle_speaker9, nil];
+    
+    letterA = [SKTexture textureWithImageNamed:@"letter_A"]; letterE = [SKTexture textureWithImageNamed:@"letter_E"]; letterI = [SKTexture textureWithImageNamed:@"letter_I"];
+    letterO = [SKTexture textureWithImageNamed:@"letter_O"]; letterU = [SKTexture textureWithImageNamed:@"letter_U"]; letterY = [SKTexture textureWithImageNamed:@"letter_Y"];
+    letterAE = [SKTexture textureWithImageNamed:@"letter_AE"]; letterOE = [SKTexture textureWithImageNamed:@"letter_OE"]; letterAA = [SKTexture textureWithImageNamed:@"letter_AA"];
+    letterA_off = [SKTexture textureWithImageNamed:@"letter_A_off"]; letterE_off = [SKTexture textureWithImageNamed:@"letter_E_off"]; letterI_off = [SKTexture textureWithImageNamed:@"letter_I_off"];
+    letterO_off = [SKTexture textureWithImageNamed:@"letter_O_off"]; letterU_off = [SKTexture textureWithImageNamed:@"letter_U_off"]; letterY_off = [SKTexture textureWithImageNamed:@"letter_Y_off"];
+    letterAE_off = [SKTexture textureWithImageNamed:@"letter_AE_off"]; letterOE = [SKTexture textureWithImageNamed:@"letter_OE_off"]; letterAA_off = [SKTexture textureWithImageNamed:@"letter_AA_off"];
+    letternodeA = (SKShapeNode *)[self childNodeWithName:@"//letter_A_off"]; letternodeE = (SKShapeNode *)[self childNodeWithName:@"//letter_E_off"]; letternodeI = (SKShapeNode *)[self childNodeWithName:@"//letter_I_off"];
+    letternodeO = (SKShapeNode *)[self childNodeWithName:@"//letter_O_off"]; letternodeU = (SKShapeNode *)[self childNodeWithName:@"//letter_U_off"]; letternodeY = (SKShapeNode *)[self childNodeWithName:@"//letter_Y_off"];
+    letternodeAE = (SKShapeNode *)[self childNodeWithName:@"//letter_AE_off"]; letternodeOE = (SKShapeNode *)[self childNodeWithName:@"//letter_OE_off"]; letternodeAA = (SKShapeNode *)[self childNodeWithName:@"//letter_AA_off"];
+    _letternodes = [NSArray arrayWithObjects:letternodeA,letternodeE,letternodeI,letternodeO,letternodeU,letternodeY,letternodeAE,letternodeOE,letternodeAA , nil];
+    
     isMusic = false;
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
                                          pathForResource:@"castle_music2"
@@ -153,7 +201,7 @@
 - (void)handleTouchedPoint:(CGPoint)touchedPoint {
     SKSpriteNode *touchedNode = (SKSpriteNode *)[self nodeAtPoint:touchedPoint];
     
-    // Plays audio and animates touched snowball.
+    // Plays audio and animates touched snowball or letter.
     for (SKAudioNode *an in touchedNode.children) {
         if(an != nil && [an isKindOfClass:[SKAudioNode class]] && [touchedNode.name rangeOfString:@"snowball"].location != NSNotFound) {
             NSString *mystring = touchedNode.name;
@@ -163,6 +211,20 @@
             [touchedNode runAction:[SKAction animateWithTextures:@[tex2,tex1] timePerFrame:0.5 resize:YES restore:NO]];
             [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
             NSLog(@"Touched singing snowball");
+        }
+        else if(an != nil && [an isKindOfClass:[SKAudioNode class]] && [touchedNode.name rangeOfString:@"letter"].location != NSNotFound){
+            for (SKSpriteNode *ln in _letternodes){
+                NSString *offstring = ln.name;
+                SKTexture *offtex = [SKTexture textureWithImageNamed:offstring];
+                [ln runAction:[SKAction setTexture:offtex]];
+            }
+            [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
+            NSString *mystring = touchedNode.name;
+            NSString *mystringon = [mystring stringByReplacingOccurrencesOfString:@"_off" withString:@""];
+            SKTexture *ontex = [SKTexture textureWithImageNamed:mystringon];
+            [touchedNode runAction:[SKAction setTexture:ontex resize:NO]];
+            [_snakkeboble runAction:hidesequence];
+            NSLog(@"Touched letter");
         }
     }
     // lever
@@ -179,6 +241,7 @@
                 [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
             }
         }
+        [_snakkeboble_prins runAction:bubblesequence2];
         NSLog(@"Touched princess");
     }
     if ([touchedNode.name isEqualToString:@"castlecamera0"]) {
