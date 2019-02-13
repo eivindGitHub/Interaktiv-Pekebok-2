@@ -386,9 +386,7 @@
 		C981FD6C2210B5A700A56D42 /* Aiss_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C981FD672210B5A700A56D42 /* Aiss_a.mp3 */; };
 		C981FD6E2210B5C300A56D42 /* H8_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C981FD6D2210B5C300A56D42 /* H8_a.mp3 */; };
 		C981FD722210B5C300A56D42 /* H8_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C981FD6D2210B5C300A56D42 /* H8_a.mp3 */; };
-		C981FD752210B64C00A56D42 /* snowballD_sing.png in Resources */ = {isa = PBXBuildFile; fileRef = C981FD732210B64C00A56D42 /* snowballD_sing.png */; };
 		C981FD792210B64C00A56D42 /* snowballD_sing.png in Resources */ = {isa = PBXBuildFile; fileRef = C981FD732210B64C00A56D42 /* snowballD_sing.png */; };
-		C981FD7A2210B64C00A56D42 /* snowballD.png in Resources */ = {isa = PBXBuildFile; fileRef = C981FD742210B64C00A56D42 /* snowballD.png */; };
 		C981FD7E2210B64C00A56D42 /* snowballD.png in Resources */ = {isa = PBXBuildFile; fileRef = C981FD742210B64C00A56D42 /* snowballD.png */; };
 		C981FD802210B6BB00A56D42 /* Hd_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C981FD7F2210B6BB00A56D42 /* Hd_a.mp3 */; };
 		C981FD842210B6BB00A56D42 /* Hd_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C981FD7F2210B6BB00A56D42 /* Hd_a.mp3 */; };
@@ -1188,7 +1186,6 @@
 				C93A086E22120C7D00C6CE04 /* H_ae.mp3 in Resources */,
 				C93A09932212173500C6CE04 /* Aiss_e.mp3 in Resources */,
 				C981FD372210B21600A56D42 /* snowball4_sing.png in Resources */,
-				C981FD752210B64C00A56D42 /* snowballD_sing.png in Resources */,
 				C946A4F52210BB8F002A840D /* castle_lever_down.png in Resources */,
 				C93A09982212173500C6CE04 /* Aiss_ae.mp3 in Resources */,
 				C946A5372210C709002A840D /* norsk_prinsesse.mp3 in Resources */,
@@ -1234,7 +1231,6 @@
 				C980A8B3220F57DF0014392F /* Assets.xcassets in Resources */,
 				C93A08AD2212147100C6CE04 /* Ciss_aa.mp3 in Resources */,
 				C946A4F02210BB8F002A840D /* castle_lever_up.png in Resources */,
-				C981FD7A2210B64C00A56D42 /* snowballD.png in Resources */,
 				C93A09BE2212179E00C6CE04 /* H8_y.mp3 in Resources */,
 				C946A5AA2210DDDE002A840D /* sfx_camera2.mp3 in Resources */,
 				C946A6322210EB02002A840D /* letter_O.png in Resources */,
