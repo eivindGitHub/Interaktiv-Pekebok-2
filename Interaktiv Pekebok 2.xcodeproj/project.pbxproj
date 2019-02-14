@@ -394,6 +394,7 @@
 		C98507C7221046FE00CE2C3C /* snowball1_sing.png in Resources */ = {isa = PBXBuildFile; fileRef = C98507C2221046FE00CE2C3C /* snowball1_sing.png */; };
 		C98507C92210480C00CE2C3C /* H_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98507C82210480C00CE2C3C /* H_a.mp3 */; };
 		C98507CD2210480C00CE2C3C /* H_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98507C82210480C00CE2C3C /* H_a.mp3 */; };
+		C9B945DD2215DC28008F6AB8 /* tellepic.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B945DC2215DC28008F6AB8 /* tellepic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -632,6 +633,7 @@
 		C981FD7F2210B6BB00A56D42 /* Hd_a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hd_a.mp3; sourceTree = "<group>"; };
 		C98507C2221046FE00CE2C3C /* snowball1_sing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowball1_sing.png; sourceTree = "<group>"; };
 		C98507C82210480C00CE2C3C /* H_a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H_a.mp3; sourceTree = "<group>"; };
+		C9B945DC2215DC28008F6AB8 /* tellepic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tellepic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -766,6 +768,7 @@
 		C980A84D220F57DE0014392F /* Interaktiv Pekebok 2 Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C9B945DA2215DB9B008F6AB8 /* Island */,
 				C9681FE6220FAD2D00740570 /* Castle */,
 				C980A84E220F57DE0014392F /* Actions.sks */,
 				C980A84F220F57DE0014392F /* GameScene.sks */,
@@ -992,6 +995,22 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		C9B945DA2215DB9B008F6AB8 /* Island */ = {
+			isa = PBXGroup;
+			children = (
+				C9B945DB2215DBB4008F6AB8 /* Images */,
+			);
+			path = Island;
+			sourceTree = "<group>";
+		};
+		C9B945DB2215DBB4008F6AB8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C9B945DC2215DC28008F6AB8 /* tellepic.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1212,6 +1231,7 @@
 				C93A090D221215C700C6CE04 /* E_aa.mp3 in Resources */,
 				C946A6232210EB02002A840D /* letter_AE.png in Resources */,
 				C98507C92210480C00CE2C3C /* H_a.mp3 in Resources */,
+				C9B945DD2215DC28008F6AB8 /* tellepic.png in Resources */,
 				C93A08F12212154C00C6CE04 /* D_oe.mp3 in Resources */,
 				C946A54F2210D1BA002A840D /* sfx_prinsesse_no.mp3 in Resources */,
 				C93A0917221215C700C6CE04 /* E_y.mp3 in Resources */,
