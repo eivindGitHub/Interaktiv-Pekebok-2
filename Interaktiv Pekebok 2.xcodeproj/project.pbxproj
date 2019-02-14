@@ -395,6 +395,10 @@
 		C98507C92210480C00CE2C3C /* H_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98507C82210480C00CE2C3C /* H_a.mp3 */; };
 		C98507CD2210480C00CE2C3C /* H_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98507C82210480C00CE2C3C /* H_a.mp3 */; };
 		C9B945DD2215DC28008F6AB8 /* tellepic.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B945DC2215DC28008F6AB8 /* tellepic.png */; };
+		C9B945E02215DDD4008F6AB8 /* IslandScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B945DF2215DDD4008F6AB8 /* IslandScene.m */; };
+		C9B945E222161266008F6AB8 /* arrow_r.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B945E122161265008F6AB8 /* arrow_r.png */; };
+		C9B945E5221612FC008F6AB8 /* arrow_l.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B945E4221612FC008F6AB8 /* arrow_l.png */; };
+		C9B945E7221614C7008F6AB8 /* IslandScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C9B945E6221614C7008F6AB8 /* IslandScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -634,6 +638,11 @@
 		C98507C2221046FE00CE2C3C /* snowball1_sing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowball1_sing.png; sourceTree = "<group>"; };
 		C98507C82210480C00CE2C3C /* H_a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H_a.mp3; sourceTree = "<group>"; };
 		C9B945DC2215DC28008F6AB8 /* tellepic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tellepic.png; sourceTree = "<group>"; };
+		C9B945DE2215DDD4008F6AB8 /* IslandScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IslandScene.h; sourceTree = "<group>"; };
+		C9B945DF2215DDD4008F6AB8 /* IslandScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IslandScene.m; sourceTree = "<group>"; };
+		C9B945E122161265008F6AB8 /* arrow_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_r.png; sourceTree = "<group>"; };
+		C9B945E4221612FC008F6AB8 /* arrow_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_l.png; sourceTree = "<group>"; };
+		C9B945E6221614C7008F6AB8 /* IslandScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = IslandScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -768,6 +777,7 @@
 		C980A84D220F57DE0014392F /* Interaktiv Pekebok 2 Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C9B945E32216126B008F6AB8 /* Menu */,
 				C9B945DA2215DB9B008F6AB8 /* Island */,
 				C9681FE6220FAD2D00740570 /* Castle */,
 				C980A84E220F57DE0014392F /* Actions.sks */,
@@ -775,6 +785,9 @@
 				C980A850220F57DE0014392F /* GameScene.h */,
 				C980A851220F57DE0014392F /* GameScene.m */,
 				C980A852220F57DE0014392F /* Assets.xcassets */,
+				C9B945DE2215DDD4008F6AB8 /* IslandScene.h */,
+				C9B945DF2215DDD4008F6AB8 /* IslandScene.m */,
+				C9B945E6221614C7008F6AB8 /* IslandScene.sks */,
 			);
 			path = "Interaktiv Pekebok 2 Shared";
 			sourceTree = "<group>";
@@ -1011,6 +1024,15 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		C9B945E32216126B008F6AB8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C9B945E4221612FC008F6AB8 /* arrow_l.png */,
+				C9B945E122161265008F6AB8 /* arrow_r.png */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1094,6 +1116,7 @@
 			files = (
 				C981FD082210B0B300A56D42 /* D_a.mp3 in Resources */,
 				C981FCFC2210AEF300A56D42 /* snowball3_sing.png in Resources */,
+				C9B945E222161266008F6AB8 /* arrow_r.png in Resources */,
 				C93A091C221215C700C6CE04 /* E_i.mp3 in Resources */,
 				C93A09332212164000C6CE04 /* Fiss_ae.mp3 in Resources */,
 				C946A56D2210D6C6002A840D /* castlecamera2.png in Resources */,
@@ -1207,6 +1230,7 @@
 				C981FD372210B21600A56D42 /* snowball4_sing.png in Resources */,
 				C946A4F52210BB8F002A840D /* castle_lever_down.png in Resources */,
 				C93A09982212173500C6CE04 /* Aiss_ae.mp3 in Resources */,
+				C9B945E5221612FC008F6AB8 /* arrow_l.png in Resources */,
 				C946A5372210C709002A840D /* norsk_prinsesse.mp3 in Resources */,
 				C93A08BC2212147100C6CE04 /* Ciss_oe.mp3 in Resources */,
 				C946A63C2210EB02002A840D /* letter_I_off.png in Resources */,
@@ -1258,6 +1282,7 @@
 				C93A094C2212164000C6CE04 /* Fiss_y.mp3 in Resources */,
 				C93A08362211E94F00C6CE04 /* vowel_nor_I.mp3 in Resources */,
 				C946A5682210D6C6002A840D /* castlecamera7.png in Resources */,
+				C9B945E7221614C7008F6AB8 /* IslandScene.sks in Resources */,
 				C946A62D2210EB02002A840D /* letter_U.png in Resources */,
 				C93A09A72212173500C6CE04 /* Aiss_u.mp3 in Resources */,
 				C946A60F2210EB02002A840D /* letter_AA.png in Resources */,
@@ -1491,6 +1516,7 @@
 			files = (
 				C980A85F220F57DE0014392F /* GameViewController.m in Sources */,
 				C980A868220F57DE0014392F /* main.m in Sources */,
+				C9B945E02215DDD4008F6AB8 /* IslandScene.m in Sources */,
 				C980A8AF220F57DF0014392F /* GameScene.m in Sources */,
 				C980A85C220F57DE0014392F /* AppDelegate.m in Sources */,
 			);

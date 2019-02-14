@@ -69,6 +69,9 @@
     CGFloat bottom;
     SKShapeNode *_gate;
     
+    SKShapeNode *_arrow_right;
+    SKShapeNode *_arrow_left;
+    IslandScene *_newScene;
     NSString *_currentletter;
     bool isMusic;
     AVAudioPlayer *musicplayer;
@@ -88,6 +91,7 @@
 }
 
 - (void)setUpScene {
+    _arrow_right = (SKShapeNode *)[self childNodeWithName:@"//arrow_right"];
     _leverup = (SKShapeNode *)[self childNodeWithName:@"//castle_lever_up"];
     [_leverup setHidden:true];
     _leverdown = (SKShapeNode *)[self childNodeWithName:@"//castle_lever_down"];
@@ -261,7 +265,7 @@
         }
     }
     // lever
-    if ([touchedNode.name rangeOfString:@"castle_lever"].location != NSNotFound) {
+    else if ([touchedNode.name rangeOfString:@"castle_lever"].location != NSNotFound) {
         [_leverup setHidden:!_leverup.hidden];
         [_leverdown setHidden:!_leverdown.hidden];
         [touchedNode runAction:[SKAction playSoundFileNamed:@"sfx_lever" waitForCompletion:NO]];
@@ -274,7 +278,7 @@
         NSLog(@"Touched lever");
     }
     // princess
-    if ([_princess containsPoint:touchedPoint]) {
+    else if ([_princess containsPoint:touchedPoint]) {
         for (SKAudioNode *an in _princess.children) {
             if(an != nil && [an isKindOfClass:[SKAudioNode class]]) {
                 [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
@@ -283,12 +287,14 @@
         [_snakkeboble_prins runAction:bubblesequence2];
         NSLog(@"Touched princess");
     }
-    if ([touchedNode.name isEqualToString:@"castlecamera0"]) {
+    // camera
+    else if ([touchedNode.name isEqualToString:@"castlecamera0"]) {
         [touchedNode runAction:[SKAction animateWithTextures:_cameras timePerFrame:0.1 resize:YES restore:NO]];
         [touchedNode runAction:[SKAction playSoundFileNamed:@"sfx_camera2" waitForCompletion:NO]];
         NSLog(@"Touched camera");
     }
-    if ([touchedNode.name isEqualToString:@"castle_speaker0"]) {
+    // speaker
+    else if ([touchedNode.name isEqualToString:@"castle_speaker0"]) {
         if(!isMusic){
             [touchedNode runAction:[SKAction repeatActionForever:[SKAction animateWithTextures:_speakers timePerFrame:0.1 resize:YES restore:NO]] withKey:@"musicaction"];
             [musicplayer play];
@@ -302,6 +308,16 @@
         }
         
         NSLog(@"Touched speaker");
+    }
+    // arrows
+    else if ([touchedNode.name isEqualToString:@"arrow_r"]) {
+        SKTransition *reveal = [SKTransition revealWithDirection:SKTransitionDirectionDown duration:1.0];
+        IslandScene *_newScene = [IslandScene newGameScene];
+        for(SKView *v in self.view.subviews){
+            [v removeFromSuperview];
+        }
+        [self.scene.view presentScene: _newScene];
+        NSLog(@"Touched right arrow");
     }
 }
 #endif
