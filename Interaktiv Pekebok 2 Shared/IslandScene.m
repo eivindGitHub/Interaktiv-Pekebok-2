@@ -98,6 +98,17 @@
         [self.scene.view presentScene: _newScene];
         NSLog(@"Touched left arrow");
     }
+    else if([touchedNode.name rangeOfString:@"icon"].location != NSNotFound){
+        for (SKAudioNode *an in touchedNode.children) {
+            NSString *mystring = touchedNode.name;
+            NSString *mystringred = [mystring stringByAppendingString:@"red"];
+            SKTexture *tex1 = [SKTexture textureWithImageNamed:mystring];
+            SKTexture *tex2 = [SKTexture textureWithImageNamed:mystringred];
+            [touchedNode runAction:[SKAction animateWithTextures:@[tex2,tex1] timePerFrame:0.5 resize:NO restore:NO]];
+            [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
+            NSLog(@"Touched number");
+        }
+    }
 
 }
 #endif
