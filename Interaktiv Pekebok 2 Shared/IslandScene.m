@@ -13,6 +13,41 @@
     bool isMusic;
     AVAudioPlayer *musicplayer;
     GameScene *_newScene;
+    NSMutableArray *_meercatbools;
+    SKAction *swoosh2;
+    SKAction *swoosh3;
+    SKAction *dreamharp;
+    SKAction *waitabit;
+    SKAction *hidecat;
+    SKAction *unhidecat;
+    SKAction *hideseq;
+    SKAction *unhideslowseq;
+    SKAction *hideslowseq;
+    SKAction *unhideseq;
+    SKAction *clearmeercats;
+    SKAction *meercatsfx;
+    SKAction *correctanswer;
+    
+    SKTexture *cat1up; SKTexture *cat1down;
+    SKTexture *cat2up; SKTexture *cat2down;
+    SKTexture *cat3up; SKTexture *cat3down;
+    SKTexture *cat4up; SKTexture *cat4down;
+    SKTexture *cat5up; SKTexture *cat5down;
+    SKTexture *cat6up; SKTexture *cat6down;
+    SKTexture *cat7up; SKTexture *cat7down;
+    SKTexture *cat8up; SKTexture *cat8down;
+    SKTexture *cat9up; SKTexture *cat9down;
+    SKTexture *cat10up; SKTexture *cat10down;
+    NSArray *meercattexup;
+    NSArray *meercattexdown;
+    NSMutableArray *meercattextures;
+    SKShapeNode *cat1; SKShapeNode *cat2; SKShapeNode *cat3; SKShapeNode *cat4; SKShapeNode *cat5;
+    SKShapeNode *cat6; SKShapeNode *cat7; SKShapeNode *cat8; SKShapeNode *cat9; SKShapeNode *cat10;
+    SKShapeNode *cat1d; SKShapeNode *cat2d; SKShapeNode *cat3d; SKShapeNode *cat4d; SKShapeNode *cat5d;
+    SKShapeNode *cat6d; SKShapeNode *cat7d; SKShapeNode *cat8d; SKShapeNode *cat9d; SKShapeNode *cat10d;
+    NSArray *cats;
+    NSArray *catsd;
+    SKShapeNode *islandnode;
 }
 
 + (IslandScene *)newGameScene {
@@ -35,6 +70,66 @@
                                          ofType:@"mp3"]];
     musicplayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
     musicplayer.numberOfLoops = -1;
+    islandnode = (SKShapeNode *)[self childNodeWithName:@"islandnode"];
+    _meercatbools = [[NSMutableArray alloc] initWithObjects:
+                     [NSNumber numberWithBool:NO],
+                     [NSNumber numberWithBool:NO],
+                     [NSNumber numberWithBool:NO],
+                     [NSNumber numberWithBool:NO],
+                     [NSNumber numberWithBool:NO],
+                     [NSNumber numberWithBool:NO],
+                     [NSNumber numberWithBool:NO],
+                     [NSNumber numberWithBool:NO],
+                     [NSNumber numberWithBool:NO],
+                     [NSNumber numberWithBool:NO], nil];
+    cat1 = (SKShapeNode*) [islandnode childNodeWithName:@"surikat1"];
+    cat2 = (SKShapeNode*) [islandnode childNodeWithName:@"surikat2"];
+    cat3 = (SKShapeNode*) [islandnode childNodeWithName:@"surikat3"];
+    cat4 = (SKShapeNode*) [islandnode childNodeWithName:@"surikat4"];
+    cat5 = (SKShapeNode*) [islandnode childNodeWithName:@"surikat5"];
+    cat6 = (SKShapeNode*) [islandnode childNodeWithName:@"surikat6"];
+    cat7 = (SKShapeNode*) [islandnode childNodeWithName:@"surikat7"];
+    cat8 = (SKShapeNode*) [islandnode childNodeWithName:@"surikat8"];
+    cat9 = (SKShapeNode*) [islandnode childNodeWithName:@"surikat9"];
+    cat10 = (SKShapeNode*) [islandnode childNodeWithName:@"surikat10"];
+    cat1d = (SKShapeNode*) [islandnode childNodeWithName:@"surikat1d"];
+    cat2d = (SKShapeNode*) [islandnode childNodeWithName:@"surikat2d"];
+    cat3d = (SKShapeNode*) [islandnode childNodeWithName:@"surikat3d"];
+    cat4d = (SKShapeNode*) [islandnode childNodeWithName:@"surikat4d"];
+    cat5d = (SKShapeNode*) [islandnode childNodeWithName:@"surikat5d"];
+    cat6d = (SKShapeNode*) [islandnode childNodeWithName:@"surikat6d"];
+    cat7d = (SKShapeNode*) [islandnode childNodeWithName:@"surikat7d"];
+    cat8d = (SKShapeNode*) [islandnode childNodeWithName:@"surikat8d"];
+    cat9d = (SKShapeNode*) [islandnode childNodeWithName:@"surikat9d"];
+    cat10d = (SKShapeNode*) [islandnode childNodeWithName:@"surikat10d"];
+    cats = [NSArray arrayWithObjects:cat1,cat2,cat3,cat4,cat5,cat6,cat7,cat8,cat9,cat10,nil];
+    catsd = [NSArray arrayWithObjects:cat1d,cat2d,cat3d,cat4d,cat5d,cat6d,cat7d,cat8d,cat9d,cat10d,nil];
+    
+    cat1up = [SKTexture textureWithImageNamed:@"surikat1"]; cat2up = [SKTexture textureWithImageNamed:@"surikat2"]; cat3up = [SKTexture textureWithImageNamed:@"surikat3"];
+    cat4up = [SKTexture textureWithImageNamed:@"surikat4"]; cat5up = [SKTexture textureWithImageNamed:@"surikat5"]; cat6up = [SKTexture textureWithImageNamed:@"surikat6"];
+    cat7up = [SKTexture textureWithImageNamed:@"surikat7"]; cat8up = [SKTexture textureWithImageNamed:@"surikat8"]; cat9up = [SKTexture textureWithImageNamed:@"surikat9"];
+    cat10up = [SKTexture textureWithImageNamed:@"surikat10"];
+    cat1down = [SKTexture textureWithImageNamed:@"surikat1d"]; cat2down = [SKTexture textureWithImageNamed:@"surikat2d"]; cat3down = [SKTexture textureWithImageNamed:@"surikat3d"];
+    cat4down = [SKTexture textureWithImageNamed:@"surikat4d"]; cat5down = [SKTexture textureWithImageNamed:@"surikat5d"]; cat6down = [SKTexture textureWithImageNamed:@"surikat6d"];
+    cat7down = [SKTexture textureWithImageNamed:@"surikat7d"]; cat8down = [SKTexture textureWithImageNamed:@"surikat8d"]; cat9down = [SKTexture textureWithImageNamed:@"surikat9d"];
+    cat10down = [SKTexture textureWithImageNamed:@"surikat10d"];
+    meercattexdown = [NSArray arrayWithObjects:cat1down,cat2down,cat3down,cat4down,cat5down,cat6down,cat7down,cat8down,cat9down,cat10down,nil];
+    meercattexup =[NSArray arrayWithObjects:cat1up,cat2up,cat3up,cat4up,cat5up,cat6up,cat7up,cat8up,cat9up,cat10up,nil];
+    meercattextures = [NSMutableArray arrayWithObjects:cat1down,cat2down,cat3down, cat4down,cat5down,cat6down,cat7down,cat8down,cat9down,cat10down,nil];
+    
+    //meercatsequence = [SKAction sequence:@[waitabit]];
+    swoosh2 = [SKAction playSoundFileNamed:@"sfx_swoosh2" waitForCompletion:NO];
+    swoosh3 = [SKAction playSoundFileNamed:@"sfx_swoosh3" waitForCompletion:NO];
+    dreamharp = [SKAction playSoundFileNamed:@"dreamharpcut" waitForCompletion:NO];
+    waitabit = [SKAction waitForDuration:0.7];
+    meercatsfx = [SKAction sequence:@[waitabit,swoosh2]];
+    hidecat = [SKAction hide];
+    unhidecat = [SKAction unhide];
+    hideseq = [SKAction sequence:@[waitabit,hidecat]];
+    unhideseq = [SKAction sequence:@[waitabit, unhidecat]];
+    unhideslowseq = [SKAction sequence:@[waitabit, waitabit, unhidecat]];
+    hideslowseq = [SKAction sequence:@[waitabit, waitabit, hidecat]];
+    correctanswer = [SKAction sequence:@[waitabit, dreamharp]];
     
 #if TARGET_OS_WATCH
     // For watch we just periodically create one of these and let it spin
@@ -53,8 +148,61 @@
 }
 #endif
 
-- (void)makeSpinnyAtPoint:(CGPoint)pos color:(SKColor *)color {
+//sets meercat bool array to NO NO NO NO NO
+-(void) resetMeercatBools{
+    NSLog(@"Resetting meercats");
+    bool isPutDown = NO;
+    for(int i = 0; i < _meercatbools.count; i++){
+        if([_meercatbools objectAtIndex:i])
+        {
+            isPutDown = YES;
+        }
+        [_meercatbools replaceObjectAtIndex:i withObject:[NSNumber numberWithBool:NO]];
+    }
+    if(isPutDown){
+        //play sound
+    }
     
+    //bruker Fisher-Yates for å stokke array.
+    int count = (int)_meercatbools.count;
+    //random tall mellom 0-10. fyller opp fra bjynnelsen av array: 1 1 1 1 0 0 0 0 0 0 0.... stokker senere
+    int standingmeercats = (arc4random() % (count+1));
+    if(standingmeercats > 0){
+       ;
+    }
+    //NSLog(@"count: %i  tempamount: %i", count, tempamountofkats);
+    for(NSUInteger i = 0; i < standingmeercats; i++){
+        [_meercatbools replaceObjectAtIndex:i withObject:[NSNumber numberWithBool:YES]];
+    }
+    
+    for (NSUInteger i = 0; i < count; ++i) {
+        // Select a random element between i and end of array to swap with.
+        NSInteger nElements = count - i;
+        NSInteger n = (arc4random() % nElements) + i;
+        [_meercatbools exchangeObjectAtIndex:i withObjectAtIndex:n];
+    }
+    //Creates an array with correct order of meercat textures
+    for (NSUInteger i = 0; i < count; ++i) {
+        if([[_meercatbools objectAtIndex:i] isEqual:[NSNumber numberWithBool: YES]]){
+            [(SKShapeNode*)[cats objectAtIndex:i] runAction:unhideseq];
+            [(SKShapeNode*)[catsd objectAtIndex:i] runAction:hideseq];
+        }
+        else{
+            [(SKShapeNode*)[cats objectAtIndex:i] runAction:hideseq];
+            [(SKShapeNode*)[catsd objectAtIndex:i] runAction:unhideseq];
+        }
+    }
+}
+
+-(int)meercatCount{
+    int meercatcount = 0;
+    for(int i = 0; i < _meercatbools.count; i++){
+        if([[_meercatbools objectAtIndex:i] isEqual:[NSNumber numberWithBool: YES]])
+        {
+            meercatcount++;
+        }
+    }
+    return meercatcount;
 }
 
 -(void)update:(CFTimeInterval)currentTime {
@@ -68,25 +216,15 @@
     UITouch *touch = [touches anyObject];
     CGPoint location = [touch locationInNode:self];
     [self handleTouchedPoint:location];
-    
-    for (UITouch *t in touches) {
-        [self makeSpinnyAtPoint:[t locationInNode:self] color:[SKColor greenColor]];
-    }
 }
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
-    for (UITouch *t in touches) {
-        [self makeSpinnyAtPoint:[t locationInNode:self] color:[SKColor blueColor]];
-    }
+    
 }
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-    for (UITouch *t in touches) {
-        [self makeSpinnyAtPoint:[t locationInNode:self] color:[SKColor redColor]];
-    }
+    
 }
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
-    for (UITouch *t in touches) {
-        [self makeSpinnyAtPoint:[t locationInNode:self] color:[SKColor redColor]];
-    }
+    
 }
 - (void)handleTouchedPoint:(CGPoint)touchedPoint {
     SKSpriteNode *touchedNode = (SKSpriteNode *)[self nodeAtPoint:touchedPoint];
@@ -104,10 +242,22 @@
             NSString *mystringred = [mystring stringByAppendingString:@"red"];
             SKTexture *tex1 = [SKTexture textureWithImageNamed:mystring];
             SKTexture *tex2 = [SKTexture textureWithImageNamed:mystringred];
-            [touchedNode runAction:[SKAction animateWithTextures:@[tex2,tex1] timePerFrame:0.5 resize:NO restore:NO]];
+            [touchedNode runAction:[SKAction animateWithTextures:@[tex2,tex1] timePerFrame:0.4 resize:NO restore:NO]];
             [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
-            NSLog(@"Touched number");
         }
+        int touchednumber = [touchedNode.userData[@"userData1"] intValue];
+        //If correct number, play sounds, generate new meercat number, put all cats down then raise according to meercatbools
+        if(touchednumber == [self meercatCount]){
+            [touchedNode runAction:meercatsfx];
+            [touchedNode runAction:dreamharp];
+            [self resetMeercatBools];
+            for(int i = 0; i < _meercatbools.count; i++){
+                
+            }
+            NSLog(@"Touched correct number");
+        }
+        
+        NSLog(@"Touched number");
     }
 
 }

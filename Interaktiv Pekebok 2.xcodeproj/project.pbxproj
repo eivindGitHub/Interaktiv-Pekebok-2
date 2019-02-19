@@ -367,6 +367,9 @@
 		C94CA72A2218D1F800D3BD8C /* norsk_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C94CA71F2218D1F800D3BD8C /* norsk_4.mp3 */; };
 		C94CA72B2218D1F800D3BD8C /* norsk_10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C94CA7202218D1F800D3BD8C /* norsk_10.mp3 */; };
 		C94CA72C2218D1F800D3BD8C /* norsk_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C94CA7212218D1F800D3BD8C /* norsk_6.mp3 */; };
+		C95D1A17221C75040004E4D6 /* sfx_swoosh3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C95D1A15221C75030004E4D6 /* sfx_swoosh3.mp3 */; };
+		C95D1A18221C75040004E4D6 /* sfx_swoosh2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C95D1A16221C75030004E4D6 /* sfx_swoosh2.mp3 */; };
+		C95D1A1B221CC5F00004E4D6 /* dreamharpcut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C95D1A1A221CC5EF0004E4D6 /* dreamharpcut.mp3 */; };
 		C9681FDC220FAD2300740570 /* gateclip.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDA220FAD2300740570 /* gateclip.png */; };
 		C9681FE0220FAD2300740570 /* gateclip.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDA220FAD2300740570 /* gateclip.png */; };
 		C9681FE1220FAD2300740570 /* castle-gate.png in Resources */ = {isa = PBXBuildFile; fileRef = C9681FDB220FAD2300740570 /* castle-gate.png */; };
@@ -673,6 +676,9 @@
 		C94CA71F2218D1F800D3BD8C /* norsk_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norsk_4.mp3; sourceTree = "<group>"; };
 		C94CA7202218D1F800D3BD8C /* norsk_10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norsk_10.mp3; sourceTree = "<group>"; };
 		C94CA7212218D1F800D3BD8C /* norsk_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norsk_6.mp3; sourceTree = "<group>"; };
+		C95D1A15221C75030004E4D6 /* sfx_swoosh3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_swoosh3.mp3; sourceTree = "<group>"; };
+		C95D1A16221C75030004E4D6 /* sfx_swoosh2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_swoosh2.mp3; sourceTree = "<group>"; };
+		C95D1A1A221CC5EF0004E4D6 /* dreamharpcut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dreamharpcut.mp3; sourceTree = "<group>"; };
 		C9681FDA220FAD2300740570 /* gateclip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gateclip.png; sourceTree = "<group>"; };
 		C9681FDB220FAD2300740570 /* castle-gate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "castle-gate.png"; sourceTree = "<group>"; };
 		C9681FE7220FB15B00740570 /* snowball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowball1.png; sourceTree = "<group>"; };
@@ -930,6 +936,16 @@
 			path = Speech;
 			sourceTree = "<group>";
 		};
+		C95D1A19221C75090004E4D6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C95D1A1A221CC5EF0004E4D6 /* dreamharpcut.mp3 */,
+				C95D1A16221C75030004E4D6 /* sfx_swoosh2.mp3 */,
+				C95D1A15221C75030004E4D6 /* sfx_swoosh3.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		C9681FE6220FAD2D00740570 /* Castle */ = {
 			isa = PBXGroup;
 			children = (
@@ -960,8 +976,8 @@
 				C9681FE6220FAD2D00740570 /* Castle */,
 				C980A84E220F57DE0014392F /* Actions.sks */,
 				C980A84F220F57DE0014392F /* GameScene.sks */,
-				C980A850220F57DE0014392F /* GameScene.h */,
 				C980A851220F57DE0014392F /* GameScene.m */,
+				C980A850220F57DE0014392F /* GameScene.h */,
 				C980A852220F57DE0014392F /* Assets.xcassets */,
 				C9B945DE2215DDD4008F6AB8 /* IslandScene.h */,
 				C9B945DF2215DDD4008F6AB8 /* IslandScene.m */,
@@ -1189,6 +1205,7 @@
 		C9B945DA2215DB9B008F6AB8 /* Island */ = {
 			isa = PBXGroup;
 			children = (
+				C95D1A19221C75090004E4D6 /* Sounds */,
 				C9B945DB2215DBB4008F6AB8 /* Images */,
 			);
 			path = Island;
@@ -1372,6 +1389,7 @@
 				C93A093D2212164000C6CE04 /* Fiss_aa.mp3 in Resources */,
 				C93A08A32212147100C6CE04 /* Ciss_o.mp3 in Resources */,
 				C94CA7052218D06900D3BD8C /* surikat4d.png in Resources */,
+				C95D1A1B221CC5F00004E4D6 /* dreamharpcut.mp3 in Resources */,
 				C946A5E22210DE82002A840D /* castle_speaker2.png in Resources */,
 				C93A0963221216BE00C6CE04 /* Giss_u.mp3 in Resources */,
 				C93A09F3221217FE00C6CE04 /* Hd_i.mp3 in Resources */,
@@ -1413,6 +1431,7 @@
 				C981FCF02210A92F00A56D42 /* snowball2_sing.png in Resources */,
 				C94CA7262218D1F800D3BD8C /* norsk_3.mp3 in Resources */,
 				C946A5632210D6C6002A840D /* castlecamera3.png in Resources */,
+				C95D1A17221C75040004E4D6 /* sfx_swoosh3.mp3 in Resources */,
 				C93A089E2212147100C6CE04 /* Ciss_i.mp3 in Resources */,
 				C93A09EE221217FE00C6CE04 /* Hd_o.mp3 in Resources */,
 				C94CA7032218D06900D3BD8C /* surikat3d.png in Resources */,
@@ -1441,6 +1460,7 @@
 				C94CA6E42218C3F500D3BD8C /* icon8red.png in Resources */,
 				C94CA7082218D06900D3BD8C /* surikat7.png in Resources */,
 				C980A8CB220F5E3E0014392F /* CastleBG.png in Resources */,
+				C95D1A18221C75040004E4D6 /* sfx_swoosh2.mp3 in Resources */,
 				C93A084F2211E94F00C6CE04 /* vowel_nor_Y.mp3 in Resources */,
 				C93A086E22120C7D00C6CE04 /* H_ae.mp3 in Resources */,
 				C93A09932212173500C6CE04 /* Aiss_e.mp3 in Resources */,
