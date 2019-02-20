@@ -310,13 +310,13 @@
         NSLog(@"Touched speaker");
     }
     // arrows
-    else if ([touchedNode.name isEqualToString:@"arrow_r"]) {
-        SKTransition *reveal = [SKTransition revealWithDirection:SKTransitionDirectionDown duration:1.0];
+    else if ([touchedNode.name rangeOfString:@"arrow"].location != NSNotFound) {
+        SKTransition *flipz = [SKTransition flipVerticalWithDuration:2.0];
         IslandScene *_newScene = [IslandScene newGameScene];
         for(SKView *v in self.view.subviews){
             [v removeFromSuperview];
         }
-        [self.scene.view presentScene: _newScene];
+        [self.scene.view presentScene: _newScene transition:flipz];
         NSLog(@"Touched right arrow");
     }
 }
