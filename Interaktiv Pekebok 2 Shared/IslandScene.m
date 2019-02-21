@@ -249,12 +249,12 @@
         _sattelitenode = [SKSpriteNode spriteNodeWithImageNamed:@"satelitt"];
         _sattelitenode.physicsBody.collisionBitMask = 0;
         [_sattelitenode setName:@"sattelite"];
-        [_sattelitenode setZPosition:-2];
+        [_sattelitenode setZPosition:-1];
         [self addChild:_sattelitenode];
     }
     int ypos = (arc4random() % (320+1)) + 640;
     CGPoint satpos = CGPointMake(-100, ypos);
-    CGVector vector = CGVectorMake(1600, 0);
+    CGVector vector = CGVectorMake(1700, 0);
     [_sattelitenode setPosition:satpos];
     int speed = 40;
     [_sattelitenode runAction:[SKAction moveBy:vector duration:speed]];
@@ -265,12 +265,12 @@
         _planetnode = [SKSpriteNode spriteNodeWithImageNamed:@"planet"];
         _planetnode.physicsBody.collisionBitMask = 0;
         [_planetnode setName:@"planet"];
-        [_planetnode setZPosition:-2];
+        [_planetnode setZPosition:-3];
         [self addChild:_planetnode];
     }
     int ypos = (arc4random() % (300+1)) + 660;
     CGPoint planetpos = CGPointMake(-100, ypos);
-    CGVector vector = CGVectorMake(1600, 0);
+    CGVector vector = CGVectorMake(1700, 0);
     [_planetnode setPosition:planetpos];
     int speed = 80;
     [_planetnode runAction:[SKAction moveBy:vector duration:speed]];
