@@ -48,6 +48,8 @@
 		C926853C2220A64200AA78F5 /* norsk_roed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C926853B2220A64200AA78F5 /* norsk_roed.mp3 */; };
 		C926853E2220A64B00AA78F5 /* norsk_rosa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C926853D2220A64B00AA78F5 /* norsk_rosa.mp3 */; };
 		C92685432220AAE900AA78F5 /* FarmScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C92685422220AAE900AA78F5 /* FarmScene.m */; };
+		C9394C1D2221EBFF00C35FBB /* bubblebase.png in Resources */ = {isa = PBXBuildFile; fileRef = C9394C1C2221EBFF00C35FBB /* bubblebase.png */; };
+		C9394C1F2221EC9900C35FBB /* bubbleshadow.png in Resources */ = {isa = PBXBuildFile; fileRef = C9394C1E2221EC9900C35FBB /* bubbleshadow.png */; };
 		C93A07F62211D7DD00C6CE04 /* musearm_AA.png in Resources */ = {isa = PBXBuildFile; fileRef = C93A07ED2211D7DB00C6CE04 /* musearm_AA.png */; };
 		C93A07FA2211D7DD00C6CE04 /* musearm_AA.png in Resources */ = {isa = PBXBuildFile; fileRef = C93A07ED2211D7DB00C6CE04 /* musearm_AA.png */; };
 		C93A07FB2211D7DD00C6CE04 /* musearm_Y.png in Resources */ = {isa = PBXBuildFile; fileRef = C93A07EE2211D7DB00C6CE04 /* musearm_Y.png */; };
@@ -553,6 +555,8 @@
 		C926853D2220A64B00AA78F5 /* norsk_rosa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norsk_rosa.mp3; sourceTree = "<group>"; };
 		C92685412220AAE900AA78F5 /* FarmScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FarmScene.h; sourceTree = "<group>"; };
 		C92685422220AAE900AA78F5 /* FarmScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarmScene.m; sourceTree = "<group>"; };
+		C9394C1C2221EBFF00C35FBB /* bubblebase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubblebase.png; sourceTree = "<group>"; };
+		C9394C1E2221EC9900C35FBB /* bubbleshadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleshadow.png; sourceTree = "<group>"; };
 		C93A07ED2211D7DB00C6CE04 /* musearm_AA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musearm_AA.png; sourceTree = "<group>"; };
 		C93A07EE2211D7DB00C6CE04 /* musearm_Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musearm_Y.png; sourceTree = "<group>"; };
 		C93A07EF2211D7DB00C6CE04 /* musearm_U.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musearm_U.png; sourceTree = "<group>"; };
@@ -883,15 +887,17 @@
 		C92685032220A1EF00AA78F5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C9394C1E2221EC9900C35FBB /* bubbleshadow.png */,
+				C9394C1C2221EBFF00C35FBB /* bubblebase.png */,
 				C926850C2220A39C00AA78F5 /* saapeboble_blaa.png */,
 				C926850E2220A39D00AA78F5 /* saapeboble_brun.png */,
 				C92685102220A39D00AA78F5 /* saapeboble_groenn.png */,
 				C926850A2220A39C00AA78F5 /* saapeboble_gul.png */,
 				C92685092220A39C00AA78F5 /* saapeboble_lilla.png */,
 				C926850F2220A39D00AA78F5 /* saapeboble_orange.png */,
+				C926850D2220A39D00AA78F5 /* saapeboble_transp.png */,
 				C92685112220A39D00AA78F5 /* saapeboble_roed.png */,
 				C926850B2220A39C00AA78F5 /* saapeboble_rosa.png */,
-				C926850D2220A39D00AA78F5 /* saapeboble_transp.png */,
 				C92685052220A20E00AA78F5 /* farmpicture.png */,
 			);
 			path = Images;
@@ -1605,6 +1611,7 @@
 				C93A096D221216BE00C6CE04 /* Giss_aa.mp3 in Resources */,
 				C94CA6DA2218C3F500D3BD8C /* icon7red.png in Resources */,
 				C926852A2220A58700AA78F5 /* norskf_mus_30.mp3 in Resources */,
+				C9394C1F2221EC9900C35FBB /* bubbleshadow.png in Resources */,
 				C946A5C42210DE82002A840D /* castle_speaker8.png in Resources */,
 				C946A5492210D1AF002A840D /* sfx_lever.mp3 in Resources */,
 				C93A083B2211E94F00C6CE04 /* vowel_nor_U.mp3 in Resources */,
@@ -1711,6 +1718,7 @@
 				C94CA6DD2218C3F500D3BD8C /* icon10.png in Resources */,
 				C946A5312210BF0F002A840D /* wildsnowball_3.mp3 in Resources */,
 				C93A09D22212179E00C6CE04 /* H8_o.mp3 in Resources */,
+				C9394C1D2221EBFF00C35FBB /* bubblebase.png in Resources */,
 				C93A08B22212147100C6CE04 /* Ciss_u.mp3 in Resources */,
 				C93A084A2211E94F00C6CE04 /* vowel_nor_E.mp3 in Resources */,
 				C980A8B3220F57DF0014392F /* Assets.xcassets in Resources */,

@@ -69,17 +69,27 @@
 #endif
 -(void)spawnBubble{
     SKShapeNode *bubble = [_bubblenode copy];
-    int xpos = 200;
-    int ypos = 200;
-    int speed = (arc4random() % (50+1)) + 100;
-    CGPoint pos = CGPointMake(xpos, ypos);
-    CGVector vector = CGVectorMake(1500, 0);
-    bubble.position = pos;
-    SKAction *growbubble = [SKAction resizeByWidth:60 height:60 duration:2];
-    SKAction *movebubble = [SKAction moveBy:vector duration:speed];
+    int xpos = 210;
+    int ypos = 245;
+    int xend = (arc4random() % (2000)) + xpos + 100;
+    int yend = 1000;
+    int xcontrol = (xend-xpos)/2;
+    int ycontrol = ypos;
+    int speed = (arc4random() % (100+1)) + 10;
+    CGFloat growthduration = 50 / (CGFloat)speed;
+    CGPoint posstart = CGPointMake(xpos, ypos);
+    CGPoint posend = CGPointMake(xend, yend);
+    CGPoint poscontrol = CGPointMake(xcontrol, ycontrol);
+    bubble.position = posstart;
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    [path moveToPoint:CGPointZero];
+    [path addQuadCurveToPoint:posend controlPoint:poscontrol];
+    SKAction *growbubble = [SKAction resizeByWidth:60 height:60 duration:growthduration];
+    SKAction *movebubble = [SKAction followPath:path.CGPath speed:speed];
     SKAction *killbubble = [SKAction removeFromParent];
-    SKAction *bubbleseq = [SKAction sequence:@[growbubble, movebubble, killbubble]];
-    [bubble runAction:bubbleseq];
+    SKAction *bubbleseq = [SKAction sequence:@[movebubble, killbubble]];
+    SKAction *bubblepar = [SKAction group:@[growbubble, bubbleseq]];
+    [bubble runAction:bubblepar];
     [self addChild:bubble];
 }
 -(void)update:(CFTimeInterval)currentTime {

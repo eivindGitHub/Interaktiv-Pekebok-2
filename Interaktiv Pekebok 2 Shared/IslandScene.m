@@ -58,6 +58,8 @@
     SKSpriteNode *_sattelitenode;
     SKSpriteNode *_planetnode;
     SKShapeNode *islandnode;
+    CGSize farstarsize;
+    CGSize bigfarstarrsize;
     double lasttime;
     double elapsedtime;
     double farstarage;
@@ -120,6 +122,8 @@
     cat10d = (SKShapeNode*) [islandnode childNodeWithName:@"surikat10d"];
     cats = [NSArray arrayWithObjects:cat1,cat2,cat3,cat4,cat5,cat6,cat7,cat8,cat9,cat10,nil];
     catsd = [NSArray arrayWithObjects:cat1d,cat2d,cat3d,cat4d,cat5d,cat6d,cat7d,cat8d,cat9d,cat10d,nil];
+    
+    
     _starnode = [SKSpriteNode spriteNodeWithImageNamed:@"stjerne1"];
     _starnode.physicsBody.collisionBitMask = 0;
     CGSize starsize = CGSizeMake(1, 1);
@@ -127,7 +131,8 @@
     [_starnode setZPosition:-4];
     _farstarnode = [SKSpriteNode spriteNodeWithImageNamed:@"stjerne_fjern"];
     _farstarnode.physicsBody.collisionBitMask = 0;
-    CGSize farstarsize = CGSizeMake(4, 4);
+    farstarsize = CGSizeMake(4, 4);
+    bigfarstarrsize = CGSizeMake(5, 5);
     [_farstarnode setSize:farstarsize];
     [_farstarnode setAlpha:0.4];
     [_farstarnode setZPosition:-5];
@@ -289,13 +294,28 @@
         SKAction *movestar = [SKAction moveBy:vector duration:speed];
         SKAction *killstar = [SKAction removeFromParent];
         SKAction *starseq = [SKAction sequence:@[movestar, killstar]];
-        [farstar runAction:starseq];
+        if(i % 5 == 0){
+            int rdmwait = (arc4random() % (20))+1;
+            SKAction *blinkstar = [SKAction fadeAlphaTo:1.0 duration:1];
+            SKAction *blinkstar2 = [SKAction fadeAlphaTo:0.4 duration:1];
+            SKAction *waitstar = [SKAction waitForDuration:rdmwait];
+            SKAction *growstar = [SKAction scaleToSize:bigfarstarrsize duration:1];
+            SKAction *shrinkstar = [SKAction scaleToSize:farstarsize duration:1];
+            SKAction *blinkseq = [SKAction repeatActionForever:[SKAction sequence:@[waitstar, blinkstar, blinkstar2]]];
+            SKAction *growseq = [SKAction repeatActionForever:[SKAction sequence:@[waitstar, growstar, shrinkstar]]];
+            SKAction *parallelseq = [SKAction group:@[starseq, blinkseq, growseq]];
+            [farstar runAction:parallelseq];
+        }
+        else{
+                [farstar runAction:starseq];
+        }
         [self addChild:farstar];
     }
 }
 -(void)spawnFarStarCluster{
-    int farstarcount = (arc4random() % (2+1));
+    int farstarcount = (arc4random() % (2))+1;
     for(int i = 0; i < farstarcount; i++){
+        int roll5die = (arc4random() % 5)+1;
         SKShapeNode *farstar = [_farstarnode copy];
         int xpos = -(arc4random() % (10+1));
         int ypos = (arc4random() % (320+1)) + 640;
@@ -306,9 +326,20 @@
         SKAction *movestar = [SKAction moveBy:vector duration:speed];
         SKAction *killstar = [SKAction removeFromParent];
         SKAction *starseq = [SKAction sequence:@[movestar, killstar]];
+        if(roll5die == 5){
+            int rdmwait = (arc4random() % (20));
+            SKAction *blinkstar = [SKAction fadeAlphaTo:1.0 duration:1];
+            SKAction *blinkstar2 = [SKAction fadeAlphaTo:0.4 duration:1];
+            SKAction *waitstar = [SKAction waitForDuration:rdmwait];
+            SKAction *growstar = [SKAction scaleToSize:bigfarstarrsize duration:1];
+            SKAction *shrinkstar = [SKAction scaleToSize:farstarsize duration:1];
+            SKAction *blinkseq = [SKAction repeatActionForever:[SKAction sequence:@[waitstar, blinkstar, blinkstar2]]];
+            SKAction *growseq = [SKAction repeatActionForever:[SKAction sequence:@[waitstar, growstar, shrinkstar]]];
+            SKAction *parallelgroup = [SKAction group:@[starseq, blinkseq, growseq]];
+            [farstar runAction:parallelgroup];
+        }
         [farstar runAction:starseq];
         [self addChild:farstar];
-        
     }
 }
 
@@ -324,7 +355,8 @@
     SKAction *movestar = [SKAction moveBy:vector duration:speed];
     SKAction *killstar = [SKAction removeFromParent];
     SKAction *starseq = [SKAction sequence:@[growstar, movestar, killstar]];
-    [star runAction:starseq];
+    SKAction *parallelgroup = [SKAction group:@[growstar, starseq]];
+    [star runAction:parallelgroup];
     [self addChild:star];
 }
 -(void)update:(CFTimeInterval)currentTime {
