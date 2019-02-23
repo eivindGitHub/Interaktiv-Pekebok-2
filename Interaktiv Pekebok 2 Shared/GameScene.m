@@ -310,7 +310,7 @@
         NSLog(@"Touched speaker");
     }
     // arrows
-    else if ([touchedNode.name rangeOfString:@"arrow"].location != NSNotFound) {
+    else if ([touchedNode.name rangeOfString:@"arrow_r"].location != NSNotFound) {
         SKTransition *flipz = [SKTransition flipVerticalWithDuration:2.0];
         IslandScene *_newScene = [IslandScene newGameScene];
         for(SKView *v in self.view.subviews){
@@ -318,6 +318,15 @@
         }
         [self.scene.view presentScene: _newScene transition:flipz];
         NSLog(@"Touched right arrow");
+    }
+    else if ([touchedNode.name rangeOfString:@"arrow_l"].location != NSNotFound) {
+        SKTransition *flipz = [SKTransition flipVerticalWithDuration:2.0];
+        FarmScene *_newScene = [FarmScene newGameScene];
+        for(SKView *v in self.view.subviews){
+            [v removeFromSuperview];
+        }
+        [self.scene.view presentScene: _newScene transition:flipz];
+        NSLog(@"Touched left arrow");
     }
 }
 #endif
