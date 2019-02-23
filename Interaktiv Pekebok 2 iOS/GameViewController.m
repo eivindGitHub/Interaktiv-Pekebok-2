@@ -9,6 +9,7 @@
 #import "GameViewController.h"
 #import "GameScene.h"
 #import "IslandScene.h"
+#import "FarmScene.h"
 
 @implementation GameViewController
 

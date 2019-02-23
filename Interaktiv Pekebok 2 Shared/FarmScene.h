@@ -1,19 +1,18 @@
 //
-//  IslandScene.h
+//  FarmScene.h
 //  Interaktiv Pekebok 2 iOS
 //
-//  Created by Eivind Aanestad on 14.02.2019.
+//  Created by Eivind Aanestad on 22.02.2019.
 //  Copyright © 2019 Eivind Aanestad. All rights reserved.
 //
 
 #import <SpriteKit/SpriteKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import "GameScene.h"
-#import "FarmScene.h"
+#import "IslandScene.h"
 
-@interface IslandScene : SKScene
+@interface FarmScene : SKScene
 
-+ (IslandScene *)newGameScene;
++ (FarmScene *)newGameScene;
 
 @end
-

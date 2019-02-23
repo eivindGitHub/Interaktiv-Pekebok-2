@@ -9,6 +9,7 @@
 #import <SpriteKit/SpriteKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import "IslandScene.h"
+#import "FarmScene.h"
 
 @interface GameScene : SKScene
 

@@ -12,7 +12,8 @@
 
     bool isMusic;
     AVAudioPlayer *musicplayer;
-    GameScene *_newScene;
+    GameScene *_newGameScene;
+    FarmScene *_newFarmScene;
     NSMutableArray *_meercatbools;
     NSMutableArray *_meercatboolsOld;
     SKAction *swoosh2;
@@ -121,7 +122,7 @@
     catsd = [NSArray arrayWithObjects:cat1d,cat2d,cat3d,cat4d,cat5d,cat6d,cat7d,cat8d,cat9d,cat10d,nil];
     _starnode = [SKSpriteNode spriteNodeWithImageNamed:@"stjerne1"];
     _starnode.physicsBody.collisionBitMask = 0;
-    CGSize starsize = CGSizeMake(30, 30);
+    CGSize starsize = CGSizeMake(1, 1);
     [_starnode setSize:starsize];
     [_starnode setZPosition:-4];
     _farstarnode = [SKSpriteNode spriteNodeWithImageNamed:@"stjerne_fjern"];
@@ -313,15 +314,16 @@
 
 -(void)spawnStar{
     SKShapeNode *star = [_starnode copy];
-    int xpos = -10;
+    int xpos = 10;
     int ypos = (arc4random() % (320+1)) + 640;
     int speed = (arc4random() % (50+1)) + 100;
     CGPoint pos = CGPointMake(xpos, ypos);
     CGVector vector = CGVectorMake(1500, 0);
     star.position = pos;
+    SKAction *growstar = [SKAction resizeByWidth:30 height:30 duration:2];
     SKAction *movestar = [SKAction moveBy:vector duration:speed];
     SKAction *killstar = [SKAction removeFromParent];
-    SKAction *starseq = [SKAction sequence:@[movestar, killstar]];
+    SKAction *starseq = [SKAction sequence:@[growstar, movestar, killstar]];
     [star runAction:starseq];
     [self addChild:star];
 }
@@ -361,7 +363,13 @@
     SKSpriteNode *touchedNode = (SKSpriteNode *)[self nodeAtPoint:touchedPoint];
     
     // arrows
-    if ([touchedNode.name rangeOfString:@"arrow"].location != NSNotFound) {
+    if ([touchedNode.name rangeOfString:@"arrow_r"].location != NSNotFound) {
+        SKTransition *flipz = [SKTransition flipVerticalWithDuration:2.0];
+        FarmScene *_newScene = [FarmScene newGameScene];
+        [self.scene.view presentScene: _newScene transition:flipz];
+        NSLog(@"Touched arrow");
+    }
+    else if ([touchedNode.name rangeOfString:@"arrow_l"].location != NSNotFound) {
         SKTransition *flipz = [SKTransition flipVerticalWithDuration:2.0];
         GameScene *_newScene = [GameScene newGameScene];
         [self.scene.view presentScene: _newScene transition:flipz];
