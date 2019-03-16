@@ -14,6 +14,15 @@
     AVAudioPlayer *musicplayer;
     GameScene *_newGameScene;
     FarmScene *_newFarmScene;
+    SKSpriteNode *_tellemus;
+    SKSpriteNode *_snakkeboble;
+    SKSpriteNode *_telleplakat;
+    SKAction *_unhidebubble;
+    SKAction *_waitbubble;
+    SKAction *_waitbubble2;
+    SKAction *_hidebubble;
+    SKAction *_hidesequence;
+    SKAction *_bubblesequence2;
     NSMutableArray *_meercatbools;
     NSMutableArray *_meercatboolsOld;
     SKAction *swoosh2;
@@ -123,7 +132,17 @@
     cats = [NSArray arrayWithObjects:cat1,cat2,cat3,cat4,cat5,cat6,cat7,cat8,cat9,cat10,nil];
     catsd = [NSArray arrayWithObjects:cat1d,cat2d,cat3d,cat4d,cat5d,cat6d,cat7d,cat8d,cat9d,cat10d,nil];
     
-    
+    _tellemus = (SKSpriteNode*) [islandnode childNodeWithName:@"//tellemus"];
+    _snakkeboble = (SKSpriteNode*) [islandnode childNodeWithName:@"//snakkeboble"];
+    [_snakkeboble setHidden:true];
+    _telleplakat = (SKSpriteNode*) [islandnode childNodeWithName:@"//telleplakat"];
+    [_telleplakat setHidden:true];
+    _unhidebubble = [SKAction unhide];
+    _waitbubble = [SKAction waitForDuration:0.9];
+    _waitbubble2 = [SKAction waitForDuration:2.0];
+    _hidebubble = [SKAction hide];
+    _hidesequence = [SKAction sequence:@[_unhidebubble, _waitbubble, _hidebubble]];
+    _bubblesequence2 = [SKAction sequence:@[_unhidebubble, _waitbubble2, _hidebubble]];
     _starnode = [SKSpriteNode spriteNodeWithImageNamed:@"stjerne1"];
     _starnode.physicsBody.collisionBitMask = 0;
     CGSize starsize = CGSizeMake(1, 1);
@@ -359,6 +378,22 @@
     [star runAction:parallelgroup];
     [self addChild:star];
 }
+-(void)playEncouragingAudio{
+    //congratulate 1 out of 5 times
+    int roll10die = (arc4random() % 10)+1;
+    int roll6die = (arc4random() % 6)+1;
+    NSString *diestring = [NSString stringWithFormat:@"%d", roll6die];
+    if(roll10die > 2){
+        for (SKAudioNode *an in _tellemus.children) {
+            if([an.name hasSuffix:diestring]){
+                [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
+                [_snakkeboble runAction:_hidesequence];
+            }
+        }
+    }
+    NSLog(@"Might play encouraging audio...");
+}
+
 -(void)update:(CFTimeInterval)currentTime {
     // Called before each frame is rendered
     elapsedtime = currentTime - lasttime;
@@ -419,15 +454,27 @@
             [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
         }
         int touchednumber = [touchedNode.userData[@"userData1"] intValue];
-        //If correct number, play sounds, generate new meercat number, put all cats down then raise according to meercatbools
+        //If correct number, play sounds, generate new meercat number, put all cats down then raise according to meercatbools, play encouraging audio
         if(touchednumber == [self meercatCount]){
             //[touchedNode runAction:meercatsfxdown];
             [touchedNode runAction:dreamharp];
             [self resetMeercatBools];
             [self spawnStar];
+            [self playEncouragingAudio];
             NSLog(@"Touched correct number");
         }
         NSLog(@"Touched number");
+    }
+    else if ([touchedNode.name rangeOfString:@"mousedummy"].location != NSNotFound) {
+        int randomwelcome = (arc4random() % 2) + 1;
+        for (SKAudioNode *an in touchedNode.children) {
+            int audionodeint = [an.userData[@"userData1"] intValue];
+            if(randomwelcome == audionodeint && an != nil && [an isKindOfClass:[SKAudioNode class]]) {
+                [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
+            }
+        }
+        //[_telleplakat runAction:_bubblesequence2];
+        NSLog(@"Touched mouse");
     }
 
 }

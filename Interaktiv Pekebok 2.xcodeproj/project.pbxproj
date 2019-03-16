@@ -31,13 +31,8 @@
 		C926851A2220A39D00AA78F5 /* saapeboble_roed.png in Resources */ = {isa = PBXBuildFile; fileRef = C92685112220A39D00AA78F5 /* saapeboble_roed.png */; };
 		C926851C2220A3AF00AA78F5 /* tellemus.png in Resources */ = {isa = PBXBuildFile; fileRef = C926851B2220A3AF00AA78F5 /* tellemus.png */; };
 		C926851E2220A3D300AA78F5 /* utropstegn.png in Resources */ = {isa = PBXBuildFile; fileRef = C926851D2220A3D300AA78F5 /* utropstegn.png */; };
-		C92685262220A58700AA78F5 /* norskf_mus_15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C926851F2220A58600AA78F5 /* norskf_mus_15.mp3 */; };
-		C92685272220A58700AA78F5 /* norskf_mus_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92685202220A58600AA78F5 /* norskf_mus_5.mp3 */; };
-		C92685282220A58700AA78F5 /* norskf_mus_10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92685212220A58600AA78F5 /* norskf_mus_10.mp3 */; };
-		C92685292220A58700AA78F5 /* norskf_mus_25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92685222220A58600AA78F5 /* norskf_mus_25.mp3 */; };
-		C926852A2220A58700AA78F5 /* norskf_mus_30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92685232220A58600AA78F5 /* norskf_mus_30.mp3 */; };
-		C926852B2220A58700AA78F5 /* norskf_mus_20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92685242220A58600AA78F5 /* norskf_mus_20.mp3 */; };
-		C926852C2220A58700AA78F5 /* norskf_mus_flott.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92685252220A58700AA78F5 /* norskf_mus_flott.mp3 */; };
+		C92685272220A58700AA78F5 /* norskf_mus_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92685202220A58600AA78F5 /* norskf_mus_1.mp3 */; };
+		C926852A2220A58700AA78F5 /* norskf_mus_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92685232220A58600AA78F5 /* norskf_mus_6.mp3 */; };
 		C926852E2220A5A600AA78F5 /* sfx_bubblepop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C926852D2220A5A600AA78F5 /* sfx_bubblepop.mp3 */; };
 		C92685302220A5FC00AA78F5 /* norsk_blaa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C926852F2220A5FC00AA78F5 /* norsk_blaa.mp3 */; };
 		C92685322220A60300AA78F5 /* norsk_brun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92685312220A60300AA78F5 /* norsk_brun.mp3 */; };
@@ -497,6 +492,45 @@
 		C9B945E222161266008F6AB8 /* arrow_r.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B945E122161265008F6AB8 /* arrow_r.png */; };
 		C9B945E5221612FC008F6AB8 /* arrow_l.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B945E4221612FC008F6AB8 /* arrow_l.png */; };
 		C9B945E7221614C7008F6AB8 /* IslandScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C9B945E6221614C7008F6AB8 /* IslandScene.sks */; };
+		C9CFD88C223D5F1B00377ADA /* sfx_ku.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD88B223D5F1B00377ADA /* sfx_ku.mp3 */; };
+		C9CFD88E223D5F2400377ADA /* sfx_hund.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD88D223D5F2400377ADA /* sfx_hund.mp3 */; };
+		C9CFD890223D5F2E00377ADA /* sfx_hest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD88F223D5F2E00377ADA /* sfx_hest.mp3 */; };
+		C9CFD892223D5F3500377ADA /* sfx_gris.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD891223D5F3500377ADA /* sfx_gris.mp3 */; };
+		C9CFD894223D5F3D00377ADA /* sfx_chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD893223D5F3D00377ADA /* sfx_chicken.mp3 */; };
+		C9CFD896223D5F4700377ADA /* sfx_hen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD895223D5F4700377ADA /* sfx_hen.mp3 */; };
+		C9CFD898223D5F5600377ADA /* sfx_rooster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD897223D5F5600377ADA /* sfx_rooster.mp3 */; };
+		C9CFD89A223D5F6400377ADA /* sfx_sau.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD899223D5F6400377ADA /* sfx_sau.mp3 */; };
+		C9CFD89C223D5F7200377ADA /* soundeffect_traktor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD89B223D5F7200377ADA /* soundeffect_traktor.mp3 */; };
+		C9CFD89E223D605B00377ADA /* soundeffect_katt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD89D223D605B00377ADA /* soundeffect_katt.mp3 */; };
+		C9CFD8A2223D647900377ADA /* dummy.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8A1223D647900377ADA /* dummy.png */; };
+		C9CFD8A4223D690500377ADA /* goose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8A3223D690500377ADA /* goose.mp3 */; };
+		C9CFD8A6223D6ADC00377ADA /* squirrel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8A5223D6ADC00377ADA /* squirrel.mp3 */; };
+		C9CFD8A9223D6D3600377ADA /* castlehall.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8A8223D6D3500377ADA /* castlehall.png */; };
+		C9CFD8AD223D6DEC00377ADA /* CastleHallScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8AC223D6DEC00377ADA /* CastleHallScene.sks */; };
+		C9CFD8B7223D6F1800377ADA /* wagonarm1.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8B0223D6F1700377ADA /* wagonarm1.png */; };
+		C9CFD8B8223D6F1800377ADA /* wagonarm0.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8B1223D6F1700377ADA /* wagonarm0.png */; };
+		C9CFD8B9223D6F1800377ADA /* wagonarm3.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8B2223D6F1700377ADA /* wagonarm3.png */; };
+		C9CFD8BA223D6F1800377ADA /* wagon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8B3223D6F1700377ADA /* wagon.png */; };
+		C9CFD8BB223D6F1800377ADA /* wagoninside.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8B4223D6F1800377ADA /* wagoninside.png */; };
+		C9CFD8BC223D6F1800377ADA /* wagonarm4.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8B5223D6F1800377ADA /* wagonarm4.png */; };
+		C9CFD8BD223D6F1800377ADA /* wagonarm2.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8B6223D6F1800377ADA /* wagonarm2.png */; };
+		C9CFD8C9223D7BF000377ADA /* wscore6.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8BF223D7BEE00377ADA /* wscore6.png */; };
+		C9CFD8CA223D7BF000377ADA /* wscore8.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8C0223D7BEE00377ADA /* wscore8.png */; };
+		C9CFD8CB223D7BF000377ADA /* wscore5.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8C1223D7BEF00377ADA /* wscore5.png */; };
+		C9CFD8CC223D7BF000377ADA /* wscore0.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8C2223D7BEF00377ADA /* wscore0.png */; };
+		C9CFD8CD223D7BF000377ADA /* wscore2.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8C3223D7BEF00377ADA /* wscore2.png */; };
+		C9CFD8CE223D7BF000377ADA /* wscore1.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8C4223D7BEF00377ADA /* wscore1.png */; };
+		C9CFD8CF223D7BF000377ADA /* wscore4.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8C5223D7BEF00377ADA /* wscore4.png */; };
+		C9CFD8D0223D7BF000377ADA /* wscore7.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8C6223D7BF000377ADA /* wscore7.png */; };
+		C9CFD8D1223D7BF000377ADA /* wscore9.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8C7223D7BF000377ADA /* wscore9.png */; };
+		C9CFD8D2223D7BF000377ADA /* wscore3.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8C8223D7BF000377ADA /* wscore3.png */; };
+		C9CFD8DE223D7D9800377ADA /* norskf_mus_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8D8223D7D9800377ADA /* norskf_mus_3.mp3 */; };
+		C9CFD8DF223D7D9800377ADA /* norskf_mus_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8D9223D7D9800377ADA /* norskf_mus_4.mp3 */; };
+		C9CFD8E0223D7D9800377ADA /* norskf_mus_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8DA223D7D9800377ADA /* norskf_mus_2.mp3 */; };
+		C9CFD8E2223D8F5100377ADA /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8E1223D8F5100377ADA /* Sounds */; };
+		C9CFD8E4223D8F9E00377ADA /* norskf_mus_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8E3223D8F9E00377ADA /* norskf_mus_5.mp3 */; };
+		C9CFD8E7223D960500377ADA /* norskf_mus_intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8E5223D960400377ADA /* norskf_mus_intro.mp3 */; };
+		C9CFD8E8223D960500377ADA /* norskf_mus_teller.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8E6223D960400377ADA /* norskf_mus_teller.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -537,13 +571,8 @@
 		C92685112220A39D00AA78F5 /* saapeboble_roed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saapeboble_roed.png; sourceTree = "<group>"; };
 		C926851B2220A3AF00AA78F5 /* tellemus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tellemus.png; sourceTree = "<group>"; };
 		C926851D2220A3D300AA78F5 /* utropstegn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utropstegn.png; sourceTree = "<group>"; };
-		C926851F2220A58600AA78F5 /* norskf_mus_15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_15.mp3; sourceTree = "<group>"; };
-		C92685202220A58600AA78F5 /* norskf_mus_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_5.mp3; sourceTree = "<group>"; };
-		C92685212220A58600AA78F5 /* norskf_mus_10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_10.mp3; sourceTree = "<group>"; };
-		C92685222220A58600AA78F5 /* norskf_mus_25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_25.mp3; sourceTree = "<group>"; };
-		C92685232220A58600AA78F5 /* norskf_mus_30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_30.mp3; sourceTree = "<group>"; };
-		C92685242220A58600AA78F5 /* norskf_mus_20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_20.mp3; sourceTree = "<group>"; };
-		C92685252220A58700AA78F5 /* norskf_mus_flott.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_flott.mp3; sourceTree = "<group>"; };
+		C92685202220A58600AA78F5 /* norskf_mus_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_1.mp3; sourceTree = "<group>"; };
+		C92685232220A58600AA78F5 /* norskf_mus_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_6.mp3; sourceTree = "<group>"; };
 		C926852D2220A5A600AA78F5 /* sfx_bubblepop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_bubblepop.mp3; sourceTree = "<group>"; };
 		C926852F2220A5FC00AA78F5 /* norsk_blaa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norsk_blaa.mp3; sourceTree = "<group>"; };
 		C92685312220A60300AA78F5 /* norsk_brun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norsk_brun.mp3; sourceTree = "<group>"; };
@@ -840,6 +869,45 @@
 		C9B945E122161265008F6AB8 /* arrow_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_r.png; sourceTree = "<group>"; };
 		C9B945E4221612FC008F6AB8 /* arrow_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_l.png; sourceTree = "<group>"; };
 		C9B945E6221614C7008F6AB8 /* IslandScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = IslandScene.sks; sourceTree = "<group>"; };
+		C9CFD88B223D5F1B00377ADA /* sfx_ku.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_ku.mp3; sourceTree = "<group>"; };
+		C9CFD88D223D5F2400377ADA /* sfx_hund.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_hund.mp3; sourceTree = "<group>"; };
+		C9CFD88F223D5F2E00377ADA /* sfx_hest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_hest.mp3; sourceTree = "<group>"; };
+		C9CFD891223D5F3500377ADA /* sfx_gris.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_gris.mp3; sourceTree = "<group>"; };
+		C9CFD893223D5F3D00377ADA /* sfx_chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_chicken.mp3; sourceTree = "<group>"; };
+		C9CFD895223D5F4700377ADA /* sfx_hen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_hen.mp3; sourceTree = "<group>"; };
+		C9CFD897223D5F5600377ADA /* sfx_rooster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_rooster.mp3; sourceTree = "<group>"; };
+		C9CFD899223D5F6400377ADA /* sfx_sau.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_sau.mp3; sourceTree = "<group>"; };
+		C9CFD89B223D5F7200377ADA /* soundeffect_traktor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundeffect_traktor.mp3; sourceTree = "<group>"; };
+		C9CFD89D223D605B00377ADA /* soundeffect_katt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundeffect_katt.mp3; sourceTree = "<group>"; };
+		C9CFD8A1223D647900377ADA /* dummy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummy.png; sourceTree = "<group>"; };
+		C9CFD8A3223D690500377ADA /* goose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goose.mp3; sourceTree = "<group>"; };
+		C9CFD8A5223D6ADC00377ADA /* squirrel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = squirrel.mp3; sourceTree = "<group>"; };
+		C9CFD8A8223D6D3500377ADA /* castlehall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castlehall.png; sourceTree = "<group>"; };
+		C9CFD8AC223D6DEC00377ADA /* CastleHallScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CastleHallScene.sks; sourceTree = "<group>"; };
+		C9CFD8B0223D6F1700377ADA /* wagonarm1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wagonarm1.png; sourceTree = "<group>"; };
+		C9CFD8B1223D6F1700377ADA /* wagonarm0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wagonarm0.png; sourceTree = "<group>"; };
+		C9CFD8B2223D6F1700377ADA /* wagonarm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wagonarm3.png; sourceTree = "<group>"; };
+		C9CFD8B3223D6F1700377ADA /* wagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wagon.png; sourceTree = "<group>"; };
+		C9CFD8B4223D6F1800377ADA /* wagoninside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wagoninside.png; sourceTree = "<group>"; };
+		C9CFD8B5223D6F1800377ADA /* wagonarm4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wagonarm4.png; sourceTree = "<group>"; };
+		C9CFD8B6223D6F1800377ADA /* wagonarm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wagonarm2.png; sourceTree = "<group>"; };
+		C9CFD8BF223D7BEE00377ADA /* wscore6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wscore6.png; sourceTree = "<group>"; };
+		C9CFD8C0223D7BEE00377ADA /* wscore8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wscore8.png; sourceTree = "<group>"; };
+		C9CFD8C1223D7BEF00377ADA /* wscore5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wscore5.png; sourceTree = "<group>"; };
+		C9CFD8C2223D7BEF00377ADA /* wscore0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wscore0.png; sourceTree = "<group>"; };
+		C9CFD8C3223D7BEF00377ADA /* wscore2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wscore2.png; sourceTree = "<group>"; };
+		C9CFD8C4223D7BEF00377ADA /* wscore1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wscore1.png; sourceTree = "<group>"; };
+		C9CFD8C5223D7BEF00377ADA /* wscore4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wscore4.png; sourceTree = "<group>"; };
+		C9CFD8C6223D7BF000377ADA /* wscore7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wscore7.png; sourceTree = "<group>"; };
+		C9CFD8C7223D7BF000377ADA /* wscore9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wscore9.png; sourceTree = "<group>"; };
+		C9CFD8C8223D7BF000377ADA /* wscore3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wscore3.png; sourceTree = "<group>"; };
+		C9CFD8D8223D7D9800377ADA /* norskf_mus_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = norskf_mus_3.mp3; path = "../../../../../../iCloud Drive (arkiv)/Documents/Interaktiv Pekebok/norskf_mus_3.mp3"; sourceTree = "<group>"; };
+		C9CFD8D9223D7D9800377ADA /* norskf_mus_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = norskf_mus_4.mp3; path = "../../../../../../iCloud Drive (arkiv)/Documents/Interaktiv Pekebok/norskf_mus_4.mp3"; sourceTree = "<group>"; };
+		C9CFD8DA223D7D9800377ADA /* norskf_mus_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = norskf_mus_2.mp3; path = "../../../../../../iCloud Drive (arkiv)/Documents/Interaktiv Pekebok/norskf_mus_2.mp3"; sourceTree = "<group>"; };
+		C9CFD8E1223D8F5100377ADA /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; sourceTree = "<group>"; };
+		C9CFD8E3223D8F9E00377ADA /* norskf_mus_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_5.mp3; sourceTree = "<group>"; };
+		C9CFD8E5223D960400377ADA /* norskf_mus_intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_intro.mp3; sourceTree = "<group>"; };
+		C9CFD8E6223D960400377ADA /* norskf_mus_teller.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_teller.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -887,6 +955,7 @@
 		C92685032220A1EF00AA78F5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C9CFD8A1223D647900377ADA /* dummy.png */,
 				C9394C1E2221EC9900C35FBB /* bubbleshadow.png */,
 				C9394C1C2221EBFF00C35FBB /* bubblebase.png */,
 				C926850C2220A39C00AA78F5 /* saapeboble_blaa.png */,
@@ -906,6 +975,18 @@
 		C92685042220A1F600AA78F5 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				C9CFD8A5223D6ADC00377ADA /* squirrel.mp3 */,
+				C9CFD8A3223D690500377ADA /* goose.mp3 */,
+				C9CFD89D223D605B00377ADA /* soundeffect_katt.mp3 */,
+				C9CFD89B223D5F7200377ADA /* soundeffect_traktor.mp3 */,
+				C9CFD899223D5F6400377ADA /* sfx_sau.mp3 */,
+				C9CFD897223D5F5600377ADA /* sfx_rooster.mp3 */,
+				C9CFD895223D5F4700377ADA /* sfx_hen.mp3 */,
+				C9CFD893223D5F3D00377ADA /* sfx_chicken.mp3 */,
+				C9CFD891223D5F3500377ADA /* sfx_gris.mp3 */,
+				C9CFD88F223D5F2E00377ADA /* sfx_hest.mp3 */,
+				C9CFD88D223D5F2400377ADA /* sfx_hund.mp3 */,
+				C9CFD88B223D5F1B00377ADA /* sfx_ku.mp3 */,
 				C926852D2220A5A600AA78F5 /* sfx_bubblepop.mp3 */,
 				C926852F2220A5FC00AA78F5 /* norsk_blaa.mp3 */,
 				C92685312220A60300AA78F5 /* norsk_brun.mp3 */,
@@ -1085,13 +1166,15 @@
 		C95D1A19221C75090004E4D6 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				C92685202220A58600AA78F5 /* norskf_mus_5.mp3 */,
-				C92685212220A58600AA78F5 /* norskf_mus_10.mp3 */,
-				C926851F2220A58600AA78F5 /* norskf_mus_15.mp3 */,
-				C92685242220A58600AA78F5 /* norskf_mus_20.mp3 */,
-				C92685222220A58600AA78F5 /* norskf_mus_25.mp3 */,
-				C92685232220A58600AA78F5 /* norskf_mus_30.mp3 */,
-				C92685252220A58700AA78F5 /* norskf_mus_flott.mp3 */,
+				C9CFD8E5223D960400377ADA /* norskf_mus_intro.mp3 */,
+				C9CFD8E6223D960400377ADA /* norskf_mus_teller.mp3 */,
+				C92685202220A58600AA78F5 /* norskf_mus_1.mp3 */,
+				C9CFD8DA223D7D9800377ADA /* norskf_mus_2.mp3 */,
+				C9CFD8D8223D7D9800377ADA /* norskf_mus_3.mp3 */,
+				C9CFD8D9223D7D9800377ADA /* norskf_mus_4.mp3 */,
+				C9CFD8E3223D8F9E00377ADA /* norskf_mus_5.mp3 */,
+				C9CFD8E1223D8F5100377ADA /* Sounds */,
+				C92685232220A58600AA78F5 /* norskf_mus_6.mp3 */,
 				C9094A0D221DCBCB0087E7D8 /* bgmusic_tellepic.mp3 */,
 				C9094A0B221DC88E0087E7D8 /* quizkorrekt.mp3 */,
 				C95D1A1A221CC5EF0004E4D6 /* dreamharpcut.mp3 */,
@@ -1126,6 +1209,7 @@
 		C980A84D220F57DE0014392F /* Interaktiv Pekebok 2 Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C9CFD8A7223D6CEE00377ADA /* CastleHall */,
 				C92685022220A1D200AA78F5 /* Farm */,
 				C9B945E32216126B008F6AB8 /* Menu */,
 				C9B945DA2215DB9B008F6AB8 /* Island */,
@@ -1141,6 +1225,7 @@
 				C92685412220AAE900AA78F5 /* FarmScene.h */,
 				C9B945DF2215DDD4008F6AB8 /* IslandScene.m */,
 				C92685422220AAE900AA78F5 /* FarmScene.m */,
+				C9CFD8AC223D6DEC00377ADA /* CastleHallScene.sks */,
 			);
 			path = "Interaktiv Pekebok 2 Shared";
 			sourceTree = "<group>";
@@ -1393,6 +1478,55 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
+		C9CFD8A7223D6CEE00377ADA /* CastleHall */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFD8AF223D6EFE00377ADA /* Sounds */,
+				C9CFD8AE223D6EF100377ADA /* Images */,
+				C9CFD8A8223D6D3500377ADA /* castlehall.png */,
+			);
+			path = CastleHall;
+			sourceTree = "<group>";
+		};
+		C9CFD8AE223D6EF100377ADA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFD8BE223D7BDB00377ADA /* Score */,
+				C9CFD8B3223D6F1700377ADA /* wagon.png */,
+				C9CFD8B1223D6F1700377ADA /* wagonarm0.png */,
+				C9CFD8B0223D6F1700377ADA /* wagonarm1.png */,
+				C9CFD8B6223D6F1800377ADA /* wagonarm2.png */,
+				C9CFD8B2223D6F1700377ADA /* wagonarm3.png */,
+				C9CFD8B5223D6F1800377ADA /* wagonarm4.png */,
+				C9CFD8B4223D6F1800377ADA /* wagoninside.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C9CFD8AF223D6EFE00377ADA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		C9CFD8BE223D7BDB00377ADA /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFD8C2223D7BEF00377ADA /* wscore0.png */,
+				C9CFD8C4223D7BEF00377ADA /* wscore1.png */,
+				C9CFD8C3223D7BEF00377ADA /* wscore2.png */,
+				C9CFD8C8223D7BF000377ADA /* wscore3.png */,
+				C9CFD8C5223D7BEF00377ADA /* wscore4.png */,
+				C9CFD8C1223D7BEF00377ADA /* wscore5.png */,
+				C9CFD8BF223D7BEE00377ADA /* wscore6.png */,
+				C9CFD8C6223D7BF000377ADA /* wscore7.png */,
+				C9CFD8C0223D7BEE00377ADA /* wscore8.png */,
+				C9CFD8C7223D7BF000377ADA /* wscore9.png */,
+			);
+			path = Score;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1518,16 +1652,15 @@
 				C946A52C2210BF0F002A840D /* wildsnowball_7.mp3 in Resources */,
 				C926853A2220A63700AA78F5 /* norsk_orange.mp3 in Resources */,
 				C93A08542211E94F00C6CE04 /* vowel_nor_O.mp3 in Resources */,
+				C9CFD8DE223D7D9800377ADA /* norskf_mus_3.mp3 in Resources */,
 				C93A0912221215C700C6CE04 /* E_u.mp3 in Resources */,
 				C94CA6E22218C3F500D3BD8C /* icon3red.png in Resources */,
-				C92685292220A58700AA78F5 /* norskf_mus_25.mp3 in Resources */,
 				C9681FDC220FAD2300740570 /* gateclip.png in Resources */,
 				C93A080F2211D7DD00C6CE04 /* musearm_A.png in Resources */,
 				C981FD802210B6BB00A56D42 /* Hd_a.mp3 in Resources */,
 				C946A5BA2210DE82002A840D /* castle_speaker6.png in Resources */,
 				C93A09B12212173500C6CE04 /* Aiss_oe.mp3 in Resources */,
 				C980A8AB220F57DF0014392F /* GameScene.sks in Resources */,
-				C926852B2220A58700AA78F5 /* norskf_mus_20.mp3 in Resources */,
 				C94CA6DE2218C3F500D3BD8C /* icon1red.png in Resources */,
 				C93A08312211E94F00C6CE04 /* vowel_nor_A.mp3 in Resources */,
 				C946A6412210EB02002A840D /* letter_O_off.png in Resources */,
@@ -1544,7 +1677,9 @@
 				C94CA7232218D1F800D3BD8C /* norsk_9.mp3 in Resources */,
 				C93A08DD2212154C00C6CE04 /* D_o.mp3 in Resources */,
 				C93A088722120C7D00C6CE04 /* H_aa.mp3 in Resources */,
+				C9CFD89C223D5F7200377ADA /* soundeffect_traktor.mp3 in Resources */,
 				C94CA7242218D1F800D3BD8C /* norsk_2.mp3 in Resources */,
+				C9CFD8A4223D690500377ADA /* goose.mp3 in Resources */,
 				C94CA7092218D06900D3BD8C /* surikat6d.png in Resources */,
 				C946A5952210D6C6002A840D /* castlecamera9.png in Resources */,
 				C946A5A42210D6C6002A840D /* castlecamera1.png in Resources */,
@@ -1573,9 +1708,10 @@
 				C926851E2220A3D300AA78F5 /* utropstegn.png in Resources */,
 				C92685082220A23C00AA78F5 /* FarmScene.sks in Resources */,
 				C93A09C32212179E00C6CE04 /* H8_e.mp3 in Resources */,
+				C9CFD8CB223D7BF000377ADA /* wscore5.png in Resources */,
 				C94CA6EB2218C3F500D3BD8C /* icon6red.png in Resources */,
 				C98507C3221046FE00CE2C3C /* snowball1_sing.png in Resources */,
-				C92685272220A58700AA78F5 /* norskf_mus_5.mp3 in Resources */,
+				C92685272220A58700AA78F5 /* norskf_mus_1.mp3 in Resources */,
 				C93A081E2211D7DD00C6CE04 /* musearm_I.png in Resources */,
 				C980A8A8220F57DF0014392F /* Actions.sks in Resources */,
 				C9094A16221DD00D0087E7D8 /* stjerne1.png in Resources */,
@@ -1583,6 +1719,7 @@
 				C946A5CE2210DE82002A840D /* castle_speaker9.png in Resources */,
 				C94CA7062218D06900D3BD8C /* surikat4.png in Resources */,
 				C946A5862210D6C6002A840D /* castlecamera0.png in Resources */,
+				C9CFD898223D5F5600377ADA /* sfx_rooster.mp3 in Resources */,
 				C926853E2220A64B00AA78F5 /* norsk_rosa.mp3 in Resources */,
 				C981FD4B2210B21600A56D42 /* snowball5.png in Resources */,
 				C946A61E2210EB02002A840D /* letter_I.png in Resources */,
@@ -1590,7 +1727,9 @@
 				C94CA6E82218C3F500D3BD8C /* icon5red.png in Resources */,
 				C946A5722210D6C6002A840D /* castlecamera5.png in Resources */,
 				C94CA7252218D1F800D3BD8C /* norsk_1.mp3 in Resources */,
+				C9CFD8CD223D7BF000377ADA /* wscore2.png in Resources */,
 				C93A0A11221217FE00C6CE04 /* Hd_u.mp3 in Resources */,
+				C9CFD8AD223D6DEC00377ADA /* CastleHallScene.sks in Resources */,
 				C94CA7022218D06900D3BD8C /* surikat8d.png in Resources */,
 				C93A08E22212154C00C6CE04 /* D_i.mp3 in Resources */,
 				C946A50E2210BF0F002A840D /* wildsnowball_6.mp3 in Resources */,
@@ -1600,17 +1739,17 @@
 				C981FD2D2210B21600A56D42 /* snowball5_sing.png in Resources */,
 				C981FD412210B21600A56D42 /* snowball8_sing.png in Resources */,
 				C946A5DD2210DE82002A840D /* castle_speaker5.png in Resources */,
-				C926852C2220A58700AA78F5 /* norskf_mus_flott.mp3 in Resources */,
 				C94CA6EA2218C3F500D3BD8C /* icon5.png in Resources */,
 				C93A09D72212179E00C6CE04 /* H8_ae.mp3 in Resources */,
 				C981FD682210B5A700A56D42 /* Aiss_a.mp3 in Resources */,
 				C92685192220A39D00AA78F5 /* saapeboble_groenn.png in Resources */,
 				C92685302220A5FC00AA78F5 /* norsk_blaa.mp3 in Resources */,
 				C946A51D2210BF0F002A840D /* wildsnowball_5.mp3 in Resources */,
+				C9CFD892223D5F3500377ADA /* sfx_gris.mp3 in Resources */,
 				C9094A14221DD00D0087E7D8 /* stjerne_fjern.png in Resources */,
 				C93A096D221216BE00C6CE04 /* Giss_aa.mp3 in Resources */,
 				C94CA6DA2218C3F500D3BD8C /* icon7red.png in Resources */,
-				C926852A2220A58700AA78F5 /* norskf_mus_30.mp3 in Resources */,
+				C926852A2220A58700AA78F5 /* norskf_mus_6.mp3 in Resources */,
 				C9394C1F2221EC9900C35FBB /* bubbleshadow.png in Resources */,
 				C946A5C42210DE82002A840D /* castle_speaker8.png in Resources */,
 				C946A5492210D1AF002A840D /* sfx_lever.mp3 in Resources */,
@@ -1618,16 +1757,19 @@
 				C9094A0E221DCBCB0087E7D8 /* bgmusic_tellepic.mp3 in Resources */,
 				C9094A21221DD3130087E7D8 /* planet.png in Resources */,
 				C981FCF02210A92F00A56D42 /* snowball2_sing.png in Resources */,
+				C9CFD8B7223D6F1800377ADA /* wagonarm1.png in Resources */,
 				C94CA7262218D1F800D3BD8C /* norsk_3.mp3 in Resources */,
 				C92685152220A39D00AA78F5 /* saapeboble_blaa.png in Resources */,
 				C946A5632210D6C6002A840D /* castlecamera3.png in Resources */,
 				C95D1A17221C75040004E4D6 /* sfx_swoosh3.mp3 in Resources */,
+				C9CFD890223D5F2E00377ADA /* sfx_hest.mp3 in Resources */,
 				C9094A19221DD0820087E7D8 /* telleplakat.png in Resources */,
 				C93A089E2212147100C6CE04 /* Ciss_i.mp3 in Resources */,
 				C93A09EE221217FE00C6CE04 /* Hd_o.mp3 in Resources */,
 				C94CA7032218D06900D3BD8C /* surikat3d.png in Resources */,
 				C93A087D22120C7D00C6CE04 /* H_i.mp3 in Resources */,
 				C93A09512212164000C6CE04 /* Fiss_o.mp3 in Resources */,
+				C9CFD8BA223D6F1800377ADA /* wagon.png in Resources */,
 				C946A58B2210D6C6002A840D /* castlecamera12.png in Resources */,
 				C981FD022210AF1700A56D42 /* Ciss_a.mp3 in Resources */,
 				C94CA6E62218C3F500D3BD8C /* icon4red.png in Resources */,
@@ -1643,10 +1785,13 @@
 				C981FD562210B47B00A56D42 /* E_a.mp3 in Resources */,
 				C981FD322210B21600A56D42 /* snowball6.png in Resources */,
 				C946A59F2210D6C6002A840D /* castlecamera10.png in Resources */,
+				C9CFD88E223D5F2400377ADA /* sfx_hund.mp3 in Resources */,
 				C93A09C82212179E00C6CE04 /* H8_oe.mp3 in Resources */,
 				C93A0981221216BE00C6CE04 /* Giss_e.mp3 in Resources */,
 				C94CA6E72218C3F500D3BD8C /* icon4.png in Resources */,
+				C9CFD8E0223D7D9800377ADA /* norskf_mus_2.mp3 in Resources */,
 				C981FD192210B21600A56D42 /* snowballD.png in Resources */,
+				C9CFD88C223D5F1B00377ADA /* sfx_ku.mp3 in Resources */,
 				C981FD282210B21600A56D42 /* snowball8.png in Resources */,
 				C94CA6E42218C3F500D3BD8C /* icon8red.png in Resources */,
 				C94CA7082218D06900D3BD8C /* surikat7.png in Resources */,
@@ -1666,35 +1811,46 @@
 				C946A5372210C709002A840D /* norsk_prinsesse.mp3 in Resources */,
 				C93A08BC2212147100C6CE04 /* Ciss_oe.mp3 in Resources */,
 				C946A63C2210EB02002A840D /* letter_I_off.png in Resources */,
+				C9CFD896223D5F4700377ADA /* sfx_hen.mp3 in Resources */,
 				C94CA7102218D06900D3BD8C /* surikat10d.png in Resources */,
+				C9CFD8DF223D7D9800377ADA /* norskf_mus_4.mp3 in Resources */,
 				C93A08A82212147100C6CE04 /* Ciss_ae.mp3 in Resources */,
 				C946A6192210EB02002A840D /* letter_E.png in Resources */,
 				C946A57C2210D6C6002A840D /* castlecamera4.png in Resources */,
 				C946A5C92210DE82002A840D /* castle_speaker0.png in Resources */,
 				C93A09AC2212173500C6CE04 /* Aiss_o.mp3 in Resources */,
 				C93A082C2211E94F00C6CE04 /* vowel_nor_AA.mp3 in Resources */,
+				C9CFD8A2223D647900377ADA /* dummy.png in Resources */,
 				C94CA70F2218D06900D3BD8C /* surikat5.png in Resources */,
 				C93A0A0C221217FE00C6CE04 /* Hd_aa.mp3 in Resources */,
+				C9CFD8D1223D7BF000377ADA /* wscore9.png in Resources */,
+				C9CFD8BC223D6F1800377ADA /* wagonarm4.png in Resources */,
 				C93A08192211D7DD00C6CE04 /* musearm_O.png in Resources */,
 				C93A092E2212164000C6CE04 /* Fiss_i.mp3 in Resources */,
 				C94CA7282218D1F800D3BD8C /* norsk_5.mp3 in Resources */,
+				C9CFD89E223D605B00377ADA /* soundeffect_katt.mp3 in Resources */,
+				C9CFD8E8223D960500377ADA /* norskf_mus_teller.mp3 in Resources */,
 				C9094A0C221DC88E0087E7D8 /* quizkorrekt.mp3 in Resources */,
+				C9CFD8BB223D6F1800377ADA /* wagoninside.png in Resources */,
 				C93A09CD2212179E00C6CE04 /* H8_aa.mp3 in Resources */,
 				C946A5772210D6C6002A840D /* castlecamera11.png in Resources */,
 				C926852E2220A5A600AA78F5 /* sfx_bubblepop.mp3 in Resources */,
 				C93A099D2212173500C6CE04 /* Aiss_y.mp3 in Resources */,
 				C946A5432210D19D002A840D /* sfx_castlegate.mp3 in Resources */,
+				C9CFD8CA223D7BF000377ADA /* wscore8.png in Resources */,
 				C94CA6E32218C3F500D3BD8C /* icon1.png in Resources */,
+				C9CFD8B9223D6F1800377ADA /* wagonarm3.png in Resources */,
+				C9CFD8E7223D960500377ADA /* norskf_mus_intro.mp3 in Resources */,
 				C94CA7272218D1F800D3BD8C /* norsk_7.mp3 in Resources */,
 				C946A5ED2210DF02002A840D /* castle_music2.mp3 in Resources */,
 				C93A08B72212147100C6CE04 /* Ciss_y.mp3 in Resources */,
 				C93A0A02221217FE00C6CE04 /* Hd_ae.mp3 in Resources */,
 				C93A09472212164000C6CE04 /* Fiss_u.mp3 in Resources */,
 				C94CA6E02218C3F500D3BD8C /* icon9.png in Resources */,
-				C92685262220A58700AA78F5 /* norskf_mus_15.mp3 in Resources */,
 				C94CA7132218D06900D3BD8C /* surikat10.png in Resources */,
 				C946A5D32210DE82002A840D /* castle_speaker3.png in Resources */,
 				C92685122220A39D00AA78F5 /* saapeboble_lilla.png in Resources */,
+				C9CFD8B8223D6F1800377ADA /* wagonarm0.png in Resources */,
 				C93A090D221215C700C6CE04 /* E_aa.mp3 in Resources */,
 				C92685362220A61B00AA78F5 /* norsk_gul.mp3 in Resources */,
 				C946A6232210EB02002A840D /* letter_AE.png in Resources */,
@@ -1711,16 +1867,20 @@
 				C93A07FB2211D7DD00C6CE04 /* musearm_Y.png in Resources */,
 				C946A60A2210EB02002A840D /* letter_Y.png in Resources */,
 				C94CA72B2218D1F800D3BD8C /* norsk_10.mp3 in Resources */,
+				C9CFD8E2223D8F5100377ADA /* Sounds in Resources */,
 				C93A08C12212147100C6CE04 /* Ciss_e.mp3 in Resources */,
 				C93A08142211D7DD00C6CE04 /* musearm_E.png in Resources */,
 				C946A6502210EB02002A840D /* letter_A_off.png in Resources */,
 				C93A088C22120C7D00C6CE04 /* H_u.mp3 in Resources */,
+				C9CFD8A6223D6ADC00377ADA /* squirrel.mp3 in Resources */,
 				C94CA6DD2218C3F500D3BD8C /* icon10.png in Resources */,
 				C946A5312210BF0F002A840D /* wildsnowball_3.mp3 in Resources */,
+				C9CFD8D0223D7BF000377ADA /* wscore7.png in Resources */,
 				C93A09D22212179E00C6CE04 /* H8_o.mp3 in Resources */,
 				C9394C1D2221EBFF00C35FBB /* bubblebase.png in Resources */,
 				C93A08B22212147100C6CE04 /* Ciss_u.mp3 in Resources */,
 				C93A084A2211E94F00C6CE04 /* vowel_nor_E.mp3 in Resources */,
+				C9CFD8C9223D7BF000377ADA /* wscore6.png in Resources */,
 				C980A8B3220F57DF0014392F /* Assets.xcassets in Resources */,
 				C93A08AD2212147100C6CE04 /* Ciss_aa.mp3 in Resources */,
 				C946A4F02210BB8F002A840D /* castle_lever_up.png in Resources */,
@@ -1733,7 +1893,10 @@
 				C94CA70A2218D06900D3BD8C /* surikat5d.png in Resources */,
 				C93A08362211E94F00C6CE04 /* vowel_nor_I.mp3 in Resources */,
 				C946A5682210D6C6002A840D /* castlecamera7.png in Resources */,
+				C9CFD8A9223D6D3600377ADA /* castlehall.png in Resources */,
+				C9CFD8CC223D7BF000377ADA /* wscore0.png in Resources */,
 				C9B945E7221614C7008F6AB8 /* IslandScene.sks in Resources */,
+				C9CFD8CE223D7BF000377ADA /* wscore1.png in Resources */,
 				C946A62D2210EB02002A840D /* letter_U.png in Resources */,
 				C93A09A72212173500C6CE04 /* Aiss_u.mp3 in Resources */,
 				C946A60F2210EB02002A840D /* letter_AA.png in Resources */,
@@ -1741,11 +1904,12 @@
 				C93A088222120C7D00C6CE04 /* H_y.mp3 in Resources */,
 				C9094A1E221DD3130087E7D8 /* satelitt.png in Resources */,
 				C946A5012210BEFF002A840D /* snowball_wild.png in Resources */,
-				C92685282220A58700AA78F5 /* norskf_mus_10.mp3 in Resources */,
 				C93A09F8221217FE00C6CE04 /* Hd_y.mp3 in Resources */,
 				C93A0A07221217FE00C6CE04 /* Hd_e.mp3 in Resources */,
 				C93A085B2211F9F400C6CE04 /* snakkeboble.png in Resources */,
+				C9CFD8D2223D7BF000377ADA /* wscore3.png in Resources */,
 				C946A64B2210EB02002A840D /* letter_U_off.png in Resources */,
+				C9CFD8E4223D8F9E00377ADA /* norskf_mus_5.mp3 in Resources */,
 				C93A095E221216BE00C6CE04 /* Giss_o.mp3 in Resources */,
 				C94CA7222218D1F800D3BD8C /* norsk_0.mp3 in Resources */,
 				C93A09382212164000C6CE04 /* Fiss_oe.mp3 in Resources */,
@@ -1754,7 +1918,11 @@
 				C946A5182210BF0F002A840D /* wildsnowball_2.mp3 in Resources */,
 				C981FD3C2210B21600A56D42 /* snowball6_sing.png in Resources */,
 				C94CA7152218D06900D3BD8C /* surikat8.png in Resources */,
+				C9CFD894223D5F3D00377ADA /* sfx_chicken.mp3 in Resources */,
 				C93A08E72212154C00C6CE04 /* D_y.mp3 in Resources */,
+				C9CFD8CF223D7BF000377ADA /* wscore4.png in Resources */,
+				C9CFD89A223D5F6400377ADA /* sfx_sau.mp3 in Resources */,
+				C9CFD8BD223D6F1800377ADA /* wagonarm2.png in Resources */,
 				C981FD622210B4E300A56D42 /* Giss_a.mp3 in Resources */,
 				C93A08002211D7DD00C6CE04 /* musearm_U.png in Resources */,
 				C981FD6E2210B5C300A56D42 /* H8_a.mp3 in Resources */,

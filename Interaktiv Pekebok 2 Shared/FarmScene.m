@@ -28,6 +28,10 @@
     SKSpriteNode *_bubble_orange;
     SKSpriteNode *_bubble_pink;
     NSArray *_bubbles;
+    SKShapeNode *_cownode;
+    SKShapeNode *_catnode;
+    SKShapeNode *_dognode;
+    SKShapeNode *_roosternode;
 }
 
 +(FarmScene *)newGameScene {
@@ -179,6 +183,14 @@
         IslandScene *_newScene = [IslandScene newGameScene];
         [self.scene.view presentScene: _newScene transition:flipz];
         NSLog(@"Touched arrow");
+    }
+    else if ([touchedNode.name rangeOfString:@"dummy"].location != NSNotFound) {
+        for (SKAudioNode *an in touchedNode.children) {
+            if(an != nil && [an isKindOfClass:[SKAudioNode class]]) {
+                [an runAction:[SKAction playSoundFileNamed: an.name waitForCompletion:NO]];
+            }
+        }
+        NSLog(@"Touched princess");
     }
     NSLog(@"Touched node");
 }
