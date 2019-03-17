@@ -531,6 +531,11 @@
 		C9CFD8E4223D8F9E00377ADA /* norskf_mus_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8E3223D8F9E00377ADA /* norskf_mus_5.mp3 */; };
 		C9CFD8E7223D960500377ADA /* norskf_mus_intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8E5223D960400377ADA /* norskf_mus_intro.mp3 */; };
 		C9CFD8E8223D960500377ADA /* norskf_mus_teller.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8E6223D960400377ADA /* norskf_mus_teller.mp3 */; };
+		C9CFD8EA223DB88C00377ADA /* leftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8E9223DB88C00377ADA /* leftArrow.png */; };
+		C9CFD8EC223DB89800377ADA /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8EB223DB89800377ADA /* rightArrow.png */; };
+		C9CFD8EE223DBB2300377ADA /* TVhouse.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8ED223DBB2200377ADA /* TVhouse.png */; };
+		C9CFD8F0223DBC1B00377ADA /* firstwave0.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CFD8EF223DBC1B00377ADA /* firstwave0.png */; };
+		C9CFD8F3223DC6A600377ADA /* CastleHallScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CFD8F2223DC6A600377ADA /* CastleHallScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -908,6 +913,12 @@
 		C9CFD8E3223D8F9E00377ADA /* norskf_mus_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_5.mp3; sourceTree = "<group>"; };
 		C9CFD8E5223D960400377ADA /* norskf_mus_intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_intro.mp3; sourceTree = "<group>"; };
 		C9CFD8E6223D960400377ADA /* norskf_mus_teller.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = norskf_mus_teller.mp3; sourceTree = "<group>"; };
+		C9CFD8E9223DB88C00377ADA /* leftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftArrow.png; sourceTree = "<group>"; };
+		C9CFD8EB223DB89800377ADA /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
+		C9CFD8ED223DBB2200377ADA /* TVhouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TVhouse.png; sourceTree = "<group>"; };
+		C9CFD8EF223DBC1B00377ADA /* firstwave0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstwave0.png; sourceTree = "<group>"; };
+		C9CFD8F1223DC6A600377ADA /* CastleHallScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CastleHallScene.h; sourceTree = "<group>"; };
+		C9CFD8F2223DC6A600377ADA /* CastleHallScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastleHallScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1221,11 +1232,13 @@
 				C980A852220F57DE0014392F /* Assets.xcassets */,
 				C9B945DE2215DDD4008F6AB8 /* IslandScene.h */,
 				C9B945E6221614C7008F6AB8 /* IslandScene.sks */,
+				C9B945DF2215DDD4008F6AB8 /* IslandScene.m */,
 				C92685072220A23C00AA78F5 /* FarmScene.sks */,
 				C92685412220AAE900AA78F5 /* FarmScene.h */,
-				C9B945DF2215DDD4008F6AB8 /* IslandScene.m */,
 				C92685422220AAE900AA78F5 /* FarmScene.m */,
 				C9CFD8AC223D6DEC00377ADA /* CastleHallScene.sks */,
+				C9CFD8F1223DC6A600377ADA /* CastleHallScene.h */,
+				C9CFD8F2223DC6A600377ADA /* CastleHallScene.m */,
 			);
 			path = "Interaktiv Pekebok 2 Shared";
 			sourceTree = "<group>";
@@ -1491,7 +1504,11 @@
 		C9CFD8AE223D6EF100377ADA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C9CFD8EF223DBC1B00377ADA /* firstwave0.png */,
+				C9CFD8ED223DBB2200377ADA /* TVhouse.png */,
 				C9CFD8BE223D7BDB00377ADA /* Score */,
+				C9CFD8E9223DB88C00377ADA /* leftArrow.png */,
+				C9CFD8EB223DB89800377ADA /* rightArrow.png */,
 				C9CFD8B3223D6F1700377ADA /* wagon.png */,
 				C9CFD8B1223D6F1700377ADA /* wagonarm0.png */,
 				C9CFD8B0223D6F1700377ADA /* wagonarm1.png */,
@@ -1726,6 +1743,7 @@
 				C981FD1E2210B21600A56D42 /* snowball4.png in Resources */,
 				C94CA6E82218C3F500D3BD8C /* icon5red.png in Resources */,
 				C946A5722210D6C6002A840D /* castlecamera5.png in Resources */,
+				C9CFD8EC223DB89800377ADA /* rightArrow.png in Resources */,
 				C94CA7252218D1F800D3BD8C /* norsk_1.mp3 in Resources */,
 				C9CFD8CD223D7BF000377ADA /* wscore2.png in Resources */,
 				C93A0A11221217FE00C6CE04 /* Hd_u.mp3 in Resources */,
@@ -1740,6 +1758,7 @@
 				C981FD412210B21600A56D42 /* snowball8_sing.png in Resources */,
 				C946A5DD2210DE82002A840D /* castle_speaker5.png in Resources */,
 				C94CA6EA2218C3F500D3BD8C /* icon5.png in Resources */,
+				C9CFD8EA223DB88C00377ADA /* leftArrow.png in Resources */,
 				C93A09D72212179E00C6CE04 /* H8_ae.mp3 in Resources */,
 				C981FD682210B5A700A56D42 /* Aiss_a.mp3 in Resources */,
 				C92685192220A39D00AA78F5 /* saapeboble_groenn.png in Resources */,
@@ -1905,6 +1924,8 @@
 				C9094A1E221DD3130087E7D8 /* satelitt.png in Resources */,
 				C946A5012210BEFF002A840D /* snowball_wild.png in Resources */,
 				C93A09F8221217FE00C6CE04 /* Hd_y.mp3 in Resources */,
+				C9CFD8EE223DBB2300377ADA /* TVhouse.png in Resources */,
+				C9CFD8F0223DBC1B00377ADA /* firstwave0.png in Resources */,
 				C93A0A07221217FE00C6CE04 /* Hd_e.mp3 in Resources */,
 				C93A085B2211F9F400C6CE04 /* snakkeboble.png in Resources */,
 				C9CFD8D2223D7BF000377ADA /* wscore3.png in Resources */,
@@ -2141,6 +2162,7 @@
 			files = (
 				C980A85F220F57DE0014392F /* GameViewController.m in Sources */,
 				C980A868220F57DE0014392F /* main.m in Sources */,
+				C9CFD8F3223DC6A600377ADA /* CastleHallScene.m in Sources */,
 				C9B945E02215DDD4008F6AB8 /* IslandScene.m in Sources */,
 				C980A8AF220F57DF0014392F /* GameScene.m in Sources */,
 				C92685432220AAE900AA78F5 /* FarmScene.m in Sources */,

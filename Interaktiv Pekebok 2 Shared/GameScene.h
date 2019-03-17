@@ -10,6 +10,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import "IslandScene.h"
 #import "FarmScene.h"
+#import "CastleHallScene.h"
 
 @interface GameScene : SKScene
 

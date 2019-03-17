@@ -321,7 +321,7 @@
     }
     else if ([touchedNode.name rangeOfString:@"arrow_l"].location != NSNotFound) {
         SKTransition *flipz = [SKTransition flipVerticalWithDuration:2.0];
-        FarmScene *_newScene = [FarmScene newGameScene];
+        CastleHallScene *_newScene = [CastleHallScene newGameScene];
         for(SKView *v in self.view.subviews){
             [v removeFromSuperview];
         }

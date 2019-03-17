@@ -10,6 +10,7 @@
 #import "GameScene.h"
 #import "IslandScene.h"
 #import "FarmScene.h"
+#import "CastleHallScene.h"
 
 @implementation GameViewController
 
