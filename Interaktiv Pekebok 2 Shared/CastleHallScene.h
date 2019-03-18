@@ -14,8 +14,10 @@
 
 static const int wagonposmax = 4;
 static const int wagonposmin = 0;
+static const int fallingHitCat = 1;
+static const int wagonHitCat = 2;
 
-@interface CastleHallScene : SKScene
+@interface CastleHallScene : SKScene <SKPhysicsContactDelegate>
 
 + (CastleHallScene *)newGameScene;
 

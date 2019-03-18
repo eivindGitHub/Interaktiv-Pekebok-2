@@ -66,8 +66,29 @@
     SKAction *killfalling;
     SKAction *seqfalling;
     
+    SKSpriteNode *scorenode1;
+    SKSpriteNode *scorenode2;
+    SKSpriteNode *scorenode3;
+    SKSpriteNode *scorenode4;
+    SKTexture *scoretex0;
+    SKTexture *scoretex1;
+    SKTexture *scoretex2;
+    SKTexture *scoretex3;
+    SKTexture *scoretex4;
+    SKTexture *scoretex5;
+    SKTexture *scoretex6;
+    SKTexture *scoretex7;
+    SKTexture *scoretex8;
+    SKTexture *scoretex9;
+    NSArray *scoretexs;
+    
     int wagonpos; // 0, 1, 2, 3, 4
     bool statechanged;
+    int score;
+    int scorenum1;
+    int scorenum2;
+    int scorenum3;
+    int scorenum4;
 }
 
 +(CastleHallScene *)newGameScene {
@@ -84,10 +105,13 @@
 }
 
 -(void)setUpScene {
+    self.physicsWorld.gravity = CGVectorMake(0, 0);
+    self.physicsWorld.contactDelegate = self;
     lasttime = 0;
     elapsedtime = 0;
     droptime = 3;
     wagonpos = 0;
+    score = 0; scorenum1 = 0; scorenum2 = 0; scorenum3 = 0; scorenum4 = 0;
     statechanged = false;
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
                                          pathForResource:@"bgmusic_tellepic"
@@ -96,6 +120,7 @@
     musicplayer.numberOfLoops = -1;
     castlehallnode = (SKShapeNode *)[self childNodeWithName:@"castlehallnode"];
     wagonnode = (SKSpriteNode*) [castlehallnode childNodeWithName:@"//wagon"];
+    [wagonnode setName:@"thewagon"];
     winsidenode = (SKSpriteNode*) [castlehallnode childNodeWithName:@"//wagoninside"];
 
     wagonarm0 = (SKSpriteNode*) [castlehallnode childNodeWithName:@"wagonarm0"];
@@ -133,6 +158,13 @@
     _wagonposs[3] = wagonposs3;
     _wagonposs[4] = wagonposs4;
     wagonnode.position = wagonposs0;
+    CGSize wagcol = CGSizeMake(200, 2);
+    wagonnode.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:wagcol];
+    wagonnode.physicsBody.affectedByGravity = false;
+    wagonnode.physicsBody.dynamic = false;
+    wagonnode.physicsBody.categoryBitMask = wagonHitCat;
+    wagonnode.physicsBody.contactTestBitMask = fallingHitCat;
+    wagonnode.physicsBody.collisionBitMask = fallingHitCat;
     winsideposs0 = CGPointMake(52, 542);
     winsideposs1 = CGPointMake(198, 542);
     winsideposs2 = CGPointMake(348, 542);
@@ -160,6 +192,31 @@
     movefalling = [SKAction moveBy:fallingvector duration:fallingduration];
     killfalling = [SKAction removeFromParent];
     seqfalling = [SKAction sequence:@[movefalling, killfalling]];
+    
+    scoretex0 = [SKTexture textureWithImageNamed:@"wscore0"];
+    scoretex1 = [SKTexture textureWithImageNamed:@"wscore1"];
+    scoretex2 = [SKTexture textureWithImageNamed:@"wscore2"];
+    scoretex3 = [SKTexture textureWithImageNamed:@"wscore3"];
+    scoretex4 = [SKTexture textureWithImageNamed:@"wscore4"];
+    scoretex5 = [SKTexture textureWithImageNamed:@"wscore5"];
+    scoretex6 = [SKTexture textureWithImageNamed:@"wscore6"];
+    scoretex7 = [SKTexture textureWithImageNamed:@"wscore7"];
+    scoretex8 = [SKTexture textureWithImageNamed:@"wscore8"];
+    scoretex9 = [SKTexture textureWithImageNamed:@"wscore9"];
+    scoretexs = [NSArray arrayWithObjects:scoretex0,scoretex1,scoretex2,scoretex3,scoretex4,scoretex5,scoretex6,scoretex7,scoretex8,scoretex9, nil];
+    
+    CGPoint scpos1 = CGPointMake(345, 217);
+    CGPoint scpos2 = CGPointMake(325, 207);
+    CGPoint scpos3 = CGPointMake(305, 197);
+    CGPoint scpos4 = CGPointMake(285, 187);
+    scorenode1 = [SKSpriteNode spriteNodeWithImageNamed:@"wscore0"];
+    scorenode2 = [SKSpriteNode spriteNodeWithImageNamed:@"wscore0"]; [scorenode2 setHidden:true];
+    scorenode3 = [SKSpriteNode spriteNodeWithImageNamed:@"wscore0"]; [scorenode3 setHidden:true];
+    scorenode4 = [SKSpriteNode spriteNodeWithImageNamed:@"wscore0"]; [scorenode4 setHidden:true];
+    scorenode1.position = scpos1; [scorenode1 setZPosition:2]; [self addChild:scorenode1];
+    scorenode2.position = scpos2; [scorenode2 setZPosition:2]; [self addChild:scorenode2];
+    scorenode3.position = scpos3; [scorenode3 setZPosition:2]; [self addChild:scorenode3];
+    scorenode4.position = scpos4; [scorenode4 setZPosition:2]; [self addChild:scorenode4];
     
 #if TARGET_OS_WATCH
     // For watch we just periodically create one of these and let it spin
@@ -190,6 +247,39 @@
     }
 }
 
+-(void)setScore{
+    int remains = 0;
+    scorenum4 = score / 1000;
+    remains = score - scorenum4*1000;
+    scorenum3 = remains / 100;
+    remains = remains - scorenum3*100;
+    scorenum2 = remains / 10;
+    remains = remains - scorenum2*10;
+    scorenum1 = remains;
+    [scorenode1 setTexture:[scoretexs objectAtIndex:scorenum1]];
+    if(scorenum2 == 0 && scorenum3 == 0){
+        [scorenode2 setHidden:true];
+    }
+    else{
+        [scorenode2 setTexture:[scoretexs objectAtIndex:scorenum2]];
+        [scorenode2 setHidden:false];
+    }
+    if(scorenum3 == 0 && scorenum4 == 0){
+        [scorenode3 setHidden:true];
+    }
+    else{
+        [scorenode3 setTexture:[scoretexs objectAtIndex:scorenum3]];
+        [scorenode3 setHidden:false];
+    }
+    if(scorenum4 != 0){
+        [scorenode4 setTexture:[scoretexs objectAtIndex:scorenum4]];
+        [scorenode4 setHidden:false];
+    }
+    else{
+        [scorenode4 setHidden:true];
+    }
+}
+
 -(void)wagonStateChanged{
     NSLog(@"Wagon position changed");
     statechanged = false;
@@ -211,7 +301,38 @@
     SKSpriteNode *fallingthing = [[_fallings objectAtIndex:skin] copy];
     fallingthing.position = _fallingpos[xpos];
     [fallingthing runAction:seqfalling];
+    CGSize fallingcolsize = CGSizeMake(50, 2);
+    fallingthing.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:fallingcolsize];
+    fallingthing.physicsBody.categoryBitMask = fallingHitCat;
+    fallingthing.physicsBody.contactTestBitMask = wagonHitCat;
+    fallingthing.physicsBody.collisionBitMask = wagonHitCat;
+    fallingthing.physicsBody.affectedByGravity = false;
+    [fallingthing setName:@"fallingthing"];
     [self addChild:fallingthing];
+}
+
+-(void)didBeginContact:(SKPhysicsContact *)contact
+{
+    SKPhysicsBody *firstBody, *secondBody;
+    
+    firstBody = contact.bodyA;
+    secondBody = contact.bodyB;
+    
+    if(firstBody.categoryBitMask == fallingHitCat || secondBody.categoryBitMask == fallingHitCat)
+    {
+        if([firstBody.node.name rangeOfString:@"fallingthing"].location != NSNotFound){
+            [firstBody.node removeFromParent];
+            score++;
+        }
+        if([secondBody.node.name rangeOfString:@"fallingthing"].location != NSNotFound){
+            [secondBody.node removeFromParent];
+            score++;
+        }
+        [self setScore];
+        NSLog(@"falling thing hit the wagon");
+        //setup your methods and other things here
+        
+    }
 }
 
 #if TARGET_OS_IOS || TARGET_OS_TV
